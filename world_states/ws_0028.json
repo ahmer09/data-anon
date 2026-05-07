@@ -1,0 +1,436 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "overdue_tasks",
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "James Kim",
+    "email": "james.kim@flow.ai",
+    "role": "Head of Product",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "James Novak",
+      "email": "james.novak@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Sarah Sharma",
+      "email": "sarah.sharma@flow.ai",
+      "company": "flow.ai",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Nadia Lopez",
+      "email": "nadia.lopez@vertexai.com",
+      "company": "Vertex AI",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Ben Kowalski",
+      "email": "ben.kowalski@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Sophie Kowalski",
+      "email": "sophie.kowalski@flow.ai",
+      "company": "flow.ai",
+      "role": "CFO",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00144",
+        "subject": "RE: Action Items from 1:1",
+        "from": "nadia.lopez@vertexai.com",
+        "snippet": "Hi James,  Just a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs",
+        "date": "2026-05-02T02:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00144_001",
+            "from": "nadia.lopez@vertexai.com",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-02T02:24:19Z",
+            "body": "Hi James,\n\nJust a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00145",
+        "subject": "Follow-up: Contract Terms",
+        "from": "nadia.lopez@vertexai.com",
+        "snippet": "Hi James,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is a",
+        "date": "2026-04-18T05:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00145_001",
+            "from": "nadia.lopez@vertexai.com",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T05:24:19Z",
+            "body": "Hi James,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is about 22% above what Solaris Group is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00146",
+        "subject": "RE: Shipment Delay",
+        "from": "sarah.sharma@flow.ai",
+        "snippet": "Hi James,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to su",
+        "date": "2026-04-23T23:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00146_001",
+            "from": "sarah.sharma@flow.ai",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T23:24:19Z",
+            "body": "Hi James,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00147",
+        "subject": "Onboarding Checklist \u2014 Nova Engineering",
+        "from": "james.novak@novaengineering.com",
+        "snippet": "Hi James,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to su",
+        "date": "2026-04-19T05:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00147_001",
+            "from": "james.novak@novaengineering.com",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T05:24:19Z",
+            "body": "Hi James,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00148",
+        "subject": "RE: Action Items from Roadmap Review",
+        "from": "ben.kowalski@quantumdynamics.com",
+        "snippet": "Hi James,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-23T17:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00148_001",
+            "from": "ben.kowalski@quantumdynamics.com",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T17:24:19Z",
+            "body": "Hi James,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00149",
+        "subject": "Follow-up: Contract Terms",
+        "from": "ben.kowalski@quantumdynamics.com",
+        "snippet": "Hi James,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the API integration you proposed is abo",
+        "date": "2026-04-29T02:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00149_001",
+            "from": "ben.kowalski@quantumdynamics.com",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-29T02:24:19Z",
+            "body": "Hi James,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the API integration you proposed is about 25% above what Nova Engineering is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00150",
+        "subject": "Partnership Proposal \u2014 flow.ai",
+        "from": "sarah.sharma@flow.ai",
+        "snippet": "Hi James,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 21",
+        "date": "2026-04-21T00:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00150_001",
+            "from": "sarah.sharma@flow.ai",
+            "to": [
+              "james.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T00:24:19Z",
+            "body": "Hi James,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 21% above what Horizon Health is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nSarah"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_929",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T16:45:00Z",
+        "attendees": [
+          "nadia.lopez@vertexai.com",
+          "james.novak@novaengineering.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Security audit",
+        "organizer": "james.kim@flow.ai"
+      },
+      {
+        "event_id": "ev_926",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T11:00:00Z",
+        "attendees": [
+          "ben.kowalski@quantumdynamics.com",
+          "james.novak@novaengineering.com",
+          "sophie.kowalski@flow.ai"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "james.kim@flow.ai"
+      },
+      {
+        "event_id": "ev_925",
+        "title": "Team Standup",
+        "start": "2026-05-04T14:00:00Z",
+        "end": "2026-05-04T14:45:00Z",
+        "attendees": [
+          "sarah.sharma@flow.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Product launch",
+        "organizer": "sarah.sharma@flow.ai"
+      },
+      {
+        "event_id": "ev_930",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T14:15:00Z",
+        "end": "2026-05-04T14:45:00Z",
+        "attendees": [
+          "sophie.kowalski@flow.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "james.novak@novaengineering.com"
+      },
+      {
+        "event_id": "ev_927",
+        "title": "Sprint Planning",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "nadia.lopez@vertexai.com",
+          "ben.kowalski@quantumdynamics.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Customer churn",
+        "organizer": "nadia.lopez@vertexai.com"
+      },
+      {
+        "event_id": "ev_928",
+        "title": "All Hands",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T16:30:00Z",
+        "attendees": [
+          "sarah.sharma@flow.ai",
+          "nadia.lopez@vertexai.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "james.kim@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0247",
+          "task_id": "nr_0247",
+          "title": "Nova Engineering \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "james.novak@novaengineering.com",
+          "due_date": "2026-05-31",
+          "properties": {
+            "deal_value": "$394k",
+            "action_items": [
+              "Share product roadmap",
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0248",
+          "task_id": "nt_0248",
+          "title": "Infrastructure costs \u2014 Review",
+          "status": "open",
+          "owner": "nadia.lopez@vertexai.com",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0249",
+          "task_id": "nt_0249",
+          "title": "Security audit \u2014 Ship",
+          "status": "open",
+          "owner": "ben.kowalski@quantumdynamics.com",
+          "due_date": "2026-05-01",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0250",
+          "task_id": "nt_0250",
+          "title": "Board presentation \u2014 Implement",
+          "status": "done",
+          "owner": "ben.kowalski@quantumdynamics.com",
+          "due_date": "2026-05-17",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0251",
+          "task_id": "np_0251",
+          "title": "Product Roadmap Q3",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-06-04",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0252",
+          "task_id": "np_0252",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-26",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#ops": [
+        {
+          "ts": "1777734379.000000",
+          "user": "nadia",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777734079.000001",
+          "user": "james",
+          "text": "PR for product launch is ready for review."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777736959.000000",
+          "user": "sarah",
+          "text": "Reminder: board presentation sync is at 3pm today."
+        },
+        {
+          "ts": "1777737979.000001",
+          "user": "sarah",
+          "text": "Just finished the security audit review. Notes in the doc."
+        },
+        {
+          "ts": "1777726819.000002",
+          "user": "nadia",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777726099.000003",
+          "user": "sarah",
+          "text": "Quick question on hiring plan \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777737199.000000",
+          "user": "james",
+          "text": "Updated the sales pipeline deck with latest figures."
+        },
+        {
+          "ts": "1777720759.000001",
+          "user": "sophie",
+          "text": "The sales pipeline issue has been resolved."
+        },
+        {
+          "ts": "1777715659.000002",
+          "user": "sophie",
+          "text": "PR for customer churn is ready for review."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777736899.000000",
+          "user": "nadia",
+          "text": "The hiring plan issue has been resolved."
+        },
+        {
+          "ts": "1777726279.000001",
+          "user": "sophie",
+          "text": "The Q3 roadmap issue has been resolved."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0028"
+}

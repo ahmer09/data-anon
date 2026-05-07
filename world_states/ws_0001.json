@@ -1,0 +1,424 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "internal_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Luke Okafor",
+    "email": "luke.okafor@foundry.ai",
+    "role": "CTO",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sophie Santos",
+      "email": "sophie.santos@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Yuki Nakamura",
+      "email": "yuki.nakamura@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Mei Chen",
+      "email": "mei.chen@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Lena Kowalski",
+      "email": "lena.kowalski@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Nadia Rivera",
+      "email": "nadia.rivera@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Head of Product",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00001",
+        "subject": "Tier 1 Pricing Discussion",
+        "from": "nadia.rivera@orbitlabs.com",
+        "snippet": "Hi Luke,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is ab",
+        "date": "2026-05-01T04:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00001_001",
+            "from": "nadia.rivera@orbitlabs.com",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-01T04:24:19Z",
+            "body": "Hi Luke,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is about 17% above what Horizon Health is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00002",
+        "subject": "RE: Shipment Delay",
+        "from": "mei.chen@foundry.ai",
+        "snippet": "Hi Luke,  Please find attached Invoice #4598 for services rendered in May. Payment terms are net 30.  Thank you, Mei",
+        "date": "2026-04-30T05:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00002_001",
+            "from": "mei.chen@foundry.ai",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T05:24:19Z",
+            "body": "Hi Luke,\n\nPlease find attached Invoice #4598 for services rendered in May. Payment terms are net 30.\n\nThank you,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00003",
+        "subject": "Partnership Proposal \u2014 foundry.ai",
+        "from": "mei.chen@foundry.ai",
+        "snippet": "Hi Luke,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on th",
+        "date": "2026-04-26T08:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00003_001",
+            "from": "mei.chen@foundry.ai",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T08:24:19Z",
+            "body": "Hi Luke,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the product launch. Our deadline is end of this month.\n\nThanks,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00004",
+        "subject": "Board Meeting Prep \u2014 Apr 29",
+        "from": "mei.chen@foundry.ai",
+        "snippet": "Hi Luke,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance require",
+        "date": "2026-04-29T12:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00004_001",
+            "from": "mei.chen@foundry.ai",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-29T12:24:19Z",
+            "body": "Hi Luke,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00005",
+        "subject": "Invoice #5315 \u2014 Orbit Labs",
+        "from": "nadia.rivera@orbitlabs.com",
+        "snippet": "Hi Luke,  Please find attached Invoice #9317 for services rendered in May. Payment terms are net 30.  Thank you, Nadia",
+        "date": "2026-04-20T08:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00005_001",
+            "from": "nadia.rivera@orbitlabs.com",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T08:24:19Z",
+            "body": "Hi Luke,\n\nPlease find attached Invoice #9317 for services rendered in May. Payment terms are net 30.\n\nThank you,\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00006",
+        "subject": "Tier 1 Pricing Discussion",
+        "from": "nadia.rivera@orbitlabs.com",
+        "snippet": "Hi Luke,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the sales pipeline you proposed is about",
+        "date": "2026-04-20T00:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00006_001",
+            "from": "nadia.rivera@orbitlabs.com",
+            "to": [
+              "luke.okafor@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T00:24:19Z",
+            "body": "Hi Luke,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the sales pipeline you proposed is about 28% above what Vertex AI is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nNadia"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_804",
+        "title": "Roadmap Review",
+        "start": "2026-05-02T09:00:00Z",
+        "end": "2026-05-02T10:00:00Z",
+        "attendees": [
+          "sophie.santos@solarisgroup.com",
+          "yuki.nakamura@apexsolutions.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "sophie.santos@solarisgroup.com"
+      },
+      {
+        "event_id": "ev_802",
+        "title": "All Hands",
+        "start": "2026-05-04T14:00:00Z",
+        "end": "2026-05-04T15:30:00Z",
+        "attendees": [
+          "mei.chen@foundry.ai",
+          "lena.kowalski@pinnacletech.com",
+          "nadia.rivera@orbitlabs.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "luke.okafor@foundry.ai"
+      },
+      {
+        "event_id": "ev_801",
+        "title": "Contract Review",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:30:00Z",
+        "attendees": [
+          "mei.chen@foundry.ai"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Security audit",
+        "organizer": "mei.chen@foundry.ai"
+      },
+      {
+        "event_id": "ev_803",
+        "title": "Demo Day",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T15:45:00Z",
+        "attendees": [
+          "nadia.rivera@orbitlabs.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "luke.okafor@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0001",
+          "task_id": "nr_0001",
+          "title": "Solaris Group \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "sophie.santos@solarisgroup.com",
+          "due_date": "2026-05-27",
+          "properties": {
+            "deal_value": "$423k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0002",
+          "task_id": "nr_0002",
+          "title": "Apex Solutions \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "yuki.nakamura@apexsolutions.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$226k",
+            "action_items": [
+              "Review contract terms",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0003",
+          "task_id": "nr_0003",
+          "title": "Pinnacle Tech \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "lena.kowalski@pinnacletech.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$382k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0004",
+          "task_id": "nt_0004",
+          "title": "Api integration \u2014 Update",
+          "status": "open",
+          "owner": "lena.kowalski@pinnacletech.com",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0005",
+          "task_id": "nt_0005",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "lena.kowalski@pinnacletech.com",
+          "due_date": "2026-04-28",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0006",
+          "task_id": "nt_0006",
+          "title": "Vendor evaluation \u2014 Ship",
+          "status": "open",
+          "owner": "sophie.santos@solarisgroup.com",
+          "due_date": "2026-04-23",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0007",
+          "task_id": "nt_0007",
+          "title": "Infrastructure costs \u2014 Resolve",
+          "status": "open",
+          "owner": "lena.kowalski@pinnacletech.com",
+          "due_date": "2026-05-21",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0008",
+          "task_id": "np_0008",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-29",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#design": [
+        {
+          "ts": "1777729999.000000",
+          "user": "lena",
+          "text": "The compliance requirements issue has been resolved."
+        },
+        {
+          "ts": "1777732939.000001",
+          "user": "yuki",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777720999.000002",
+          "user": "sophie",
+          "text": "Just finished the security audit review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777737019.000000",
+          "user": "mei",
+          "text": "The pricing model issue has been resolved."
+        },
+        {
+          "ts": "1777710559.000001",
+          "user": "nadia",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777723159.000002",
+          "user": "sophie",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777720519.000003",
+          "user": "sophie",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777711459.000000",
+          "user": "sophie",
+          "text": "Updated the board presentation deck with latest figures."
+        },
+        {
+          "ts": "1777720519.000001",
+          "user": "nadia",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777718599.000002",
+          "user": "lena",
+          "text": "Reminder: board presentation sync is at 3pm today."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777718239.000000",
+          "user": "yuki",
+          "text": "Reminder: security audit sync is at 3pm today."
+        },
+        {
+          "ts": "1777730659.000001",
+          "user": "yuki",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777724719.000002",
+          "user": "mei",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0001"
+}

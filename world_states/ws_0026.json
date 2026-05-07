@@ -1,0 +1,419 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "multi_step",
+    "ambiguous_sender",
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Chloe Okafor",
+    "email": "chloe.okafor@foundry.co",
+    "role": "Senior Engineer",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Nadia Nakamura",
+      "email": "nadia.nakamura@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Aisha Singh",
+      "email": "aisha.singh@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Carlos Chen",
+      "email": "carlos.chen@foundry.co",
+      "company": "foundry.co",
+      "role": "Customer Success Manager",
+      "external": false
+    },
+    {
+      "name": "Derek Okafor",
+      "email": "derek.okafor@foundry.co",
+      "company": "foundry.co",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Nadia Rao",
+      "email": "nadia.rao@quantumdynamics.com",
+      "company": "quantumdynamics",
+      "role": "VP of Sales",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00134",
+        "subject": "Due Diligence Request",
+        "from": "nadia.nakamura@quantumdynamics.com",
+        "snippet": "Hi Chloe,  In preparation for the upcoming board meeting, could you please share the latest metrics on sales pipeline? W",
+        "date": "2026-04-24T09:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00134_001",
+            "from": "nadia.nakamura@quantumdynamics.com",
+            "to": [
+              "chloe.okafor@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T09:24:19Z",
+            "body": "Hi Chloe,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on sales pipeline? We'll need them at least 48 hours in advance.\n\nThank you,\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00135",
+        "subject": "Investor Update: April",
+        "from": "derek.okafor@foundry.co",
+        "snippet": "Hi Chloe,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requir",
+        "date": "2026-04-24T17:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00135_001",
+            "from": "derek.okafor@foundry.co",
+            "to": [
+              "chloe.okafor@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T17:24:19Z",
+            "body": "Hi Chloe,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00136",
+        "subject": "RE: Action Items from All Hands",
+        "from": "derek.okafor@foundry.co",
+        "snippet": "Hi Chloe,  Just a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. P",
+        "date": "2026-04-19T20:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00136_001",
+            "from": "derek.okafor@foundry.co",
+            "to": [
+              "chloe.okafor@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T20:24:19Z",
+            "body": "Hi Chloe,\n\nJust a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00137",
+        "subject": "Contract Renewal \u2014 foundry.co",
+        "from": "carlos.chen@foundry.co",
+        "snippet": "Hi Chloe,  Please find attached Invoice #2457 for services rendered in May. Payment terms are net 30.  Thank you, Carlos",
+        "date": "2026-04-29T19:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00137_001",
+            "from": "carlos.chen@foundry.co",
+            "to": [
+              "chloe.okafor@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T19:24:19Z",
+            "body": "Hi Chloe,\n\nPlease find attached Invoice #2457 for services rendered in May. Payment terms are net 30.\n\nThank you,\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00138",
+        "subject": "Cap Table Update",
+        "from": "nadia.nakamura@quantumdynamics.com",
+        "snippet": "Hi Chloe,  In preparation for the upcoming board meeting, could you please share the latest metrics on security audit? W",
+        "date": "2026-04-25T21:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00138_001",
+            "from": "nadia.nakamura@quantumdynamics.com",
+            "to": [
+              "chloe.okafor@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-25T21:24:19Z",
+            "body": "Hi Chloe,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on security audit? We'll need them at least 48 hours in advance.\n\nThank you,\nNadia"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_919",
+        "title": "Investor Update",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T12:30:00Z",
+        "attendees": [
+          "derek.okafor@foundry.co",
+          "nadia.nakamura@quantumdynamics.com",
+          "nadia.rao@quantumdynamics.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Security audit",
+        "organizer": "chloe.okafor@foundry.co"
+      },
+      {
+        "event_id": "ev_918",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:45:00Z",
+        "attendees": [
+          "derek.okafor@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "derek.okafor@foundry.co"
+      },
+      {
+        "event_id": "ev_920",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T16:30:00Z",
+        "attendees": [
+          "derek.okafor@foundry.co",
+          "carlos.chen@foundry.co"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Pricing model",
+        "organizer": "chloe.okafor@foundry.co"
+      },
+      {
+        "event_id": "ev_917",
+        "title": "All Hands",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T12:30:00Z",
+        "attendees": [
+          "derek.okafor@foundry.co",
+          "nadia.rao@quantumdynamics.com",
+          "nadia.nakamura@quantumdynamics.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Product launch",
+        "organizer": "derek.okafor@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0228",
+          "task_id": "nr_0228",
+          "title": "Quantum Dynamics \u2014 Q3 Renewal",
+          "status": "open",
+          "owner": "nadia.nakamura@quantumdynamics.com",
+          "due_date": "2026-05-27",
+          "properties": {
+            "deal_value": "$12k",
+            "action_items": [
+              "Share product roadmap",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0229",
+          "task_id": "nt_0229",
+          "title": "Vendor evaluation \u2014 Implement",
+          "status": "open",
+          "owner": "aisha.singh@vantagepoint.com",
+          "due_date": "2026-04-28",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0230",
+          "task_id": "nt_0230",
+          "title": "Product launch \u2014 Update",
+          "status": "open",
+          "owner": "nadia.rao@quantumdynamics.com",
+          "due_date": "2026-04-26",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0231",
+          "task_id": "nt_0231",
+          "title": "Api integration \u2014 Update",
+          "status": "in_progress",
+          "owner": "nadia.nakamura@quantumdynamics.com",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0232",
+          "task_id": "nt_0232",
+          "title": "Compliance requirements \u2014 Update",
+          "status": "done",
+          "owner": "carlos.chen@foundry.co",
+          "due_date": "2026-05-14",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0233",
+          "task_id": "nt_0233",
+          "title": "Infrastructure costs \u2014 Resolve",
+          "status": "open",
+          "owner": "carlos.chen@foundry.co",
+          "due_date": "2026-05-02",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0234",
+          "task_id": "nt_0234",
+          "title": "Product launch \u2014 Implement",
+          "status": "in_progress",
+          "owner": "nadia.rao@quantumdynamics.com",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0235",
+          "task_id": "np_0235",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-21",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Design signed off",
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0236",
+          "task_id": "np_0236",
+          "title": "Compliance Audit",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-31",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0237",
+          "task_id": "np_0237",
+          "title": "Infrastructure Migration",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-06-14",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777711279.000000",
+          "user": "nadia",
+          "text": "Just finished the API integration review. Notes in the doc."
+        },
+        {
+          "ts": "1777727839.000001",
+          "user": "derek",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777723639.000002",
+          "user": "derek",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777735939.000000",
+          "user": "carlos",
+          "text": "Quick question on sales pipeline \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777713139.000001",
+          "user": "aisha",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777732279.000000",
+          "user": "nadia",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        },
+        {
+          "ts": "1777715239.000001",
+          "user": "nadia",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777710499.000002",
+          "user": "derek",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777717999.000003",
+          "user": "derek",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "aisha",
+          "text": "@chloe \u2014 can you take a look at the pricing model before EOD?"
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777717879.000000",
+          "user": "carlos",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777727299.000001",
+          "user": "derek",
+          "text": "Can someone double-check the board presentation numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0026"
+}

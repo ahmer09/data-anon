@@ -1,0 +1,488 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "external_email"
+  ],
+  "user": {
+    "name": "Nadia Rivera",
+    "email": "nadia.rivera@foundry.co",
+    "role": "CTO",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Ben Lopez",
+      "email": "ben.lopez@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Nadia Al-Rashid",
+      "email": "nadia.al-rashid@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Derek Lopez",
+      "email": "derek.lopez@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Ingrid Sharma",
+      "email": "ingrid.sharma@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Luke Novak",
+      "email": "luke.novak@foundry.co",
+      "company": "foundry.co",
+      "role": "Customer Success Manager",
+      "external": false
+    },
+    {
+      "name": "Omar Rao",
+      "email": "omar.rao@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Omar Rao",
+      "email": "omar.rao@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Senior Engineer",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00128",
+        "subject": "RE: Action Items from All Hands",
+        "from": "omar.rao@acmecorp.com",
+        "snippet": "Hi Nadia,  Just a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please ",
+        "date": "2026-04-23T13:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00128_001",
+            "from": "omar.rao@acmecorp.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T13:24:19Z",
+            "body": "Hi Nadia,\n\nJust a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00129",
+        "subject": "RE: Budget Approval Needed",
+        "from": "ingrid.sharma@horizonhealth.com",
+        "snippet": "Hi Nadia,  Quick question on the Q3 roadmap \u2014 have we made a final decision? The team is waiting on this before we can p",
+        "date": "2026-04-24T08:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00129_001",
+            "from": "ingrid.sharma@horizonhealth.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T08:24:19Z",
+            "body": "Hi Nadia,\n\nQuick question on the Q3 roadmap \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00130",
+        "subject": "RE: Q4 Renewal \u2014 Pricing Concern",
+        "from": "nadia.al-rashid@horizonhealth.com",
+        "snippet": "Hi Nadia,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is abou",
+        "date": "2026-04-27T21:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00130_001",
+            "from": "nadia.al-rashid@horizonhealth.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T21:24:19Z",
+            "body": "Hi Nadia,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is about 18% above what Stratum Analytics is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00131",
+        "subject": "Due Diligence Request",
+        "from": "ingrid.sharma@horizonhealth.com",
+        "snippet": "Hi Nadia,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requir",
+        "date": "2026-04-25T06:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00131_001",
+            "from": "ingrid.sharma@horizonhealth.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-25T06:24:19Z",
+            "body": "Hi Nadia,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00132",
+        "subject": "Due Diligence Request",
+        "from": "omar.rao@acmecorp.com",
+        "snippet": "Hi Nadia,  In preparation for the upcoming board meeting, could you please share the latest metrics on product launch? W",
+        "date": "2026-04-23T19:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00132_001",
+            "from": "omar.rao@acmecorp.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T19:24:19Z",
+            "body": "Hi Nadia,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on product launch? We'll need them at least 48 hours in advance.\n\nThank you,\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00133",
+        "subject": "Follow-up: Contract Terms",
+        "from": "omar.rao@apexsolutions.com",
+        "snippet": "Hi Nadia,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is a",
+        "date": "2026-04-20T22:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00133_001",
+            "from": "omar.rao@apexsolutions.com",
+            "to": [
+              "nadia.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T22:24:19Z",
+            "body": "Hi Nadia,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is about 17% above what Quantum Dynamics is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nOmar"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_911",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T12:00:00Z",
+        "attendees": [
+          "ben.lopez@nexussystems.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "nadia.rivera@foundry.co"
+      },
+      {
+        "event_id": "ev_915",
+        "title": "Pipeline Review",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T09:45:00Z",
+        "attendees": [
+          "luke.novak@foundry.co",
+          "ingrid.sharma@horizonhealth.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Board presentation",
+        "organizer": "nadia.rivera@foundry.co"
+      },
+      {
+        "event_id": "ev_912",
+        "title": "Design Review",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T12:30:00Z",
+        "attendees": [
+          "omar.rao@acmecorp.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Board presentation",
+        "organizer": "nadia.rivera@foundry.co"
+      },
+      {
+        "event_id": "ev_913",
+        "title": "Roadmap Review",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T09:45:00Z",
+        "attendees": [
+          "ben.lopez@nexussystems.com",
+          "omar.rao@acmecorp.com"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "nadia.rivera@foundry.co"
+      },
+      {
+        "event_id": "ev_916",
+        "title": "Partnership Sync",
+        "start": "2026-05-06T09:15:00Z",
+        "end": "2026-05-06T09:45:00Z",
+        "attendees": [
+          "ben.lopez@nexussystems.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "luke.novak@foundry.co"
+      },
+      {
+        "event_id": "ev_914",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:30:00Z",
+        "attendees": [
+          "ingrid.sharma@horizonhealth.com",
+          "nadia.al-rashid@horizonhealth.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Customer churn",
+        "organizer": "nadia.rivera@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0217",
+          "task_id": "nr_0217",
+          "title": "Nexus Systems \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "ben.lopez@nexussystems.com",
+          "due_date": "2026-05-27",
+          "properties": {
+            "deal_value": "$187k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0218",
+          "task_id": "nr_0218",
+          "title": "Horizon Health \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "nadia.al-rashid@horizonhealth.com",
+          "due_date": "2026-05-16",
+          "properties": {
+            "deal_value": "$349k",
+            "action_items": [
+              "Schedule QBR",
+              "Confirm pricing tiers",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0219",
+          "task_id": "nr_0219",
+          "title": "Horizon Health \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "ingrid.sharma@horizonhealth.com",
+          "due_date": "2026-05-22",
+          "properties": {
+            "deal_value": "$353k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Send updated SLA doc",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0220",
+          "task_id": "nt_0220",
+          "title": "Vendor evaluation \u2014 Resolve",
+          "status": "open",
+          "owner": "derek.lopez@foundry.co",
+          "due_date": "2026-05-07",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0221",
+          "task_id": "nt_0221",
+          "title": "Security audit \u2014 Review",
+          "status": "done",
+          "owner": "luke.novak@foundry.co",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0222",
+          "task_id": "nt_0222",
+          "title": "Infrastructure costs \u2014 Update",
+          "status": "in_progress",
+          "owner": "nadia.al-rashid@horizonhealth.com",
+          "due_date": "2026-05-03",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0223",
+          "task_id": "nt_0223",
+          "title": "Compliance requirements \u2014 Implement",
+          "status": "in_progress",
+          "owner": "omar.rao@apexsolutions.com",
+          "due_date": "2026-05-19",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0224",
+          "task_id": "nt_0224",
+          "title": "Compliance requirements \u2014 Implement",
+          "status": "open",
+          "owner": "omar.rao@apexsolutions.com",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0225",
+          "task_id": "nt_0225",
+          "title": "Product launch \u2014 Ship",
+          "status": "open",
+          "owner": "nadia.al-rashid@horizonhealth.com",
+          "due_date": "2026-05-12",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0226",
+          "task_id": "nt_0226",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "open",
+          "owner": "nadia.al-rashid@horizonhealth.com",
+          "due_date": "2026-04-29",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0227",
+          "task_id": "np_0227",
+          "title": "PCB Redesign v2",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-22",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777730419.000000",
+          "user": "nadia",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        },
+        {
+          "ts": "1777714519.000001",
+          "user": "derek",
+          "text": "Heads up \u2014 product launch is blocked. Need a decision from leadership."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777737499.000000",
+          "user": "omar",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777738159.000001",
+          "user": "omar",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777720279.000002",
+          "user": "derek",
+          "text": "Can someone double-check the product launch numbers before tomorrow?"
+        },
+        {
+          "ts": "1777711219.000003",
+          "user": "ingrid",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777716559.000000",
+          "user": "omar",
+          "text": "Updated the infrastructure costs deck with latest figures."
+        },
+        {
+          "ts": "1777721239.000001",
+          "user": "ben",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        },
+        {
+          "ts": "1777718359.000002",
+          "user": "luke",
+          "text": "Quick question on board presentation \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777731499.000000",
+          "user": "ben",
+          "text": "Can someone double-check the board presentation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777713979.000001",
+          "user": "omar",
+          "text": "Reminder: hiring plan sync is at 3pm today."
+        },
+        {
+          "ts": "1777720819.000002",
+          "user": "omar",
+          "text": "PR for security audit is ready for review."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0025"
+}

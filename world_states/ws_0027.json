@@ -1,0 +1,400 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "external_email"
+  ],
+  "user": {
+    "name": "Yuki Santos",
+    "email": "yuki.santos@foundry.co",
+    "role": "Head of Product",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Marcus Fischer",
+      "email": "marcus.fischer@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Priya Nakamura",
+      "email": "priya.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Priya Park",
+      "email": "priya.park@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Fatima Patel",
+      "email": "fatima.patel@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Fatima Park",
+      "email": "fatima.park@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "CTO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00139",
+        "subject": "Follow-up: Contract Terms",
+        "from": "fatima.park@pinnacletech.com",
+        "snippet": "Hi Yuki,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed",
+        "date": "2026-04-30T05:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00139_001",
+            "from": "fatima.park@pinnacletech.com",
+            "to": [
+              "yuki.santos@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-30T05:24:19Z",
+            "body": "Hi Yuki,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed is about 21% above what Meridian Capital is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00140",
+        "subject": "RE: Budget Approval Needed",
+        "from": "fatima.patel@solarisgroup.com",
+        "snippet": "Hi Yuki,  Just a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. Pl",
+        "date": "2026-04-22T09:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00140_001",
+            "from": "fatima.patel@solarisgroup.com",
+            "to": [
+              "yuki.santos@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T09:24:19Z",
+            "body": "Hi Yuki,\n\nJust a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00141",
+        "subject": "Due Diligence Request",
+        "from": "marcus.fischer@nexussystems.com",
+        "snippet": "Hi Yuki,  In preparation for the upcoming board meeting, could you please share the latest metrics on Q3 roadmap? We'll ",
+        "date": "2026-04-24T13:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00141_001",
+            "from": "marcus.fischer@nexussystems.com",
+            "to": [
+              "yuki.santos@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T13:24:19Z",
+            "body": "Hi Yuki,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on Q3 roadmap? We'll need them at least 48 hours in advance.\n\nThank you,\nMarcus"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00142",
+        "subject": "Due Diligence Request",
+        "from": "priya.park@quantumdynamics.com",
+        "snippet": "Hi Yuki,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance require",
+        "date": "2026-04-22T17:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00142_001",
+            "from": "priya.park@quantumdynamics.com",
+            "to": [
+              "yuki.santos@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T17:24:19Z",
+            "body": "Hi Yuki,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00143",
+        "subject": "Investor Update: April",
+        "from": "fatima.patel@solarisgroup.com",
+        "snippet": "Hi Yuki,  In preparation for the upcoming board meeting, could you please share the latest metrics on pricing model? We'",
+        "date": "2026-04-21T04:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00143_001",
+            "from": "fatima.patel@solarisgroup.com",
+            "to": [
+              "yuki.santos@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T04:24:19Z",
+            "body": "Hi Yuki,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on pricing model? We'll need them at least 48 hours in advance.\n\nThank you,\nFatima"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_922",
+        "title": "All Hands",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T16:30:00Z",
+        "attendees": [
+          "fatima.patel@solarisgroup.com",
+          "fatima.park@pinnacletech.com",
+          "priya.nakamura@foundry.co"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "yuki.santos@foundry.co"
+      },
+      {
+        "event_id": "ev_923",
+        "title": "Post-Mortem",
+        "start": "2026-05-05T09:00:00Z",
+        "end": "2026-05-05T10:30:00Z",
+        "attendees": [
+          "marcus.fischer@nexussystems.com",
+          "fatima.park@pinnacletech.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Security audit",
+        "organizer": "yuki.santos@foundry.co"
+      },
+      {
+        "event_id": "ev_921",
+        "title": "Design Review",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T17:30:00Z",
+        "attendees": [
+          "priya.nakamura@foundry.co",
+          "marcus.fischer@nexussystems.com",
+          "fatima.park@pinnacletech.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Pricing model",
+        "organizer": "yuki.santos@foundry.co"
+      },
+      {
+        "event_id": "ev_924",
+        "title": "Budget Discussion",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:30:00Z",
+        "attendees": [
+          "fatima.patel@solarisgroup.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Security audit",
+        "organizer": "fatima.patel@solarisgroup.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0238",
+          "task_id": "nr_0238",
+          "title": "Nexus Systems \u2014 Q2 Renewal",
+          "status": "open",
+          "owner": "marcus.fischer@nexussystems.com",
+          "due_date": "2026-05-28",
+          "properties": {
+            "deal_value": "$280k",
+            "action_items": [
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0239",
+          "task_id": "nr_0239",
+          "title": "Quantum Dynamics \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "priya.park@quantumdynamics.com",
+          "due_date": "2026-05-17",
+          "properties": {
+            "deal_value": "$467k",
+            "action_items": [
+              "Review contract terms",
+              "Complete security questionnaire",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0240",
+          "task_id": "nr_0240",
+          "title": "Solaris Group \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "fatima.patel@solarisgroup.com",
+          "due_date": "2026-05-28",
+          "properties": {
+            "deal_value": "$367k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0241",
+          "task_id": "nt_0241",
+          "title": "Api integration \u2014 Implement",
+          "status": "open",
+          "owner": "fatima.patel@solarisgroup.com",
+          "due_date": "2026-05-15",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0242",
+          "task_id": "nt_0242",
+          "title": "Board presentation \u2014 Implement",
+          "status": "open",
+          "owner": "fatima.park@pinnacletech.com",
+          "due_date": "2026-05-08",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0243",
+          "task_id": "nt_0243",
+          "title": "Product launch \u2014 Resolve",
+          "status": "open",
+          "owner": "fatima.patel@solarisgroup.com",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0244",
+          "task_id": "nt_0244",
+          "title": "Infrastructure costs \u2014 Ship",
+          "status": "in_progress",
+          "owner": "priya.nakamura@foundry.co",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0245",
+          "task_id": "nt_0245",
+          "title": "Q3 roadmap \u2014 Resolve",
+          "status": "done",
+          "owner": "priya.nakamura@foundry.co",
+          "due_date": "2026-05-14",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0246",
+          "task_id": "np_0246",
+          "title": "Infrastructure Migration",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-04",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#product": [
+        {
+          "ts": "1777737319.000000",
+          "user": "fatima",
+          "text": "Reminder: pricing model sync is at 3pm today."
+        },
+        {
+          "ts": "1777727839.000001",
+          "user": "priya",
+          "text": "Heads up \u2014 vendor evaluation is blocked. Need a decision from leadership."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777737799.000000",
+          "user": "fatima",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777735279.000001",
+          "user": "fatima",
+          "text": "Updated the board presentation deck with latest figures."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777731919.000000",
+          "user": "fatima",
+          "text": "Quick question on API integration \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777714699.000001",
+          "user": "priya",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777711279.000000",
+          "user": "priya",
+          "text": "Can someone double-check the infrastructure costs numbers before tomorrow?"
+        },
+        {
+          "ts": "1777710319.000001",
+          "user": "marcus",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777735519.000002",
+          "user": "marcus",
+          "text": "Can someone double-check the board presentation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777737499.000003",
+          "user": "fatima",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0027"
+}

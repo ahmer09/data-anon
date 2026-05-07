@@ -1,0 +1,419 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "slack_mention",
+    "external_email",
+    "overdue_tasks",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Ben Kim",
+    "email": "ben.kim@foundry.co",
+    "role": "Engineering Manager",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Luke Sharma",
+      "email": "luke.sharma@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Dev Kim",
+      "email": "dev.kim@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Dev Chen",
+      "email": "dev.chen@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Ben Okafor",
+      "email": "ben.okafor@foundry.co",
+      "company": "foundry.co",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Chloe Patel",
+      "email": "chloe.patel@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Aisha Singh",
+      "email": "aisha.singh@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Sarah Berg",
+      "email": "sarah.berg@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Aisha Walsh",
+      "email": "aisha.walsh@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "Legal Counsel",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00186",
+        "subject": "Follow-up: Contract Terms",
+        "from": "aisha.walsh@pinnacletech.com",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed ",
+        "date": "2026-04-19T20:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00186_001",
+            "from": "aisha.walsh@pinnacletech.com",
+            "to": [
+              "ben.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T20:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed is about 23% above what Apex Solutions is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00187",
+        "subject": "RE: Q2 Metrics",
+        "from": "chloe.patel@meridiancapital.com",
+        "snippet": "Hi Ben,  We've completed our initial due diligence and have a few follow-up questions on the security audit. Could we sc",
+        "date": "2026-05-01T00:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00187_001",
+            "from": "chloe.patel@meridiancapital.com",
+            "to": [
+              "ben.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-05-01T00:24:19Z",
+            "body": "Hi Ben,\n\nWe've completed our initial due diligence and have a few follow-up questions on the security audit. Could we schedule a call this week?\n\nBest,\nChloe"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00188",
+        "subject": "RE: Q1 Renewal \u2014 Pricing Concern",
+        "from": "sarah.berg@foundry.co",
+        "snippet": "Hi Ben,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-29T08:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00188_001",
+            "from": "sarah.berg@foundry.co",
+            "to": [
+              "ben.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T08:24:19Z",
+            "body": "Hi Ben,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the customer churn. Our deadline is end of this month.\n\nThanks,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00189",
+        "subject": "Tier 3 Pricing Discussion",
+        "from": "luke.sharma@quantumdynamics.com",
+        "snippet": "Hi Ben,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-29T08:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00189_001",
+            "from": "luke.sharma@quantumdynamics.com",
+            "to": [
+              "ben.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T08:24:19Z",
+            "body": "Hi Ben,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the pricing model. Our deadline is end of this month.\n\nThanks,\nLuke"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00190",
+        "subject": "Follow-up: Contract Terms",
+        "from": "dev.chen@foundry.co",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is ab",
+        "date": "2026-04-20T19:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00190_001",
+            "from": "dev.chen@foundry.co",
+            "to": [
+              "ben.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T19:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is about 22% above what Bridgewater Consulting is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nDev"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_962",
+        "title": "Roadmap Review",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T16:45:00Z",
+        "attendees": [
+          "ben.okafor@foundry.co"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Security audit",
+        "organizer": "ben.okafor@foundry.co"
+      },
+      {
+        "event_id": "ev_964",
+        "title": "Contract Review",
+        "start": "2026-05-05T10:00:00Z",
+        "end": "2026-05-05T10:45:00Z",
+        "attendees": [
+          "dev.kim@pinnacletech.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Pricing model",
+        "organizer": "ben.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_963",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:00:00Z",
+        "attendees": [
+          "dev.chen@foundry.co",
+          "aisha.walsh@pinnacletech.com"
+        ],
+        "location": "Offsite \u2014 Singapore",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "ben.kim@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0315",
+          "task_id": "nr_0315",
+          "title": "Quantum Dynamics \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "luke.sharma@quantumdynamics.com",
+          "due_date": "2026-06-01",
+          "properties": {
+            "deal_value": "$58k",
+            "action_items": [
+              "Schedule QBR",
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0316",
+          "task_id": "nr_0316",
+          "title": "Pinnacle Tech \u2014 Q2 Renewal",
+          "status": "open",
+          "owner": "dev.kim@pinnacletech.com",
+          "due_date": "2026-05-15",
+          "properties": {
+            "deal_value": "$153k",
+            "action_items": [
+              "Schedule QBR",
+              "Complete security questionnaire",
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0317",
+          "task_id": "nt_0317",
+          "title": "Api integration \u2014 Implement",
+          "status": "open",
+          "owner": "aisha.walsh@pinnacletech.com",
+          "due_date": "2026-04-30",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0318",
+          "task_id": "nt_0318",
+          "title": "Vendor evaluation \u2014 Update",
+          "status": "open",
+          "owner": "dev.kim@pinnacletech.com",
+          "due_date": "2026-04-28",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0319",
+          "task_id": "nt_0319",
+          "title": "Hiring plan \u2014 Implement",
+          "status": "open",
+          "owner": "sarah.berg@foundry.co",
+          "due_date": "2026-04-23",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0320",
+          "task_id": "np_0320",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-16",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "Launch ready",
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0321",
+          "task_id": "np_0321",
+          "title": "Partnership Expansion",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-17",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Design signed off",
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0322",
+          "task_id": "np_0322",
+          "title": "ML Pipeline Overhaul",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-25",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777712539.000000",
+          "user": "sarah",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777711939.000001",
+          "user": "sarah",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        },
+        {
+          "ts": "1777724479.000002",
+          "user": "aisha",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777736179.000003",
+          "user": "dev",
+          "text": "Can someone double-check the infrastructure costs numbers before tomorrow?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777732639.000000",
+          "user": "sarah",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777729039.000001",
+          "user": "dev",
+          "text": "The hiring plan issue has been resolved."
+        },
+        {
+          "ts": "1777717219.000002",
+          "user": "ben",
+          "text": "The security audit issue has been resolved."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777724839.000000",
+          "user": "chloe",
+          "text": "Heads up \u2014 pricing model is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777734319.000001",
+          "user": "aisha",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777720339.000000",
+          "user": "luke",
+          "text": "Just finished the compliance requirements review. Notes in the doc."
+        },
+        {
+          "ts": "1777714519.000001",
+          "user": "aisha",
+          "text": "The compliance requirements issue has been resolved."
+        },
+        {
+          "ts": "1777737139.000002",
+          "user": "ben",
+          "text": "Just finished the sales pipeline review. Notes in the doc."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "chloe",
+          "text": "@ben \u2014 can you take a look at the product launch before EOD?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0036"
+}

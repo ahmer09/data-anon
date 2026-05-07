@@ -1,0 +1,439 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "slack_mention",
+    "external_email",
+    "overdue_tasks"
+  ],
+  "user": {
+    "name": "Raj Santos",
+    "email": "raj.santos@foundry.ai",
+    "role": "CEO",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Omar Lopez",
+      "email": "omar.lopez@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Yuki Okafor",
+      "email": "yuki.okafor@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Nadia Kim",
+      "email": "nadia.kim@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Senior Engineer",
+      "external": true
+    },
+    {
+      "name": "Luke Fischer",
+      "email": "luke.fischer@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Sarah Sharma",
+      "email": "sarah.sharma@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Head of Product",
+      "external": false
+    },
+    {
+      "name": "Nadia Sharma",
+      "email": "nadia.sharma@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Customer Success Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00163",
+        "subject": "RE: Q4 Renewal \u2014 Pricing Concern",
+        "from": "yuki.okafor@apexsolutions.com",
+        "snippet": "Hi Raj,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-24T20:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00163_001",
+            "from": "yuki.okafor@apexsolutions.com",
+            "to": [
+              "raj.santos@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T20:24:19Z",
+            "body": "Hi Raj,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the infrastructure costs. Our deadline is end of this month.\n\nThanks,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00164",
+        "subject": "RE: Budget Approval Needed",
+        "from": "yuki.okafor@apexsolutions.com",
+        "snippet": "Hi Raj,  Just a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-21T10:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00164_001",
+            "from": "yuki.okafor@apexsolutions.com",
+            "to": [
+              "raj.santos@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T10:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00165",
+        "subject": "RE: Q4 Metrics",
+        "from": "luke.fischer@foundry.ai",
+        "snippet": "Hi Raj,  We've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we sc",
+        "date": "2026-04-23T21:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00165_001",
+            "from": "luke.fischer@foundry.ai",
+            "to": [
+              "raj.santos@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T21:24:19Z",
+            "body": "Hi Raj,\n\nWe've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we schedule a call this week?\n\nBest,\nLuke"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00166",
+        "subject": "Follow-up: Contract Terms",
+        "from": "sarah.sharma@foundry.ai",
+        "snippet": "Hi Raj,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-23T01:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00166_001",
+            "from": "sarah.sharma@foundry.ai",
+            "to": [
+              "raj.santos@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T01:24:19Z",
+            "body": "Hi Raj,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the customer churn. Our deadline is end of this month.\n\nThanks,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00167",
+        "subject": "RE: SLA Amendment Request",
+        "from": "luke.fischer@foundry.ai",
+        "snippet": "Hi Raj,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about ",
+        "date": "2026-04-25T07:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00167_001",
+            "from": "luke.fischer@foundry.ai",
+            "to": [
+              "raj.santos@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T07:24:19Z",
+            "body": "Hi Raj,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about 21% above what Ironclad Security is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nLuke"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_943",
+        "title": "Contract Review",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T11:45:00Z",
+        "attendees": [
+          "sarah.sharma@foundry.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "sarah.sharma@foundry.ai"
+      },
+      {
+        "event_id": "ev_942",
+        "title": "Budget Discussion",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:30:00Z",
+        "attendees": [
+          "nadia.kim@nexussystems.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Api integration",
+        "organizer": "nadia.kim@nexussystems.com"
+      },
+      {
+        "event_id": "ev_944",
+        "title": "Design Review",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T15:30:00Z",
+        "attendees": [
+          "sarah.sharma@foundry.ai",
+          "omar.lopez@crestlinepartners.com",
+          "yuki.okafor@apexsolutions.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Product launch",
+        "organizer": "sarah.sharma@foundry.ai"
+      },
+      {
+        "event_id": "ev_946",
+        "title": "Pipeline Review",
+        "start": "2026-05-05T14:15:00Z",
+        "end": "2026-05-05T14:45:00Z",
+        "attendees": [
+          "yuki.okafor@apexsolutions.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "nadia.kim@nexussystems.com"
+      },
+      {
+        "event_id": "ev_945",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T16:30:00Z",
+        "attendees": [
+          "luke.fischer@foundry.ai",
+          "sarah.sharma@foundry.ai",
+          "nadia.kim@nexussystems.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Board presentation",
+        "organizer": "luke.fischer@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0280",
+          "task_id": "nr_0280",
+          "title": "Crestline Partners \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "omar.lopez@crestlinepartners.com",
+          "due_date": "2026-05-10",
+          "properties": {
+            "deal_value": "$13k",
+            "action_items": [
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0281",
+          "task_id": "nr_0281",
+          "title": "Apex Solutions \u2014 Q1 Renewal",
+          "status": "open",
+          "owner": "yuki.okafor@apexsolutions.com",
+          "due_date": "2026-04-27",
+          "properties": {
+            "deal_value": "$406k",
+            "action_items": [
+              "Review contract terms",
+              "Share product roadmap",
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0282",
+          "task_id": "nr_0282",
+          "title": "Nexus Systems \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "nadia.kim@nexussystems.com",
+          "due_date": "2026-05-15",
+          "properties": {
+            "deal_value": "$100k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0283",
+          "task_id": "nt_0283",
+          "title": "Customer churn \u2014 Review",
+          "status": "open",
+          "owner": "luke.fischer@foundry.ai",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0284",
+          "task_id": "nt_0284",
+          "title": "Pricing model \u2014 Update",
+          "status": "open",
+          "owner": "yuki.okafor@apexsolutions.com",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0285",
+          "task_id": "nt_0285",
+          "title": "Api integration \u2014 Ship",
+          "status": "in_progress",
+          "owner": "omar.lopez@crestlinepartners.com",
+          "due_date": "2026-05-20",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0286",
+          "task_id": "nt_0286",
+          "title": "Product launch \u2014 Review",
+          "status": "open",
+          "owner": "luke.fischer@foundry.ai",
+          "due_date": "2026-04-24",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0287",
+          "task_id": "np_0287",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-25",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0288",
+          "task_id": "np_0288",
+          "title": "Compliance Audit",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-19",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777722739.000000",
+          "user": "yuki",
+          "text": "PR for pricing model is ready for review."
+        },
+        {
+          "ts": "1777722799.000001",
+          "user": "sarah",
+          "text": "The product launch issue has been resolved."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "nadia",
+          "text": "@raj \u2014 can you take a look at the hiring plan before EOD?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777720219.000000",
+          "user": "nadia",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777717819.000001",
+          "user": "nadia",
+          "text": "Reminder: hiring plan sync is at 3pm today."
+        },
+        {
+          "ts": "1777727719.000002",
+          "user": "yuki",
+          "text": "PR for vendor evaluation is ready for review."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777737019.000000",
+          "user": "sarah",
+          "text": "Reminder: hiring plan sync is at 3pm today."
+        },
+        {
+          "ts": "1777738699.000001",
+          "user": "omar",
+          "text": "PR for API integration is ready for review."
+        },
+        {
+          "ts": "1777713139.000002",
+          "user": "nadia",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777712119.000000",
+          "user": "omar",
+          "text": "Quick question on customer churn \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777715719.000001",
+          "user": "nadia",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        },
+        {
+          "ts": "1777719799.000002",
+          "user": "luke",
+          "text": "The vendor evaluation issue has been resolved."
+        },
+        {
+          "ts": "1777726099.000003",
+          "user": "sarah",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0032"
+}

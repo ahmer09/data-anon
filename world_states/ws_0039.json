@@ -1,0 +1,453 @@
+{
+  "scenario_tags": [
+    "slack_mention",
+    "external_email",
+    "overdue_tasks",
+    "internal_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Ben Rao",
+    "email": "ben.rao@foundry.ai",
+    "role": "CEO",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Ben Lopez",
+      "email": "ben.lopez@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Senior Engineer",
+      "external": false
+    },
+    {
+      "name": "Hassan Nakamura",
+      "email": "hassan.nakamura@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Mei Kim",
+      "email": "mei.kim@foundry.ai",
+      "company": "foundry.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Luke Berg",
+      "email": "luke.berg@foundry.ai",
+      "company": "foundry.ai",
+      "role": "VP of Sales",
+      "external": false
+    },
+    {
+      "name": "Raj Okafor",
+      "email": "raj.okafor@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "VP of Engineering",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00205",
+        "subject": "Team: Please review before Wednesday",
+        "from": "mei.kim@foundry.ai",
+        "snippet": "Hi Ben,  Just a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-23T07:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00205_001",
+            "from": "mei.kim@foundry.ai",
+            "to": [
+              "ben.rao@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T07:24:19Z",
+            "body": "Hi Ben,\n\nJust a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00206",
+        "subject": "Board Meeting Prep \u2014 Apr 30",
+        "from": "raj.okafor@vantagepoint.com",
+        "snippet": "Hi Ben,  In preparation for the upcoming board meeting, could you please share the latest metrics on API integration? We",
+        "date": "2026-04-30T04:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00206_001",
+            "from": "raj.okafor@vantagepoint.com",
+            "to": [
+              "ben.rao@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T04:24:19Z",
+            "body": "Hi Ben,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on API integration? We'll need them at least 48 hours in advance.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00207",
+        "subject": "RE: Shipment Delay",
+        "from": "ben.lopez@foundry.ai",
+        "snippet": "Hi Ben,  Please find attached Invoice #9487 for services rendered in May. Payment terms are net 30.  Thank you, Ben",
+        "date": "2026-04-20T12:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00207_001",
+            "from": "ben.lopez@foundry.ai",
+            "to": [
+              "ben.rao@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T12:24:19Z",
+            "body": "Hi Ben,\n\nPlease find attached Invoice #9487 for services rendered in May. Payment terms are net 30.\n\nThank you,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00208",
+        "subject": "Follow-up: Contract Terms",
+        "from": "ben.lopez@foundry.ai",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about ",
+        "date": "2026-04-26T21:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00208_001",
+            "from": "ben.lopez@foundry.ai",
+            "to": [
+              "ben.rao@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T21:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about 16% above what Ironclad Security is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00209",
+        "subject": "RE: SLA Amendment Request",
+        "from": "mei.kim@foundry.ai",
+        "snippet": "Hi Ben,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-22T07:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00209_001",
+            "from": "mei.kim@foundry.ai",
+            "to": [
+              "ben.rao@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T07:24:19Z",
+            "body": "Hi Ben,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the sales pipeline. Our deadline is end of this month.\n\nThanks,\nMei"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_979",
+        "title": "1:1",
+        "start": "2026-05-02T14:00:00Z",
+        "end": "2026-05-02T14:30:00Z",
+        "attendees": [
+          "luke.berg@foundry.ai",
+          "hassan.nakamura@vertexai.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Board presentation",
+        "organizer": "ben.rao@foundry.ai"
+      },
+      {
+        "event_id": "ev_978",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:30:00Z",
+        "attendees": [
+          "mei.kim@foundry.ai",
+          "raj.okafor@vantagepoint.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Product launch",
+        "organizer": "ben.rao@foundry.ai"
+      },
+      {
+        "event_id": "ev_977",
+        "title": "Roadmap Review",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T16:45:00Z",
+        "attendees": [
+          "hassan.nakamura@vertexai.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Security audit",
+        "organizer": "hassan.nakamura@vertexai.com"
+      },
+      {
+        "event_id": "ev_976",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T15:00:00Z",
+        "attendees": [
+          "hassan.nakamura@vertexai.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Board presentation",
+        "organizer": "ben.rao@foundry.ai"
+      },
+      {
+        "event_id": "ev_980",
+        "title": "Sprint Planning",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:30:00Z",
+        "attendees": [
+          "raj.okafor@vantagepoint.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Api integration",
+        "organizer": "raj.okafor@vantagepoint.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0341",
+          "task_id": "nr_0341",
+          "title": "Vertex AI \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "hassan.nakamura@vertexai.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$193k",
+            "action_items": [
+              "Share product roadmap",
+              "Confirm pricing tiers",
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0342",
+          "task_id": "nr_0342",
+          "title": "Vantage Point \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "raj.okafor@vantagepoint.com",
+          "due_date": "2026-05-30",
+          "properties": {
+            "deal_value": "$99k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Schedule QBR",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0343",
+          "task_id": "nt_0343",
+          "title": "Infrastructure costs \u2014 Implement",
+          "status": "open",
+          "owner": "mei.kim@foundry.ai",
+          "due_date": "2026-05-01",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0344",
+          "task_id": "nt_0344",
+          "title": "Vendor evaluation \u2014 Resolve",
+          "status": "open",
+          "owner": "luke.berg@foundry.ai",
+          "due_date": "2026-05-01",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0345",
+          "task_id": "nt_0345",
+          "title": "Infrastructure costs \u2014 Ship",
+          "status": "done",
+          "owner": "raj.okafor@vantagepoint.com",
+          "due_date": "2026-05-11",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0346",
+          "task_id": "nt_0346",
+          "title": "Security audit \u2014 Implement",
+          "status": "open",
+          "owner": "raj.okafor@vantagepoint.com",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0347",
+          "task_id": "nt_0347",
+          "title": "Compliance requirements \u2014 Review",
+          "status": "done",
+          "owner": "ben.lopez@foundry.ai",
+          "due_date": "2026-05-10",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0348",
+          "task_id": "nt_0348",
+          "title": "Infrastructure costs \u2014 Update",
+          "status": "done",
+          "owner": "ben.lopez@foundry.ai",
+          "due_date": "2026-05-19",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0349",
+          "task_id": "np_0349",
+          "title": "Compliance Audit",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-11",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0350",
+          "task_id": "np_0350",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-19",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "Kickoff complete",
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#ops": [
+        {
+          "ts": "1777725199.000000",
+          "user": "ben",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        },
+        {
+          "ts": "1777728919.000001",
+          "user": "hassan",
+          "text": "The Q3 roadmap issue has been resolved."
+        },
+        {
+          "ts": "1777734679.000002",
+          "user": "luke",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        },
+        {
+          "ts": "1777731019.000003",
+          "user": "hassan",
+          "text": "The API integration issue has been resolved."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777731859.000000",
+          "user": "mei",
+          "text": "Heads up \u2014 sales pipeline is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777713799.000001",
+          "user": "luke",
+          "text": "Updated the customer churn deck with latest figures."
+        },
+        {
+          "ts": "1777720879.000002",
+          "user": "ben",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777737739.000003",
+          "user": "hassan",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777721359.000000",
+          "user": "luke",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        },
+        {
+          "ts": "1777733119.000001",
+          "user": "mei",
+          "text": "The vendor evaluation issue has been resolved."
+        },
+        {
+          "ts": "1777713199.000002",
+          "user": "hassan",
+          "text": "The sales pipeline issue has been resolved."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777727839.000000",
+          "user": "mei",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777725319.000001",
+          "user": "ben",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777721299.000002",
+          "user": "ben",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729639.000003",
+          "user": "raj",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "hassan",
+          "text": "@ben \u2014 can you take a look at the pricing model before EOD?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0039"
+}

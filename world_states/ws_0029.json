@@ -1,0 +1,362 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "external_email",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Yuki Kim",
+    "email": "yuki.kim@foundry.co",
+    "role": "Product Manager",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Priya Fischer",
+      "email": "priya.fischer@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Arjun Walsh",
+      "email": "arjun.walsh@foundry.co",
+      "company": "foundry.co",
+      "role": "Senior Engineer",
+      "external": false
+    },
+    {
+      "name": "Luke Nakamura",
+      "email": "luke.nakamura@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Ingrid Santos",
+      "email": "ingrid.santos@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Marcus Al-Rashid",
+      "email": "marcus.al-rashid@atlasventures.com",
+      "company": "Atlas Ventures",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Hassan Park",
+      "email": "hassan.park@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Yuki Novak",
+      "email": "yuki.novak@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "VP of Sales",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00151",
+        "subject": "Team: Please review before Friday",
+        "from": "ingrid.santos@meridiancapital.com",
+        "snippet": "Hi Yuki,  Just a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please r",
+        "date": "2026-04-21T13:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00151_001",
+            "from": "ingrid.santos@meridiancapital.com",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T13:24:19Z",
+            "body": "Hi Yuki,\n\nJust a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00152",
+        "subject": "RE: Action Items from Quarterly Business Review",
+        "from": "priya.fischer@pinnacletech.com",
+        "snippet": "Hi Yuki,  Just a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please r",
+        "date": "2026-04-17T18:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00152_001",
+            "from": "priya.fischer@pinnacletech.com",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-17T18:24:19Z",
+            "body": "Hi Yuki,\n\nJust a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00153",
+        "subject": "Technical Support Request",
+        "from": "yuki.novak@ironcladsecurity.com",
+        "snippet": "Hi Yuki,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to sup",
+        "date": "2026-04-25T21:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00153_001",
+            "from": "yuki.novak@ironcladsecurity.com",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-25T21:24:19Z",
+            "body": "Hi Yuki,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nYuki"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_933",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T12:00:00Z",
+        "attendees": [
+          "yuki.novak@ironcladsecurity.com",
+          "arjun.walsh@foundry.co",
+          "marcus.al-rashid@atlasventures.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Pricing model",
+        "organizer": "yuki.novak@ironcladsecurity.com"
+      },
+      {
+        "event_id": "ev_931",
+        "title": "All Hands",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "priya.fischer@pinnacletech.com",
+          "luke.nakamura@acmecorp.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "yuki.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_932",
+        "title": "Budget Discussion",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T15:45:00Z",
+        "attendees": [
+          "ingrid.santos@meridiancapital.com",
+          "arjun.walsh@foundry.co",
+          "marcus.al-rashid@atlasventures.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "ingrid.santos@meridiancapital.com"
+      },
+      {
+        "event_id": "ev_934",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T16:30:00Z",
+        "attendees": [
+          "hassan.park@foundry.co",
+          "marcus.al-rashid@atlasventures.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "hassan.park@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0253",
+          "task_id": "nr_0253",
+          "title": "Pinnacle Tech \u2014 Q4 Renewal",
+          "status": "done",
+          "owner": "priya.fischer@pinnacletech.com",
+          "due_date": "2026-05-17",
+          "properties": {
+            "deal_value": "$150k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0254",
+          "task_id": "nt_0254",
+          "title": "Hiring plan \u2014 Ship",
+          "status": "open",
+          "owner": "yuki.novak@ironcladsecurity.com",
+          "due_date": "2026-04-28",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0255",
+          "task_id": "nt_0255",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "luke.nakamura@acmecorp.com",
+          "due_date": "2026-04-30",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0256",
+          "task_id": "nt_0256",
+          "title": "Hiring plan \u2014 Review",
+          "status": "in_progress",
+          "owner": "ingrid.santos@meridiancapital.com",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0257",
+          "task_id": "nt_0257",
+          "title": "Board presentation \u2014 Review",
+          "status": "open",
+          "owner": "hassan.park@foundry.co",
+          "due_date": "2026-05-02",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0258",
+          "task_id": "nt_0258",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "in_progress",
+          "owner": "arjun.walsh@foundry.co",
+          "due_date": "2026-05-14",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0259",
+          "task_id": "nt_0259",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "in_progress",
+          "owner": "priya.fischer@pinnacletech.com",
+          "due_date": "2026-05-02",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0260",
+          "task_id": "nt_0260",
+          "title": "Board presentation \u2014 Implement",
+          "status": "open",
+          "owner": "yuki.novak@ironcladsecurity.com",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0261",
+          "task_id": "np_0261",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-24",
+          "properties": {
+            "milestones": [
+              "Engineering in progress"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#general": [
+        {
+          "ts": "1777731499.000000",
+          "user": "yuki",
+          "text": "The Q3 roadmap issue has been resolved."
+        },
+        {
+          "ts": "1777735879.000001",
+          "user": "yuki",
+          "text": "The vendor evaluation issue has been resolved."
+        },
+        {
+          "ts": "1777734979.000002",
+          "user": "marcus",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        },
+        {
+          "ts": "1777727179.000003",
+          "user": "priya",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777710559.000000",
+          "user": "priya",
+          "text": "Just finished the API integration review. Notes in the doc."
+        },
+        {
+          "ts": "1777720039.000001",
+          "user": "luke",
+          "text": "PR for vendor evaluation is ready for review."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777717999.000000",
+          "user": "priya",
+          "text": "Just finished the pricing model review. Notes in the doc."
+        },
+        {
+          "ts": "1777712659.000001",
+          "user": "luke",
+          "text": "PR for compliance requirements is ready for review."
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777715659.000000",
+          "user": "marcus",
+          "text": "Updated the compliance requirements deck with latest figures."
+        },
+        {
+          "ts": "1777720399.000001",
+          "user": "yuki",
+          "text": "Just finished the vendor evaluation review. Notes in the doc."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0029"
+}

@@ -1,0 +1,461 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "external_email"
+  ],
+  "user": {
+    "name": "Aisha Rao",
+    "email": "aisha.rao@foundry.co",
+    "role": "Chief of Staff",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Yuki Rivera",
+      "email": "yuki.rivera@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Yuki Santos",
+      "email": "yuki.santos@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "James Nakamura",
+      "email": "james.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Aisha Patel",
+      "email": "aisha.patel@foundry.co",
+      "company": "foundry.co",
+      "role": "Chief of Staff",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00249",
+        "subject": "Cap Table Update",
+        "from": "yuki.rivera@ironcladsecurity.com",
+        "snippet": "Hi Aisha,  We've completed our initial due diligence and have a few follow-up questions on the Q3 roadmap. Could we sche",
+        "date": "2026-04-22T02:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00249_001",
+            "from": "yuki.rivera@ironcladsecurity.com",
+            "to": [
+              "aisha.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T02:24:19Z",
+            "body": "Hi Aisha,\n\nWe've completed our initial due diligence and have a few follow-up questions on the Q3 roadmap. Could we schedule a call this week?\n\nBest,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00250",
+        "subject": "Contract Renewal \u2014 foundry.co",
+        "from": "james.nakamura@foundry.co",
+        "snippet": "Hi Aisha,  We wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to su",
+        "date": "2026-04-18T17:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00250_001",
+            "from": "james.nakamura@foundry.co",
+            "to": [
+              "aisha.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-18T17:24:19Z",
+            "body": "Hi Aisha,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to supply chain issues. We apologize for the inconvenience.\n\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00251",
+        "subject": "Cap Table Update",
+        "from": "aisha.patel@foundry.co",
+        "snippet": "Hi Aisha,  We've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we ",
+        "date": "2026-04-23T21:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00251_001",
+            "from": "aisha.patel@foundry.co",
+            "to": [
+              "aisha.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T21:24:19Z",
+            "body": "Hi Aisha,\n\nWe've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we schedule a call this week?\n\nBest,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00252",
+        "subject": "RE: SLA Amendment Request",
+        "from": "aisha.patel@foundry.co",
+        "snippet": "Hi Aisha,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-23T00:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00252_001",
+            "from": "aisha.patel@foundry.co",
+            "to": [
+              "aisha.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T00:24:19Z",
+            "body": "Hi Aisha,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the product launch. Our deadline is end of this month.\n\nThanks,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00253",
+        "subject": "Board Meeting Prep \u2014 Apr 29",
+        "from": "james.nakamura@foundry.co",
+        "snippet": "Hi Aisha,  In preparation for the upcoming board meeting, could you please share the latest metrics on security audit? W",
+        "date": "2026-04-29T08:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00253_001",
+            "from": "james.nakamura@foundry.co",
+            "to": [
+              "aisha.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T08:24:19Z",
+            "body": "Hi Aisha,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on security audit? We'll need them at least 48 hours in advance.\n\nThank you,\nJames"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1017",
+        "title": "Sprint Planning",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T10:00:00Z",
+        "attendees": [
+          "yuki.rivera@ironcladsecurity.com",
+          "james.nakamura@foundry.co",
+          "yuki.santos@apexsolutions.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "aisha.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_1019",
+        "title": "1:1",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "james.nakamura@foundry.co",
+          "aisha.patel@foundry.co",
+          "yuki.rivera@ironcladsecurity.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "james.nakamura@foundry.co"
+      },
+      {
+        "event_id": "ev_1021",
+        "title": "Roadmap Review",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "yuki.rivera@ironcladsecurity.com",
+          "yuki.santos@apexsolutions.com",
+          "aisha.patel@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "yuki.rivera@ironcladsecurity.com"
+      },
+      {
+        "event_id": "ev_1022",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-04T15:15:00Z",
+        "end": "2026-05-04T15:45:00Z",
+        "attendees": [
+          "aisha.patel@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "yuki.santos@apexsolutions.com"
+      },
+      {
+        "event_id": "ev_1018",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:45:00Z",
+        "attendees": [
+          "aisha.patel@foundry.co",
+          "yuki.santos@apexsolutions.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "aisha.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_1020",
+        "title": "Team Standup",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T12:00:00Z",
+        "attendees": [
+          "james.nakamura@foundry.co"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "aisha.rao@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0417",
+          "task_id": "nr_0417",
+          "title": "Ironclad Security \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "yuki.rivera@ironcladsecurity.com",
+          "due_date": "2026-05-11",
+          "properties": {
+            "deal_value": "$235k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Complete security questionnaire",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0418",
+          "task_id": "nr_0418",
+          "title": "Apex Solutions \u2014 Q2 Renewal",
+          "status": "open",
+          "owner": "yuki.santos@apexsolutions.com",
+          "due_date": "2026-05-15",
+          "properties": {
+            "deal_value": "$449k",
+            "action_items": [
+              "Review contract terms",
+              "Complete security questionnaire",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0419",
+          "task_id": "nt_0419",
+          "title": "Sales pipeline \u2014 Resolve",
+          "status": "done",
+          "owner": "yuki.santos@apexsolutions.com",
+          "due_date": "2026-05-09",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0420",
+          "task_id": "nt_0420",
+          "title": "Compliance requirements \u2014 Implement",
+          "status": "done",
+          "owner": "james.nakamura@foundry.co",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0421",
+          "task_id": "nt_0421",
+          "title": "Hiring plan \u2014 Update",
+          "status": "in_progress",
+          "owner": "james.nakamura@foundry.co",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0422",
+          "task_id": "nt_0422",
+          "title": "Security audit \u2014 Update",
+          "status": "open",
+          "owner": "james.nakamura@foundry.co",
+          "due_date": "2026-04-24",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0423",
+          "task_id": "nt_0423",
+          "title": "Board presentation \u2014 Update",
+          "status": "done",
+          "owner": "yuki.rivera@ironcladsecurity.com",
+          "due_date": "2026-05-17",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0424",
+          "task_id": "nt_0424",
+          "title": "Q3 roadmap \u2014 Ship",
+          "status": "in_progress",
+          "owner": "yuki.santos@apexsolutions.com",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0425",
+          "task_id": "nt_0425",
+          "title": "Vendor evaluation \u2014 Ship",
+          "status": "done",
+          "owner": "yuki.santos@apexsolutions.com",
+          "due_date": "2026-05-14",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0426",
+          "task_id": "np_0426",
+          "title": "Product Roadmap Q4",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-14",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Kickoff complete",
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0427",
+          "task_id": "np_0427",
+          "title": "Product Roadmap Q4",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-25",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#design": [
+        {
+          "ts": "1777736779.000000",
+          "user": "james",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777711219.000001",
+          "user": "james",
+          "text": "Just finished the security audit review. Notes in the doc."
+        },
+        {
+          "ts": "1777725559.000002",
+          "user": "aisha",
+          "text": "Heads up \u2014 security audit is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777732159.000003",
+          "user": "aisha",
+          "text": "The vendor evaluation issue has been resolved."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777728619.000000",
+          "user": "james",
+          "text": "PR for sales pipeline is ready for review."
+        },
+        {
+          "ts": "1777715239.000001",
+          "user": "yuki",
+          "text": "Reminder: customer churn sync is at 3pm today."
+        },
+        {
+          "ts": "1777720039.000002",
+          "user": "yuki",
+          "text": "Reminder: pricing model sync is at 3pm today."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777714999.000000",
+          "user": "yuki",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777716379.000001",
+          "user": "aisha",
+          "text": "Updated the infrastructure costs deck with latest figures."
+        },
+        {
+          "ts": "1777720339.000002",
+          "user": "yuki",
+          "text": "Heads up \u2014 infrastructure costs is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777718839.000003",
+          "user": "yuki",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777735879.000000",
+          "user": "yuki",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777727059.000001",
+          "user": "aisha",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777712779.000002",
+          "user": "yuki",
+          "text": "Heads up \u2014 hiring plan is blocked. Need a decision from leadership."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0048"
+}

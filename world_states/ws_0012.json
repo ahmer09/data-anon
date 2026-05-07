@@ -1,0 +1,397 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "slack_mention",
+    "overdue_tasks",
+    "internal_email",
+    "ambiguous_sender"
+  ],
+  "user": {
+    "name": "Hassan Lopez",
+    "email": "hassan.lopez@foundry.co",
+    "role": "Account Executive",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Fatima Andersen",
+      "email": "fatima.andersen@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Ingrid Rivera",
+      "email": "ingrid.rivera@foundry.co",
+      "company": "foundry.co",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "James Chen",
+      "email": "james.chen@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Elena Park",
+      "email": "elena.park@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "James Patel",
+      "email": "james.patel@acmecorp.com",
+      "company": "acmecorp",
+      "role": "CTO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00061",
+        "subject": "Partnership Proposal \u2014 Quantum Dynamics",
+        "from": "fatima.andersen@quantumdynamics.com",
+        "snippet": "Hi Hassan,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-05-02T02:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00061_001",
+            "from": "fatima.andersen@quantumdynamics.com",
+            "to": [
+              "hassan.lopez@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-05-02T02:24:19Z",
+            "body": "Hi Hassan,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the infrastructure costs. Our deadline is end of this month.\n\nThanks,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00062",
+        "subject": "Compliance Audit \u2014 Status Update",
+        "from": "fatima.andersen@quantumdynamics.com",
+        "snippet": "Hi Hassan,  Quick question on the infrastructure costs \u2014 have we made a final decision? The team is waiting on this befo",
+        "date": "2026-04-22T21:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00062_001",
+            "from": "fatima.andersen@quantumdynamics.com",
+            "to": [
+              "hassan.lopez@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T21:24:19Z",
+            "body": "Hi Hassan,\n\nQuick question on the infrastructure costs \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00063",
+        "subject": "Onboarding Checklist \u2014 Vertex AI",
+        "from": "elena.park@vertexai.com",
+        "snippet": "Hi Hassan,  Please find attached Invoice #9674 for services rendered in May. Payment terms are net 30.  Thank you, Elena",
+        "date": "2026-04-24T01:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00063_001",
+            "from": "elena.park@vertexai.com",
+            "to": [
+              "hassan.lopez@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T01:24:19Z",
+            "body": "Hi Hassan,\n\nPlease find attached Invoice #9674 for services rendered in May. Payment terms are net 30.\n\nThank you,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00064",
+        "subject": "Onboarding Checklist \u2014 foundry.co",
+        "from": "ingrid.rivera@foundry.co",
+        "snippet": "Hi Hassan,  Please find attached Invoice #1462 for services rendered in May. Payment terms are net 30.  Thank you, Ingri",
+        "date": "2026-04-22T09:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00064_001",
+            "from": "ingrid.rivera@foundry.co",
+            "to": [
+              "hassan.lopez@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T09:24:19Z",
+            "body": "Hi Hassan,\n\nPlease find attached Invoice #1462 for services rendered in May. Payment terms are net 30.\n\nThank you,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00065",
+        "subject": "RE: Budget Approval Needed",
+        "from": "elena.park@vertexai.com",
+        "snippet": "Hi Hassan,  Quick question on the pricing model \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-24T07:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00065_001",
+            "from": "elena.park@vertexai.com",
+            "to": [
+              "hassan.lopez@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T07:24:19Z",
+            "body": "Hi Hassan,\n\nQuick question on the pricing model \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nElena"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_855",
+        "title": "Demo Day",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T11:00:00Z",
+        "attendees": [
+          "ingrid.rivera@foundry.co",
+          "fatima.andersen@quantumdynamics.com",
+          "james.chen@quantumdynamics.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "hassan.lopez@foundry.co"
+      },
+      {
+        "event_id": "ev_856",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T11:45:00Z",
+        "attendees": [
+          "james.chen@quantumdynamics.com",
+          "ingrid.rivera@foundry.co"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Api integration",
+        "organizer": "james.chen@quantumdynamics.com"
+      },
+      {
+        "event_id": "ev_857",
+        "title": "Demo Day",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T16:45:00Z",
+        "attendees": [
+          "james.patel@acmecorp.com",
+          "james.chen@quantumdynamics.com",
+          "fatima.andersen@quantumdynamics.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Security audit",
+        "organizer": "hassan.lopez@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0094",
+          "task_id": "nr_0094",
+          "title": "Quantum Dynamics \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "fatima.andersen@quantumdynamics.com",
+          "due_date": "2026-04-27",
+          "properties": {
+            "deal_value": "$103k",
+            "action_items": [
+              "Schedule QBR",
+              "Share product roadmap",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0095",
+          "task_id": "nt_0095",
+          "title": "Infrastructure costs \u2014 Implement",
+          "status": "open",
+          "owner": "fatima.andersen@quantumdynamics.com",
+          "due_date": "2026-04-28",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0096",
+          "task_id": "nt_0096",
+          "title": "Infrastructure costs \u2014 Review",
+          "status": "open",
+          "owner": "james.chen@quantumdynamics.com",
+          "due_date": "2026-04-27",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0097",
+          "task_id": "nt_0097",
+          "title": "Product launch \u2014 Update",
+          "status": "open",
+          "owner": "ingrid.rivera@foundry.co",
+          "due_date": "2026-04-22",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0098",
+          "task_id": "nt_0098",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "in_progress",
+          "owner": "fatima.andersen@quantumdynamics.com",
+          "due_date": "2026-05-03",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0099",
+          "task_id": "nt_0099",
+          "title": "Compliance requirements \u2014 Update",
+          "status": "done",
+          "owner": "elena.park@vertexai.com",
+          "due_date": "2026-05-06",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0100",
+          "task_id": "nt_0100",
+          "title": "Hiring plan \u2014 Ship",
+          "status": "in_progress",
+          "owner": "elena.park@vertexai.com",
+          "due_date": "2026-05-20",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0101",
+          "task_id": "nt_0101",
+          "title": "Board presentation \u2014 Update",
+          "status": "in_progress",
+          "owner": "ingrid.rivera@foundry.co",
+          "due_date": "2026-05-18",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0102",
+          "task_id": "np_0102",
+          "title": "Product Roadmap Q3",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-21",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777711519.000000",
+          "user": "ingrid",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777721959.000001",
+          "user": "fatima",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777719919.000002",
+          "user": "james",
+          "text": "Just finished the API integration review. Notes in the doc."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777720159.000000",
+          "user": "ingrid",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777735699.000001",
+          "user": "fatima",
+          "text": "Updated the hiring plan deck with latest figures."
+        },
+        {
+          "ts": "1777726219.000002",
+          "user": "ingrid",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777729639.000000",
+          "user": "james",
+          "text": "Can someone double-check the sales pipeline numbers before tomorrow?"
+        },
+        {
+          "ts": "1777726699.000001",
+          "user": "fatima",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777737139.000002",
+          "user": "ingrid",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        },
+        {
+          "ts": "1777736119.000003",
+          "user": "elena",
+          "text": "The product launch issue has been resolved."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "elena",
+          "text": "@hassan \u2014 can you take a look at the API integration before EOD?"
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777737979.000000",
+          "user": "fatima",
+          "text": "Heads up \u2014 sales pipeline is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777736299.000001",
+          "user": "james",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0012"
+}

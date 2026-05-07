@@ -1,0 +1,332 @@
+{
+  "scenario_tags": [
+    "external_email",
+    "ambiguous_sender"
+  ],
+  "user": {
+    "name": "Tom Rivera",
+    "email": "tom.rivera@foundry.ai",
+    "role": "Senior Engineer",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Elena Santos",
+      "email": "elena.santos@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Fatima Patel",
+      "email": "fatima.patel@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Chloe Sharma",
+      "email": "chloe.sharma@foundry.ai",
+      "company": "foundry.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Carlos Rao",
+      "email": "carlos.rao@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CTO",
+      "external": false
+    },
+    {
+      "name": "Yuki Fischer",
+      "email": "yuki.fischer@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CTO",
+      "external": false
+    },
+    {
+      "name": "Carlos Park",
+      "email": "carlos.park@crestlinepartners.com",
+      "company": "crestlinepartners",
+      "role": "Senior Engineer",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00049",
+        "subject": "Onboarding Checklist \u2014 Vantage Point",
+        "from": "elena.santos@vantagepoint.com",
+        "snippet": "Hi Tom,  Please find attached Invoice #9897 for services rendered in May. Payment terms are net 30.  Thank you, Elena",
+        "date": "2026-04-25T03:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00049_001",
+            "from": "elena.santos@vantagepoint.com",
+            "to": [
+              "tom.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T03:24:19Z",
+            "body": "Hi Tom,\n\nPlease find attached Invoice #9897 for services rendered in May. Payment terms are net 30.\n\nThank you,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00050",
+        "subject": "RE: Budget Approval Needed",
+        "from": "elena.santos@vantagepoint.com",
+        "snippet": "Hi Tom,  Quick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this befo",
+        "date": "2026-04-28T22:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00050_001",
+            "from": "elena.santos@vantagepoint.com",
+            "to": [
+              "tom.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T22:24:19Z",
+            "body": "Hi Tom,\n\nQuick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00051",
+        "subject": "Investor Update: April",
+        "from": "elena.santos@vantagepoint.com",
+        "snippet": "Hi Tom,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirem",
+        "date": "2026-04-26T21:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00051_001",
+            "from": "elena.santos@vantagepoint.com",
+            "to": [
+              "tom.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T21:24:19Z",
+            "body": "Hi Tom,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00052",
+        "subject": "RE: Budget Approval Needed",
+        "from": "chloe.sharma@foundry.ai",
+        "snippet": "Hi Tom,  Just a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-30T04:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00052_001",
+            "from": "chloe.sharma@foundry.ai",
+            "to": [
+              "tom.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T04:24:19Z",
+            "body": "Hi Tom,\n\nJust a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nChloe"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_840",
+        "title": "Partnership Sync",
+        "start": "2026-05-02T09:00:00Z",
+        "end": "2026-05-02T10:00:00Z",
+        "attendees": [
+          "yuki.fischer@foundry.ai",
+          "elena.santos@vantagepoint.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "tom.rivera@foundry.ai"
+      },
+      {
+        "event_id": "ev_841",
+        "title": "Partnership Sync",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T17:30:00Z",
+        "attendees": [
+          "fatima.patel@crestlinepartners.com",
+          "yuki.fischer@foundry.ai",
+          "carlos.park@crestlinepartners.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Product launch",
+        "organizer": "tom.rivera@foundry.ai"
+      },
+      {
+        "event_id": "ev_842",
+        "title": "Post-Mortem",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T10:00:00Z",
+        "attendees": [
+          "carlos.rao@foundry.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "tom.rivera@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0071",
+          "task_id": "nr_0071",
+          "title": "Vantage Point \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "elena.santos@vantagepoint.com",
+          "due_date": "2026-05-28",
+          "properties": {
+            "deal_value": "$64k",
+            "action_items": [
+              "Schedule QBR"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0072",
+          "task_id": "nt_0072",
+          "title": "Hiring plan \u2014 Ship",
+          "status": "in_progress",
+          "owner": "carlos.rao@foundry.ai",
+          "due_date": "2026-05-22",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0073",
+          "task_id": "nt_0073",
+          "title": "Compliance requirements \u2014 Ship",
+          "status": "in_progress",
+          "owner": "fatima.patel@crestlinepartners.com",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0074",
+          "task_id": "nt_0074",
+          "title": "Security audit \u2014 Update",
+          "status": "done",
+          "owner": "carlos.rao@foundry.ai",
+          "due_date": "2026-05-02",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0075",
+          "task_id": "np_0075",
+          "title": "Partnership Expansion",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-13",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Engineering in progress",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#marketing": [
+        {
+          "ts": "1777727599.000000",
+          "user": "carlos",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777722019.000001",
+          "user": "yuki",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        },
+        {
+          "ts": "1777724599.000002",
+          "user": "carlos",
+          "text": "Updated the security audit deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777713259.000000",
+          "user": "chloe",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        },
+        {
+          "ts": "1777718119.000001",
+          "user": "carlos",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729459.000002",
+          "user": "carlos",
+          "text": "Quick question on sales pipeline \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777716799.000000",
+          "user": "fatima",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777725019.000001",
+          "user": "elena",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777726459.000002",
+          "user": "yuki",
+          "text": "PR for customer churn is ready for review."
+        },
+        {
+          "ts": "1777737679.000003",
+          "user": "yuki",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777718599.000000",
+          "user": "fatima",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777718899.000001",
+          "user": "fatima",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0009"
+}

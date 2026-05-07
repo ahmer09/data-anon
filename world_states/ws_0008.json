@@ -1,0 +1,415 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "error_recovery",
+    "internal_email",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Carlos Walsh",
+    "email": "carlos.walsh@foundry.co",
+    "role": "Marketing Lead",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Yuki Lopez",
+      "email": "yuki.lopez@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Aisha Al-Rashid",
+      "email": "aisha.al-rashid@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Lena Nakamura",
+      "email": "lena.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Arjun Rao",
+      "email": "arjun.rao@foundry.co",
+      "company": "foundry.co",
+      "role": "Chief of Staff",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00044",
+        "subject": "RE: Q2 Renewal \u2014 Pricing Concern",
+        "from": "yuki.lopez@quantumdynamics.com",
+        "snippet": "Hi Carlos,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 1",
+        "date": "2026-04-17T22:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00044_001",
+            "from": "yuki.lopez@quantumdynamics.com",
+            "to": [
+              "carlos.walsh@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-17T22:24:19Z",
+            "body": "Hi Carlos,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 16% above what Bridgewater Consulting is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00045",
+        "subject": "Investor Update: April",
+        "from": "arjun.rao@foundry.co",
+        "snippet": "Hi Carlos,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requi",
+        "date": "2026-04-23T15:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00045_001",
+            "from": "arjun.rao@foundry.co",
+            "to": [
+              "carlos.walsh@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T15:24:19Z",
+            "body": "Hi Carlos,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00046",
+        "subject": "Quick question on compliance requirements",
+        "from": "yuki.lopez@quantumdynamics.com",
+        "snippet": "Hi Carlos,  Quick question on the vendor evaluation \u2014 have we made a final decision? The team is waiting on this before ",
+        "date": "2026-04-28T03:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00046_001",
+            "from": "yuki.lopez@quantumdynamics.com",
+            "to": [
+              "carlos.walsh@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T03:24:19Z",
+            "body": "Hi Carlos,\n\nQuick question on the vendor evaluation \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00047",
+        "subject": "Technical Support Request",
+        "from": "yuki.lopez@quantumdynamics.com",
+        "snippet": "Hi Carlos,  Please find attached Invoice #1527 for services rendered in May. Payment terms are net 30.  Thank you, Yuki",
+        "date": "2026-04-20T16:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00047_001",
+            "from": "yuki.lopez@quantumdynamics.com",
+            "to": [
+              "carlos.walsh@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T16:24:19Z",
+            "body": "Hi Carlos,\n\nPlease find attached Invoice #1527 for services rendered in May. Payment terms are net 30.\n\nThank you,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00048",
+        "subject": "Cap Table Update",
+        "from": "yuki.lopez@quantumdynamics.com",
+        "snippet": "Hi Carlos,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we ",
+        "date": "2026-04-23T15:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00048_001",
+            "from": "yuki.lopez@quantumdynamics.com",
+            "to": [
+              "carlos.walsh@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T15:24:19Z",
+            "body": "Hi Carlos,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nYuki"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_836",
+        "title": "Budget Discussion",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:00:00Z",
+        "attendees": [
+          "aisha.al-rashid@vantagepoint.com",
+          "arjun.rao@foundry.co",
+          "lena.nakamura@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Security audit",
+        "organizer": "aisha.al-rashid@vantagepoint.com"
+      },
+      {
+        "event_id": "ev_838",
+        "title": "Post-Mortem",
+        "start": "2026-05-05T10:00:00Z",
+        "end": "2026-05-05T11:00:00Z",
+        "attendees": [
+          "arjun.rao@foundry.co",
+          "yuki.lopez@quantumdynamics.com",
+          "lena.nakamura@foundry.co"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Pricing model",
+        "organizer": "carlos.walsh@foundry.co"
+      },
+      {
+        "event_id": "ev_837",
+        "title": "Design Review",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:30:00Z",
+        "attendees": [
+          "yuki.lopez@quantumdynamics.com",
+          "aisha.al-rashid@vantagepoint.com"
+        ],
+        "location": "Offsite \u2014 Mumbai",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "carlos.walsh@foundry.co"
+      },
+      {
+        "event_id": "ev_839",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T17:00:00Z",
+        "attendees": [
+          "aisha.al-rashid@vantagepoint.com",
+          "arjun.rao@foundry.co",
+          "yuki.lopez@quantumdynamics.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "aisha.al-rashid@vantagepoint.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0061",
+          "task_id": "nr_0061",
+          "title": "Quantum Dynamics \u2014 Q2 Renewal",
+          "status": "open",
+          "owner": "yuki.lopez@quantumdynamics.com",
+          "due_date": "2026-05-02",
+          "properties": {
+            "deal_value": "$147k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Share product roadmap"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0062",
+          "task_id": "nr_0062",
+          "title": "Vantage Point \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "aisha.al-rashid@vantagepoint.com",
+          "due_date": "2026-04-29",
+          "properties": {
+            "deal_value": "$421k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Share product roadmap",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0063",
+          "task_id": "nt_0063",
+          "title": "Hiring plan \u2014 Implement",
+          "status": "open",
+          "owner": "yuki.lopez@quantumdynamics.com",
+          "due_date": "2026-05-01",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0064",
+          "task_id": "nt_0064",
+          "title": "Security audit \u2014 Review",
+          "status": "open",
+          "owner": "arjun.rao@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0065",
+          "task_id": "nt_0065",
+          "title": "Security audit \u2014 Update",
+          "status": "done",
+          "owner": "arjun.rao@foundry.co",
+          "due_date": "2026-05-14",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0066",
+          "task_id": "nt_0066",
+          "title": "Product launch \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "arjun.rao@foundry.co",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0067",
+          "task_id": "nt_0067",
+          "title": "Product launch \u2014 Implement",
+          "status": "open",
+          "owner": "arjun.rao@foundry.co",
+          "due_date": "2026-05-01",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0068",
+          "task_id": "nt_0068",
+          "title": "Security audit \u2014 Resolve",
+          "status": "open",
+          "owner": "lena.nakamura@foundry.co",
+          "due_date": "2026-04-25",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0069",
+          "task_id": "np_0069",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-23",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0070",
+          "task_id": "np_0070",
+          "title": "Product Roadmap Q3",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-06-18",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777727119.000000",
+          "user": "aisha",
+          "text": "Updated the board presentation deck with latest figures."
+        },
+        {
+          "ts": "1777721899.000001",
+          "user": "arjun",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777715359.000002",
+          "user": "lena",
+          "text": "The API integration issue has been resolved."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777716259.000000",
+          "user": "aisha",
+          "text": "Heads up \u2014 hiring plan is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777716679.000001",
+          "user": "aisha",
+          "text": "The customer churn issue has been resolved."
+        },
+        {
+          "ts": "1777710619.000002",
+          "user": "aisha",
+          "text": "Just finished the customer churn review. Notes in the doc."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777713019.000000",
+          "user": "yuki",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        },
+        {
+          "ts": "1777726099.000001",
+          "user": "yuki",
+          "text": "Updated the infrastructure costs deck with latest figures."
+        },
+        {
+          "ts": "1777717039.000002",
+          "user": "yuki",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        },
+        {
+          "ts": "1777723279.000003",
+          "user": "aisha",
+          "text": "Reminder: API integration sync is at 3pm today."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777718539.000000",
+          "user": "arjun",
+          "text": "Just finished the API integration review. Notes in the doc."
+        },
+        {
+          "ts": "1777722439.000001",
+          "user": "yuki",
+          "text": "PR for customer churn is ready for review."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0008"
+}

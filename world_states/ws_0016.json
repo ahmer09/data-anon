@@ -1,0 +1,523 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "internal_email",
+    "slack_mention",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Raj Sharma",
+    "email": "raj.sharma@flow.ai",
+    "role": "Legal Counsel",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Ben Kim",
+      "email": "ben.kim@flow.ai",
+      "company": "flow.ai",
+      "role": "Head of Product",
+      "external": false
+    },
+    {
+      "name": "Omar Andersen",
+      "email": "omar.andersen@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Arjun Rivera",
+      "email": "arjun.rivera@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Mei Kim",
+      "email": "mei.kim@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Mei Fischer",
+      "email": "mei.fischer@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Customer Success Manager",
+      "external": true
+    },
+    {
+      "name": "Sarah Dubois",
+      "email": "sarah.dubois@flow.ai",
+      "company": "flow.ai",
+      "role": "Account Executive",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00080",
+        "subject": "RE: Q3 Metrics",
+        "from": "arjun.rivera@vertexai.com",
+        "snippet": "Hi Raj,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirem",
+        "date": "2026-04-23T23:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00080_001",
+            "from": "arjun.rivera@vertexai.com",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T23:24:19Z",
+            "body": "Hi Raj,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00081",
+        "subject": "RE: Budget Approval Needed",
+        "from": "mei.kim@flow.ai",
+        "snippet": "Hi Raj,  Just a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-30T11:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00081_001",
+            "from": "mei.kim@flow.ai",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T11:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00082",
+        "subject": "Invoice #7201 \u2014 flow.ai",
+        "from": "ben.kim@flow.ai",
+        "snippet": "Hi Raj,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supp",
+        "date": "2026-05-01T20:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00082_001",
+            "from": "ben.kim@flow.ai",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-01T20:24:19Z",
+            "body": "Hi Raj,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00083",
+        "subject": "Technical Support Request",
+        "from": "mei.fischer@vertexai.com",
+        "snippet": "Hi Raj,  Please find attached Invoice #4465 for services rendered in May. Payment terms are net 30.  Thank you, Mei",
+        "date": "2026-04-26T05:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00083_001",
+            "from": "mei.fischer@vertexai.com",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T05:24:19Z",
+            "body": "Hi Raj,\n\nPlease find attached Invoice #4465 for services rendered in May. Payment terms are net 30.\n\nThank you,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00084",
+        "subject": "Invoice #3641 \u2014 flow.ai",
+        "from": "sarah.dubois@flow.ai",
+        "snippet": "Hi Raj,  Please find attached Invoice #3095 for services rendered in May. Payment terms are net 30.  Thank you, Sarah",
+        "date": "2026-04-29T03:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00084_001",
+            "from": "sarah.dubois@flow.ai",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-29T03:24:19Z",
+            "body": "Hi Raj,\n\nPlease find attached Invoice #3095 for services rendered in May. Payment terms are net 30.\n\nThank you,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00085",
+        "subject": "Product Roadmap Q3 \u2014 Status Update",
+        "from": "mei.fischer@vertexai.com",
+        "snippet": "Hi Raj,  Just a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Pleas",
+        "date": "2026-04-30T15:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00085_001",
+            "from": "mei.fischer@vertexai.com",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T15:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00086",
+        "subject": "RE: Shipment Delay",
+        "from": "mei.fischer@vertexai.com",
+        "snippet": "Hi Raj,  Please find attached Invoice #9564 for services rendered in May. Payment terms are net 30.  Thank you, Mei",
+        "date": "2026-04-22T00:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00086_001",
+            "from": "mei.fischer@vertexai.com",
+            "to": [
+              "raj.sharma@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T00:24:19Z",
+            "body": "Hi Raj,\n\nPlease find attached Invoice #9564 for services rendered in May. Payment terms are net 30.\n\nThank you,\nMei"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_876",
+        "title": "Demo Day",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T11:45:00Z",
+        "attendees": [
+          "mei.fischer@vertexai.com",
+          "mei.kim@flow.ai",
+          "arjun.rivera@vertexai.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Pricing model",
+        "organizer": "raj.sharma@flow.ai"
+      },
+      {
+        "event_id": "ev_877",
+        "title": "Investor Update",
+        "start": "2026-05-02T15:00:00Z",
+        "end": "2026-05-02T15:45:00Z",
+        "attendees": [
+          "mei.kim@flow.ai"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "raj.sharma@flow.ai"
+      },
+      {
+        "event_id": "ev_875",
+        "title": "Partnership Sync",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T14:30:00Z",
+        "attendees": [
+          "mei.fischer@vertexai.com",
+          "sarah.dubois@flow.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Api integration",
+        "organizer": "mei.fischer@vertexai.com"
+      },
+      {
+        "event_id": "ev_874",
+        "title": "Roadmap Review",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T10:00:00Z",
+        "attendees": [
+          "sarah.dubois@flow.ai",
+          "mei.kim@flow.ai",
+          "mei.fischer@vertexai.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "raj.sharma@flow.ai"
+      },
+      {
+        "event_id": "ev_878",
+        "title": "Design Review",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:00:00Z",
+        "attendees": [
+          "mei.fischer@vertexai.com",
+          "mei.kim@flow.ai"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "raj.sharma@flow.ai"
+      },
+      {
+        "event_id": "ev_873",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T15:30:00Z",
+        "attendees": [
+          "mei.fischer@vertexai.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "mei.fischer@vertexai.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0135",
+          "task_id": "nr_0135",
+          "title": "Horizon Health \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "omar.andersen@horizonhealth.com",
+          "due_date": "2026-05-27",
+          "properties": {
+            "deal_value": "$296k",
+            "action_items": [
+              "Review contract terms",
+              "Schedule QBR",
+              "Share product roadmap"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0136",
+          "task_id": "nr_0136",
+          "title": "Vertex AI \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "arjun.rivera@vertexai.com",
+          "due_date": "2026-05-19",
+          "properties": {
+            "deal_value": "$447k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0137",
+          "task_id": "nr_0137",
+          "title": "Vertex AI \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "mei.fischer@vertexai.com",
+          "due_date": "2026-05-07",
+          "properties": {
+            "deal_value": "$270k",
+            "action_items": [
+              "Schedule QBR",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0138",
+          "task_id": "nt_0138",
+          "title": "Security audit \u2014 Review",
+          "status": "done",
+          "owner": "omar.andersen@horizonhealth.com",
+          "due_date": "2026-05-14",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0139",
+          "task_id": "nt_0139",
+          "title": "Pricing model \u2014 Review",
+          "status": "done",
+          "owner": "omar.andersen@horizonhealth.com",
+          "due_date": "2026-05-22",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0140",
+          "task_id": "nt_0140",
+          "title": "Compliance requirements \u2014 Review",
+          "status": "done",
+          "owner": "ben.kim@flow.ai",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0141",
+          "task_id": "nt_0141",
+          "title": "Hiring plan \u2014 Review",
+          "status": "open",
+          "owner": "mei.fischer@vertexai.com",
+          "due_date": "2026-04-29",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0142",
+          "task_id": "nt_0142",
+          "title": "Compliance requirements \u2014 Ship",
+          "status": "in_progress",
+          "owner": "sarah.dubois@flow.ai",
+          "due_date": "2026-05-15",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0143",
+          "task_id": "nt_0143",
+          "title": "Pricing model \u2014 Update",
+          "status": "done",
+          "owner": "sarah.dubois@flow.ai",
+          "due_date": "2026-05-14",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0144",
+          "task_id": "nt_0144",
+          "title": "Sales pipeline \u2014 Ship",
+          "status": "open",
+          "owner": "arjun.rivera@vertexai.com",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0145",
+          "task_id": "np_0145",
+          "title": "ML Pipeline Overhaul",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-16",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#customer-success": [
+        {
+          "ts": "1777730299.000000",
+          "user": "ben",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777726639.000001",
+          "user": "sarah",
+          "text": "Updated the compliance requirements deck with latest figures."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777716139.000000",
+          "user": "ben",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        },
+        {
+          "ts": "1777721899.000001",
+          "user": "ben",
+          "text": "Reminder: product launch sync is at 3pm today."
+        },
+        {
+          "ts": "1777713739.000002",
+          "user": "arjun",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777732819.000003",
+          "user": "mei",
+          "text": "PR for API integration is ready for review."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777730779.000000",
+          "user": "ben",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777735519.000001",
+          "user": "mei",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        },
+        {
+          "ts": "1777729759.000002",
+          "user": "mei",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        },
+        {
+          "ts": "1777730899.000003",
+          "user": "mei",
+          "text": "Quick question on customer churn \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777727179.000000",
+          "user": "mei",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777715539.000001",
+          "user": "omar",
+          "text": "The hiring plan issue has been resolved."
+        },
+        {
+          "ts": "1777724659.000002",
+          "user": "sarah",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        },
+        {
+          "ts": "1777735219.000003",
+          "user": "mei",
+          "text": "Can someone double-check the product launch numbers before tomorrow?"
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "sarah",
+          "text": "@raj \u2014 can you take a look at the sales pipeline before EOD?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0016"
+}

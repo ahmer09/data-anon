@@ -1,0 +1,369 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "external_email",
+    "slack_mention",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Yuki Fischer",
+    "email": "yuki.fischer@foundry.ai",
+    "role": "Head of Product",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sophie Tanaka",
+      "email": "sophie.tanaka@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Senior Engineer",
+      "external": true
+    },
+    {
+      "name": "Marcus Rao",
+      "email": "marcus.rao@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Sophie Chen",
+      "email": "sophie.chen@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Sarah Berg",
+      "email": "sarah.berg@vertexai.com",
+      "company": "Vertex AI",
+      "role": "CFO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00254",
+        "subject": "Team: Please review before Friday",
+        "from": "sophie.chen@crestlinepartners.com",
+        "snippet": "Hi Yuki,  Just a reminder that the pricing model review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-30T19:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00254_001",
+            "from": "sophie.chen@crestlinepartners.com",
+            "to": [
+              "yuki.fischer@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T19:24:19Z",
+            "body": "Hi Yuki,\n\nJust a reminder that the pricing model review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nSophie"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00255",
+        "subject": "RE: Action Items from All Hands",
+        "from": "sophie.chen@crestlinepartners.com",
+        "snippet": "Hi Yuki,  Just a reminder that the API integration review is due by EOD Friday. I've attached the relevant docs. Please ",
+        "date": "2026-04-22T11:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00255_001",
+            "from": "sophie.chen@crestlinepartners.com",
+            "to": [
+              "yuki.fischer@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T11:24:19Z",
+            "body": "Hi Yuki,\n\nJust a reminder that the API integration review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nSophie"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00256",
+        "subject": "Follow-up: Contract Terms",
+        "from": "marcus.rao@meridiancapital.com",
+        "snippet": "Hi Yuki,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is about",
+        "date": "2026-04-20T04:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00256_001",
+            "from": "marcus.rao@meridiancapital.com",
+            "to": [
+              "yuki.fischer@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T04:24:19Z",
+            "body": "Hi Yuki,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is about 30% above what Solaris Group is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nMarcus"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00257",
+        "subject": "Due Diligence Request",
+        "from": "sophie.chen@crestlinepartners.com",
+        "snippet": "Hi Yuki,  In preparation for the upcoming board meeting, could you please share the latest metrics on board presentation",
+        "date": "2026-04-22T03:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00257_001",
+            "from": "sophie.chen@crestlinepartners.com",
+            "to": [
+              "yuki.fischer@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T03:24:19Z",
+            "body": "Hi Yuki,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on board presentation? We'll need them at least 48 hours in advance.\n\nThank you,\nSophie"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1023",
+        "title": "Partnership Sync",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T11:30:00Z",
+        "attendees": [
+          "marcus.rao@meridiancapital.com",
+          "sophie.chen@crestlinepartners.com",
+          "sarah.berg@vertexai.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "yuki.fischer@foundry.ai"
+      },
+      {
+        "event_id": "ev_1026",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T14:00:00Z",
+        "end": "2026-05-02T15:00:00Z",
+        "attendees": [
+          "sophie.tanaka@nexussystems.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "sophie.tanaka@nexussystems.com"
+      },
+      {
+        "event_id": "ev_1025",
+        "title": "Budget Discussion",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T16:45:00Z",
+        "attendees": [
+          "sophie.tanaka@nexussystems.com",
+          "sophie.chen@crestlinepartners.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "sophie.tanaka@nexussystems.com"
+      },
+      {
+        "event_id": "ev_1024",
+        "title": "1:1",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T10:00:00Z",
+        "attendees": [
+          "sarah.berg@vertexai.com",
+          "sophie.chen@crestlinepartners.com",
+          "sophie.tanaka@nexussystems.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Api integration",
+        "organizer": "sarah.berg@vertexai.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0428",
+          "task_id": "nr_0428",
+          "title": "Nexus Systems \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "sophie.tanaka@nexussystems.com",
+          "due_date": "2026-05-11",
+          "properties": {
+            "deal_value": "$32k",
+            "action_items": [
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0429",
+          "task_id": "nr_0429",
+          "title": "Meridian Capital \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "marcus.rao@meridiancapital.com",
+          "due_date": "2026-05-12",
+          "properties": {
+            "deal_value": "$358k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Schedule QBR",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0430",
+          "task_id": "nt_0430",
+          "title": "Pricing model \u2014 Resolve",
+          "status": "done",
+          "owner": "sarah.berg@vertexai.com",
+          "due_date": "2026-05-05",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0431",
+          "task_id": "nt_0431",
+          "title": "Sales pipeline \u2014 Resolve",
+          "status": "open",
+          "owner": "sophie.chen@crestlinepartners.com",
+          "due_date": "2026-04-30",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0432",
+          "task_id": "nt_0432",
+          "title": "Compliance requirements \u2014 Review",
+          "status": "done",
+          "owner": "sarah.berg@vertexai.com",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0433",
+          "task_id": "nt_0433",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "done",
+          "owner": "sophie.tanaka@nexussystems.com",
+          "due_date": "2026-05-13",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0434",
+          "task_id": "nt_0434",
+          "title": "Api integration \u2014 Review",
+          "status": "open",
+          "owner": "marcus.rao@meridiancapital.com",
+          "due_date": "2026-04-27",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0435",
+          "task_id": "np_0435",
+          "title": "PCB Redesign v2",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-19",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777726639.000000",
+          "user": "sophie",
+          "text": "Can someone double-check the sales pipeline numbers before tomorrow?"
+        },
+        {
+          "ts": "1777732639.000001",
+          "user": "sarah",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777735459.000000",
+          "user": "sarah",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777713199.000001",
+          "user": "sophie",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777715359.000002",
+          "user": "sophie",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777719859.000000",
+          "user": "sarah",
+          "text": "The hiring plan issue has been resolved."
+        },
+        {
+          "ts": "1777725199.000001",
+          "user": "marcus",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777715179.000000",
+          "user": "marcus",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        },
+        {
+          "ts": "1777721299.000001",
+          "user": "sophie",
+          "text": "Heads up \u2014 pricing model is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777712359.000002",
+          "user": "sophie",
+          "text": "Heads up \u2014 product launch is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777724599.000003",
+          "user": "sophie",
+          "text": "Just finished the sales pipeline review. Notes in the doc."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "sarah",
+          "text": "@yuki \u2014 can you take a look at the infrastructure costs before EOD?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0049"
+}

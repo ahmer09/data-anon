@@ -1,0 +1,414 @@
+{
+  "scenario_tags": [
+    "external_email"
+  ],
+  "user": {
+    "name": "Marcus Singh",
+    "email": "marcus.singh@foundry.ai",
+    "role": "Marketing Lead",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sarah Sharma",
+      "email": "sarah.sharma@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Aisha Sharma",
+      "email": "aisha.sharma@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Elena Andersen",
+      "email": "elena.andersen@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Ben Walsh",
+      "email": "ben.walsh@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Legal Counsel",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00012",
+        "subject": "Due Diligence Request",
+        "from": "sarah.sharma@acmecorp.com",
+        "snippet": "Hi Marcus,  We've completed our initial due diligence and have a few follow-up questions on the board presentation. Coul",
+        "date": "2026-04-18T07:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00012_001",
+            "from": "sarah.sharma@acmecorp.com",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T07:24:19Z",
+            "body": "Hi Marcus,\n\nWe've completed our initial due diligence and have a few follow-up questions on the board presentation. Could we schedule a call this week?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00013",
+        "subject": "Board Meeting Prep \u2014 Apr 19",
+        "from": "sarah.sharma@acmecorp.com",
+        "snippet": "Hi Marcus,  We've completed our initial due diligence and have a few follow-up questions on the board presentation. Coul",
+        "date": "2026-04-19T03:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00013_001",
+            "from": "sarah.sharma@acmecorp.com",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T03:24:19Z",
+            "body": "Hi Marcus,\n\nWe've completed our initial due diligence and have a few follow-up questions on the board presentation. Could we schedule a call this week?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00014",
+        "subject": "RE: Budget Approval Needed",
+        "from": "sarah.sharma@acmecorp.com",
+        "snippet": "Hi Marcus,  Quick question on the hiring plan \u2014 have we made a final decision? The team is waiting on this before we can",
+        "date": "2026-04-28T02:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00014_001",
+            "from": "sarah.sharma@acmecorp.com",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T02:24:19Z",
+            "body": "Hi Marcus,\n\nQuick question on the hiring plan \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00015",
+        "subject": "Due Diligence Request",
+        "from": "sarah.sharma@acmecorp.com",
+        "snippet": "Hi Marcus,  We've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we",
+        "date": "2026-04-28T17:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00015_001",
+            "from": "sarah.sharma@acmecorp.com",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T17:24:19Z",
+            "body": "Hi Marcus,\n\nWe've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we schedule a call this week?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00016",
+        "subject": "Contract Renewal \u2014 foundry.ai",
+        "from": "ben.walsh@foundry.ai",
+        "snippet": "Hi Marcus,  We wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to s",
+        "date": "2026-04-20T23:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00016_001",
+            "from": "ben.walsh@foundry.ai",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T23:24:19Z",
+            "body": "Hi Marcus,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to supply chain issues. We apologize for the inconvenience.\n\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00017",
+        "subject": "RE: Shipment Delay",
+        "from": "sarah.sharma@acmecorp.com",
+        "snippet": "Hi Marcus,  Please find attached Invoice #9042 for services rendered in May. Payment terms are net 30.  Thank you, Sarah",
+        "date": "2026-04-19T10:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00017_001",
+            "from": "sarah.sharma@acmecorp.com",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T10:24:19Z",
+            "body": "Hi Marcus,\n\nPlease find attached Invoice #9042 for services rendered in May. Payment terms are net 30.\n\nThank you,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00018",
+        "subject": "RE: Action Items from Pipeline Review",
+        "from": "ben.walsh@foundry.ai",
+        "snippet": "Hi Marcus,  Just a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Pl",
+        "date": "2026-04-25T06:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00018_001",
+            "from": "ben.walsh@foundry.ai",
+            "to": [
+              "marcus.singh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T06:24:19Z",
+            "body": "Hi Marcus,\n\nJust a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nBen"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_812",
+        "title": "Demo Day",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "aisha.sharma@orbitlabs.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Board presentation",
+        "organizer": "marcus.singh@foundry.ai"
+      },
+      {
+        "event_id": "ev_811",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T15:45:00Z",
+        "attendees": [
+          "sarah.sharma@acmecorp.com",
+          "elena.andersen@foundry.ai",
+          "ben.walsh@foundry.ai"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "marcus.singh@foundry.ai"
+      },
+      {
+        "event_id": "ev_810",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T14:00:00Z",
+        "end": "2026-05-06T15:30:00Z",
+        "attendees": [
+          "aisha.sharma@orbitlabs.com",
+          "elena.andersen@foundry.ai",
+          "ben.walsh@foundry.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Board presentation",
+        "organizer": "aisha.sharma@orbitlabs.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0019",
+          "task_id": "nr_0019",
+          "title": "Acme Corp \u2014 Q3 Renewal",
+          "status": "in_progress",
+          "owner": "sarah.sharma@acmecorp.com",
+          "due_date": "2026-05-11",
+          "properties": {
+            "deal_value": "$369k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0020",
+          "task_id": "nt_0020",
+          "title": "Board presentation \u2014 Update",
+          "status": "done",
+          "owner": "ben.walsh@foundry.ai",
+          "due_date": "2026-05-17",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0021",
+          "task_id": "nt_0021",
+          "title": "Vendor evaluation \u2014 Update",
+          "status": "open",
+          "owner": "elena.andersen@foundry.ai",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0022",
+          "task_id": "nt_0022",
+          "title": "Pricing model \u2014 Update",
+          "status": "open",
+          "owner": "elena.andersen@foundry.ai",
+          "due_date": "2026-04-24",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0023",
+          "task_id": "nt_0023",
+          "title": "Api integration \u2014 Implement",
+          "status": "open",
+          "owner": "ben.walsh@foundry.ai",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0024",
+          "task_id": "nt_0024",
+          "title": "Api integration \u2014 Resolve",
+          "status": "done",
+          "owner": "sarah.sharma@acmecorp.com",
+          "due_date": "2026-05-08",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0025",
+          "task_id": "np_0025",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-23",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0026",
+          "task_id": "np_0026",
+          "title": "Product Roadmap Q3",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-03",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777720819.000000",
+          "user": "aisha",
+          "text": "The compliance requirements issue has been resolved."
+        },
+        {
+          "ts": "1777724359.000001",
+          "user": "sarah",
+          "text": "PR for hiring plan is ready for review."
+        },
+        {
+          "ts": "1777728919.000002",
+          "user": "elena",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777726159.000000",
+          "user": "elena",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777718419.000001",
+          "user": "elena",
+          "text": "Just finished the compliance requirements review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777729099.000000",
+          "user": "sarah",
+          "text": "Reminder: product launch sync is at 3pm today."
+        },
+        {
+          "ts": "1777715059.000001",
+          "user": "sarah",
+          "text": "Just finished the compliance requirements review. Notes in the doc."
+        },
+        {
+          "ts": "1777726099.000002",
+          "user": "ben",
+          "text": "Updated the pricing model deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777719679.000000",
+          "user": "elena",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777732519.000001",
+          "user": "sarah",
+          "text": "Heads up \u2014 product launch is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777725319.000002",
+          "user": "elena",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777737919.000003",
+          "user": "sarah",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0003"
+}

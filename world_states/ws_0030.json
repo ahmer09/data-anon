@@ -1,0 +1,425 @@
+{
+  "scenario_tags": [
+    "error_recovery",
+    "external_email",
+    "ambiguous_sender",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Sophie M\u00fcller",
+    "email": "sophie.m\u00fcller@flow.ai",
+    "role": "VP of Engineering",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sarah Santos",
+      "email": "sarah.santos@flow.ai",
+      "company": "flow.ai",
+      "role": "Product Manager",
+      "external": false
+    },
+    {
+      "name": "Elena Berg",
+      "email": "elena.berg@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Ben Kowalski",
+      "email": "ben.kowalski@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Raj Kim",
+      "email": "raj.kim@flow.ai",
+      "company": "flow.ai",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Elena Lopez",
+      "email": "elena.lopez@novaengineering.com",
+      "company": "novaengineering",
+      "role": "Senior Engineer",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00154",
+        "subject": "Contract Renewal \u2014 Apex Solutions",
+        "from": "ben.kowalski@apexsolutions.com",
+        "snippet": "Hi Sophie,  Please find attached Invoice #4282 for services rendered in May. Payment terms are net 30.  Thank you, Ben",
+        "date": "2026-04-23T06:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00154_001",
+            "from": "ben.kowalski@apexsolutions.com",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T06:24:19Z",
+            "body": "Hi Sophie,\n\nPlease find attached Invoice #4282 for services rendered in May. Payment terms are net 30.\n\nThank you,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00155",
+        "subject": "Onboarding Checklist \u2014 flow.ai",
+        "from": "raj.kim@flow.ai",
+        "snippet": "Hi Sophie,  Please find attached Invoice #1060 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-22T18:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00155_001",
+            "from": "raj.kim@flow.ai",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T18:24:19Z",
+            "body": "Hi Sophie,\n\nPlease find attached Invoice #1060 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00156",
+        "subject": "Technical Support Request",
+        "from": "elena.berg@ironcladsecurity.com",
+        "snippet": "Hi Sophie,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to s",
+        "date": "2026-04-24T17:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00156_001",
+            "from": "elena.berg@ironcladsecurity.com",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T17:24:19Z",
+            "body": "Hi Sophie,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00157",
+        "subject": "Infrastructure Migration \u2014 Status Update",
+        "from": "sarah.santos@flow.ai",
+        "snippet": "Hi Sophie,  Quick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-05-02T10:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00157_001",
+            "from": "sarah.santos@flow.ai",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-02T10:24:19Z",
+            "body": "Hi Sophie,\n\nQuick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00158",
+        "subject": "RE: Shipment Delay",
+        "from": "raj.kim@flow.ai",
+        "snippet": "Hi Sophie,  Please find attached Invoice #3366 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-22T13:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00158_001",
+            "from": "raj.kim@flow.ai",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T13:24:19Z",
+            "body": "Hi Sophie,\n\nPlease find attached Invoice #3366 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00159",
+        "subject": "RE: Q1 Metrics",
+        "from": "ben.kowalski@apexsolutions.com",
+        "snippet": "Hi Sophie,  In preparation for the upcoming board meeting, could you please share the latest metrics on pricing model? W",
+        "date": "2026-04-26T21:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00159_001",
+            "from": "ben.kowalski@apexsolutions.com",
+            "to": [
+              "sophie.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T21:24:19Z",
+            "body": "Hi Sophie,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on pricing model? We'll need them at least 48 hours in advance.\n\nThank you,\nBen"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_937",
+        "title": "Sprint Planning",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "ben.kowalski@apexsolutions.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "sophie.m\u00fcller@flow.ai"
+      },
+      {
+        "event_id": "ev_935",
+        "title": "Investor Update",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T16:30:00Z",
+        "attendees": [
+          "elena.lopez@novaengineering.com",
+          "ben.kowalski@apexsolutions.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Security audit",
+        "organizer": "sophie.m\u00fcller@flow.ai"
+      },
+      {
+        "event_id": "ev_936",
+        "title": "All Hands",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T17:30:00Z",
+        "attendees": [
+          "raj.kim@flow.ai",
+          "ben.kowalski@apexsolutions.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "sophie.m\u00fcller@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0262",
+          "task_id": "nr_0262",
+          "title": "Ironclad Security \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "elena.berg@ironcladsecurity.com",
+          "due_date": "2026-05-05",
+          "properties": {
+            "deal_value": "$237k",
+            "action_items": [
+              "Schedule QBR",
+              "Confirm pricing tiers",
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0263",
+          "task_id": "nt_0263",
+          "title": "Hiring plan \u2014 Resolve",
+          "status": "done",
+          "owner": "raj.kim@flow.ai",
+          "due_date": "2026-05-08",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0264",
+          "task_id": "nt_0264",
+          "title": "Hiring plan \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "ben.kowalski@apexsolutions.com",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0265",
+          "task_id": "nt_0265",
+          "title": "Infrastructure costs \u2014 Resolve",
+          "status": "open",
+          "owner": "elena.berg@ironcladsecurity.com",
+          "due_date": "2026-05-04",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0266",
+          "task_id": "nt_0266",
+          "title": "Hiring plan \u2014 Review",
+          "status": "open",
+          "owner": "ben.kowalski@apexsolutions.com",
+          "due_date": "2026-05-12",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0267",
+          "task_id": "nt_0267",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "in_progress",
+          "owner": "sarah.santos@flow.ai",
+          "due_date": "2026-05-17",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0268",
+          "task_id": "nt_0268",
+          "title": "Customer churn \u2014 Update",
+          "status": "open",
+          "owner": "ben.kowalski@apexsolutions.com",
+          "due_date": "2026-05-03",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0269",
+          "task_id": "np_0269",
+          "title": "GTM Strategy 2026",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-06-16",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0270",
+          "task_id": "np_0270",
+          "title": "Infrastructure Migration",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-19",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0271",
+          "task_id": "np_0271",
+          "title": "Partnership Expansion",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-16",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#design": [
+        {
+          "ts": "1777716559.000000",
+          "user": "elena",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777731619.000001",
+          "user": "raj",
+          "text": "The customer churn issue has been resolved."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777728319.000000",
+          "user": "raj",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777725619.000001",
+          "user": "elena",
+          "text": "PR for security audit is ready for review."
+        },
+        {
+          "ts": "1777725319.000002",
+          "user": "elena",
+          "text": "Just finished the API integration review. Notes in the doc."
+        },
+        {
+          "ts": "1777734499.000003",
+          "user": "ben",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777723459.000000",
+          "user": "sarah",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777731859.000001",
+          "user": "ben",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777715359.000002",
+          "user": "raj",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777738099.000000",
+          "user": "elena",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        },
+        {
+          "ts": "1777734079.000001",
+          "user": "elena",
+          "text": "PR for hiring plan is ready for review."
+        },
+        {
+          "ts": "1777732519.000002",
+          "user": "raj",
+          "text": "Can someone double-check the compliance requirements numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0030"
+}

@@ -1,0 +1,414 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Sophie Lopez",
+    "email": "sophie.lopez@flow.ai",
+    "role": "Engineering Manager",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Omar Chen",
+      "email": "omar.chen@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Omar Walsh",
+      "email": "omar.walsh@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Carlos Rivera",
+      "email": "carlos.rivera@flow.ai",
+      "company": "flow.ai",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Nadia Fischer",
+      "email": "nadia.fischer@flow.ai",
+      "company": "flow.ai",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Tom Novak",
+      "email": "tom.novak@flow.ai",
+      "company": "flow.ai",
+      "role": "Chief of Staff",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00239",
+        "subject": "Board Meeting Prep \u2014 Apr 20",
+        "from": "carlos.rivera@flow.ai",
+        "snippet": "Hi Sophie,  We've completed our initial due diligence and have a few follow-up questions on the compliance requirements.",
+        "date": "2026-04-20T00:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00239_001",
+            "from": "carlos.rivera@flow.ai",
+            "to": [
+              "sophie.lopez@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T00:24:19Z",
+            "body": "Hi Sophie,\n\nWe've completed our initial due diligence and have a few follow-up questions on the compliance requirements. Could we schedule a call this week?\n\nBest,\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00240",
+        "subject": "Investor Update: April",
+        "from": "carlos.rivera@flow.ai",
+        "snippet": "Hi Sophie,  We've completed our initial due diligence and have a few follow-up questions on the product launch. Could we",
+        "date": "2026-04-29T08:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00240_001",
+            "from": "carlos.rivera@flow.ai",
+            "to": [
+              "sophie.lopez@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-29T08:24:19Z",
+            "body": "Hi Sophie,\n\nWe've completed our initial due diligence and have a few follow-up questions on the product launch. Could we schedule a call this week?\n\nBest,\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00241",
+        "subject": "Investor Update: April",
+        "from": "carlos.rivera@flow.ai",
+        "snippet": "Hi Sophie,  We've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we sc",
+        "date": "2026-04-22T12:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00241_001",
+            "from": "carlos.rivera@flow.ai",
+            "to": [
+              "sophie.lopez@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T12:24:19Z",
+            "body": "Hi Sophie,\n\nWe've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we schedule a call this week?\n\nBest,\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00242",
+        "subject": "Investor Update: April",
+        "from": "omar.walsh@novaengineering.com",
+        "snippet": "Hi Sophie,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we ",
+        "date": "2026-04-23T00:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00242_001",
+            "from": "omar.walsh@novaengineering.com",
+            "to": [
+              "sophie.lopez@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T00:24:19Z",
+            "body": "Hi Sophie,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00243",
+        "subject": "Technical Support Request",
+        "from": "carlos.rivera@flow.ai",
+        "snippet": "Hi Sophie,  We wanted to inform you that the shipment for your recent order has been delayed by 4 business days due to s",
+        "date": "2026-04-27T23:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00243_001",
+            "from": "carlos.rivera@flow.ai",
+            "to": [
+              "sophie.lopez@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T23:24:19Z",
+            "body": "Hi Sophie,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 4 business days due to supply chain issues. We apologize for the inconvenience.\n\nCarlos"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1009",
+        "title": "Team Standup",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T11:00:00Z",
+        "attendees": [
+          "carlos.rivera@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "sophie.lopez@flow.ai"
+      },
+      {
+        "event_id": "ev_1011",
+        "title": "Roadmap Review",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "nadia.fischer@flow.ai",
+          "tom.novak@flow.ai",
+          "omar.walsh@novaengineering.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Pricing model",
+        "organizer": "nadia.fischer@flow.ai"
+      },
+      {
+        "event_id": "ev_1010",
+        "title": "Budget Discussion",
+        "start": "2026-05-05T10:00:00Z",
+        "end": "2026-05-05T10:45:00Z",
+        "attendees": [
+          "carlos.rivera@flow.ai",
+          "tom.novak@flow.ai"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Security audit",
+        "organizer": "carlos.rivera@flow.ai"
+      },
+      {
+        "event_id": "ev_1013",
+        "title": "Contract Review",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:30:00Z",
+        "attendees": [
+          "carlos.rivera@flow.ai",
+          "omar.chen@ironcladsecurity.com",
+          "tom.novak@flow.ai"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "sophie.lopez@flow.ai"
+      },
+      {
+        "event_id": "ev_1012",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:30:00Z",
+        "attendees": [
+          "tom.novak@flow.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "tom.novak@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0401",
+          "task_id": "nr_0401",
+          "title": "Ironclad Security \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "omar.chen@ironcladsecurity.com",
+          "due_date": "2026-05-02",
+          "properties": {
+            "deal_value": "$394k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0402",
+          "task_id": "nr_0402",
+          "title": "Nova Engineering \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "omar.walsh@novaengineering.com",
+          "due_date": "2026-05-24",
+          "properties": {
+            "deal_value": "$241k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Schedule QBR",
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0403",
+          "task_id": "nt_0403",
+          "title": "Hiring plan \u2014 Resolve",
+          "status": "done",
+          "owner": "tom.novak@flow.ai",
+          "due_date": "2026-05-12",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0404",
+          "task_id": "nt_0404",
+          "title": "Compliance requirements \u2014 Ship",
+          "status": "open",
+          "owner": "carlos.rivera@flow.ai",
+          "due_date": "2026-05-20",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0405",
+          "task_id": "nt_0405",
+          "title": "Pricing model \u2014 Review",
+          "status": "in_progress",
+          "owner": "omar.walsh@novaengineering.com",
+          "due_date": "2026-05-11",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0406",
+          "task_id": "nt_0406",
+          "title": "Product launch \u2014 Update",
+          "status": "open",
+          "owner": "tom.novak@flow.ai",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0407",
+          "task_id": "np_0407",
+          "title": "Compliance Audit",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-24",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0408",
+          "task_id": "np_0408",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-06-04",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0409",
+          "task_id": "np_0409",
+          "title": "ML Pipeline Overhaul",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-20",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Engineering in progress"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777718599.000000",
+          "user": "omar",
+          "text": "Updated the sales pipeline deck with latest figures."
+        },
+        {
+          "ts": "1777733779.000001",
+          "user": "carlos",
+          "text": "Quick question on compliance requirements \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777710559.000002",
+          "user": "omar",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777711819.000000",
+          "user": "omar",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        },
+        {
+          "ts": "1777737979.000001",
+          "user": "nadia",
+          "text": "Updated the API integration deck with latest figures."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777725079.000000",
+          "user": "omar",
+          "text": "PR for API integration is ready for review."
+        },
+        {
+          "ts": "1777732459.000001",
+          "user": "omar",
+          "text": "Can someone double-check the compliance requirements numbers before tomorrow?"
+        },
+        {
+          "ts": "1777733419.000002",
+          "user": "omar",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777735099.000000",
+          "user": "omar",
+          "text": "Reminder: API integration sync is at 3pm today."
+        },
+        {
+          "ts": "1777726039.000001",
+          "user": "carlos",
+          "text": "Updated the sales pipeline deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0046"
+}

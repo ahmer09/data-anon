@@ -1,0 +1,422 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Derek Patel",
+    "email": "derek.patel@foundry.co",
+    "role": "Director of Partnerships",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Dev Park",
+      "email": "dev.park@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Aisha Dubois",
+      "email": "aisha.dubois@foundry.co",
+      "company": "foundry.co",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Lena Dubois",
+      "email": "lena.dubois@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Priya Lopez",
+      "email": "priya.lopez@foundry.co",
+      "company": "foundry.co",
+      "role": "Senior Engineer",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00168",
+        "subject": "RE: Action Items from Design Review",
+        "from": "aisha.dubois@foundry.co",
+        "snippet": "Hi Derek,  Just a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please ",
+        "date": "2026-04-29T10:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00168_001",
+            "from": "aisha.dubois@foundry.co",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T10:24:19Z",
+            "body": "Hi Derek,\n\nJust a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00169",
+        "subject": "Follow-up: Contract Terms",
+        "from": "aisha.dubois@foundry.co",
+        "snippet": "Hi Derek,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-17T22:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00169_001",
+            "from": "aisha.dubois@foundry.co",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-17T22:24:19Z",
+            "body": "Hi Derek,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the Q3 roadmap. Our deadline is end of this month.\n\nThanks,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00170",
+        "subject": "Product Roadmap Q3 \u2014 Status Update",
+        "from": "dev.park@solarisgroup.com",
+        "snippet": "Hi Derek,  Quick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this be",
+        "date": "2026-04-23T05:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00170_001",
+            "from": "dev.park@solarisgroup.com",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T05:24:19Z",
+            "body": "Hi Derek,\n\nQuick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nDev"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00171",
+        "subject": "RE: Shipment Delay",
+        "from": "priya.lopez@foundry.co",
+        "snippet": "Hi Derek,  Please find attached Invoice #5480 for services rendered in May. Payment terms are net 30.  Thank you, Priya",
+        "date": "2026-04-27T12:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00171_001",
+            "from": "priya.lopez@foundry.co",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T12:24:19Z",
+            "body": "Hi Derek,\n\nPlease find attached Invoice #5480 for services rendered in May. Payment terms are net 30.\n\nThank you,\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00172",
+        "subject": "Quick question on security audit",
+        "from": "dev.park@solarisgroup.com",
+        "snippet": "Hi Derek,  Just a reminder that the vendor evaluation review is due by EOD Friday. I've attached the relevant docs. Plea",
+        "date": "2026-04-20T06:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00172_001",
+            "from": "dev.park@solarisgroup.com",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T06:24:19Z",
+            "body": "Hi Derek,\n\nJust a reminder that the vendor evaluation review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nDev"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00173",
+        "subject": "Board Meeting Prep \u2014 Apr 20",
+        "from": "lena.dubois@bridgewaterconsulting.com",
+        "snippet": "Hi Derek,  In preparation for the upcoming board meeting, could you please share the latest metrics on board presentatio",
+        "date": "2026-04-20T04:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00173_001",
+            "from": "lena.dubois@bridgewaterconsulting.com",
+            "to": [
+              "derek.patel@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T04:24:19Z",
+            "body": "Hi Derek,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on board presentation? We'll need them at least 48 hours in advance.\n\nThank you,\nLena"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_947",
+        "title": "Pipeline Review",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "aisha.dubois@foundry.co"
+        ],
+        "location": "Offsite \u2014 Mumbai",
+        "notes": "Agenda: Board presentation",
+        "organizer": "derek.patel@foundry.co"
+      },
+      {
+        "event_id": "ev_948",
+        "title": "Sprint Planning",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:30:00Z",
+        "attendees": [
+          "aisha.dubois@foundry.co",
+          "dev.park@solarisgroup.com"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Pricing model",
+        "organizer": "derek.patel@foundry.co"
+      },
+      {
+        "event_id": "ev_950",
+        "title": "Pipeline Review",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "aisha.dubois@foundry.co",
+          "lena.dubois@bridgewaterconsulting.com",
+          "priya.lopez@foundry.co"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "derek.patel@foundry.co"
+      },
+      {
+        "event_id": "ev_951",
+        "title": "Post-Mortem",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:30:00Z",
+        "attendees": [
+          "dev.park@solarisgroup.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "dev.park@solarisgroup.com"
+      },
+      {
+        "event_id": "ev_952",
+        "title": "All Hands",
+        "start": "2026-05-05T11:15:00Z",
+        "end": "2026-05-05T11:45:00Z",
+        "attendees": [
+          "dev.park@solarisgroup.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "priya.lopez@foundry.co"
+      },
+      {
+        "event_id": "ev_949",
+        "title": "1:1",
+        "start": "2026-05-06T16:00:00Z",
+        "end": "2026-05-06T17:30:00Z",
+        "attendees": [
+          "priya.lopez@foundry.co",
+          "dev.park@solarisgroup.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "derek.patel@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0289",
+          "task_id": "nr_0289",
+          "title": "Solaris Group \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "dev.park@solarisgroup.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$257k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Review contract terms",
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0290",
+          "task_id": "nr_0290",
+          "title": "Bridgewater Consulting \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "lena.dubois@bridgewaterconsulting.com",
+          "due_date": "2026-05-05",
+          "properties": {
+            "deal_value": "$42k",
+            "action_items": [
+              "Share product roadmap",
+              "Confirm pricing tiers",
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0291",
+          "task_id": "nt_0291",
+          "title": "Customer churn \u2014 Ship",
+          "status": "done",
+          "owner": "priya.lopez@foundry.co",
+          "due_date": "2026-05-04",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0292",
+          "task_id": "nt_0292",
+          "title": "Customer churn \u2014 Review",
+          "status": "done",
+          "owner": "aisha.dubois@foundry.co",
+          "due_date": "2026-05-08",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0293",
+          "task_id": "nt_0293",
+          "title": "Board presentation \u2014 Update",
+          "status": "open",
+          "owner": "dev.park@solarisgroup.com",
+          "due_date": "2026-04-27",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0294",
+          "task_id": "np_0294",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-24",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0295",
+          "task_id": "np_0295",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-22",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#marketing": [
+        {
+          "ts": "1777722079.000000",
+          "user": "lena",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777731139.000001",
+          "user": "dev",
+          "text": "Just finished the product launch review. Notes in the doc."
+        },
+        {
+          "ts": "1777718539.000002",
+          "user": "lena",
+          "text": "The customer churn issue has been resolved."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777717459.000000",
+          "user": "priya",
+          "text": "Reminder: hiring plan sync is at 3pm today."
+        },
+        {
+          "ts": "1777717639.000001",
+          "user": "aisha",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777732999.000000",
+          "user": "dev",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777734679.000001",
+          "user": "aisha",
+          "text": "Updated the board presentation deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777730239.000000",
+          "user": "lena",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777721899.000001",
+          "user": "dev",
+          "text": "Quick question on product launch \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777718839.000002",
+          "user": "priya",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777736239.000003",
+          "user": "priya",
+          "text": "PR for product launch is ready for review."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0033"
+}

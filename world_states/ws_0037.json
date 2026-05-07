@@ -1,0 +1,496 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Hassan Tanaka",
+    "email": "hassan.tanaka@foundry.ai",
+    "role": "Account Executive",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Luke M\u00fcller",
+      "email": "luke.m\u00fcller@foundry.ai",
+      "company": "foundry.ai",
+      "role": "VP of Sales",
+      "external": false
+    },
+    {
+      "name": "Tom Novak",
+      "email": "tom.novak@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Omar Nakamura",
+      "email": "omar.nakamura@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Lena Kowalski",
+      "email": "lena.kowalski@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "Account Executive",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00191",
+        "subject": "Invoice #2861 \u2014 Nova Engineering",
+        "from": "tom.novak@novaengineering.com",
+        "snippet": "Hi Hassan,  We wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to s",
+        "date": "2026-04-26T19:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00191_001",
+            "from": "tom.novak@novaengineering.com",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T19:24:19Z",
+            "body": "Hi Hassan,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to supply chain issues. We apologize for the inconvenience.\n\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00192",
+        "subject": "RE: Budget Approval Needed",
+        "from": "luke.m\u00fcller@foundry.ai",
+        "snippet": "Hi Hassan,  Quick question on the hiring plan \u2014 have we made a final decision? The team is waiting on this before we can",
+        "date": "2026-04-28T17:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00192_001",
+            "from": "luke.m\u00fcller@foundry.ai",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T17:24:19Z",
+            "body": "Hi Hassan,\n\nQuick question on the hiring plan \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nLuke"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00193",
+        "subject": "Onboarding Checklist \u2014 Crestline Partners",
+        "from": "lena.kowalski@crestlinepartners.com",
+        "snippet": "Hi Hassan,  We wanted to inform you that the shipment for your recent order has been delayed by 9 business days due to s",
+        "date": "2026-04-26T05:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00193_001",
+            "from": "lena.kowalski@crestlinepartners.com",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T05:24:19Z",
+            "body": "Hi Hassan,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 9 business days due to supply chain issues. We apologize for the inconvenience.\n\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00194",
+        "subject": "RE: Q1 Renewal \u2014 Pricing Concern",
+        "from": "omar.nakamura@foundry.ai",
+        "snippet": "Hi Hassan,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-04-20T21:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00194_001",
+            "from": "omar.nakamura@foundry.ai",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T21:24:19Z",
+            "body": "Hi Hassan,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the vendor evaluation. Our deadline is end of this month.\n\nThanks,\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00195",
+        "subject": "Board Meeting Prep \u2014 May 01",
+        "from": "lena.kowalski@crestlinepartners.com",
+        "snippet": "Hi Hassan,  We've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we",
+        "date": "2026-05-01T10:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00195_001",
+            "from": "lena.kowalski@crestlinepartners.com",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-01T10:24:19Z",
+            "body": "Hi Hassan,\n\nWe've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we schedule a call this week?\n\nBest,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00196",
+        "subject": "Partnership Proposal \u2014 Crestline Partners",
+        "from": "lena.kowalski@crestlinepartners.com",
+        "snippet": "Hi Hassan,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-05-02T16:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00196_001",
+            "from": "lena.kowalski@crestlinepartners.com",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-02T16:24:19Z",
+            "body": "Hi Hassan,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the customer churn. Our deadline is end of this month.\n\nThanks,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00197",
+        "subject": "RE: Budget Approval Needed",
+        "from": "tom.novak@novaengineering.com",
+        "snippet": "Hi Hassan,  Quick question on the customer churn \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-26T06:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00197_001",
+            "from": "tom.novak@novaengineering.com",
+            "to": [
+              "hassan.tanaka@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T06:24:19Z",
+            "body": "Hi Hassan,\n\nQuick question on the customer churn \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nTom"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_967",
+        "title": "1:1",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T10:30:00Z",
+        "attendees": [
+          "luke.m\u00fcller@foundry.ai",
+          "omar.nakamura@foundry.ai",
+          "lena.kowalski@crestlinepartners.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "hassan.tanaka@foundry.ai"
+      },
+      {
+        "event_id": "ev_965",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T15:00:00Z",
+        "end": "2026-05-02T15:30:00Z",
+        "attendees": [
+          "luke.m\u00fcller@foundry.ai",
+          "omar.nakamura@foundry.ai",
+          "tom.novak@novaengineering.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "luke.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_969",
+        "title": "Design Review",
+        "start": "2026-05-02T15:15:00Z",
+        "end": "2026-05-02T15:45:00Z",
+        "attendees": [
+          "luke.m\u00fcller@foundry.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "lena.kowalski@crestlinepartners.com"
+      },
+      {
+        "event_id": "ev_966",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:45:00Z",
+        "attendees": [
+          "tom.novak@novaengineering.com",
+          "lena.kowalski@crestlinepartners.com",
+          "luke.m\u00fcller@foundry.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "hassan.tanaka@foundry.ai"
+      },
+      {
+        "event_id": "ev_968",
+        "title": "All Hands",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:30:00Z",
+        "attendees": [
+          "luke.m\u00fcller@foundry.ai"
+        ],
+        "location": "Offsite \u2014 Tokyo",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "hassan.tanaka@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0323",
+          "task_id": "nr_0323",
+          "title": "Nova Engineering \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "tom.novak@novaengineering.com",
+          "due_date": "2026-05-01",
+          "properties": {
+            "deal_value": "$202k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0324",
+          "task_id": "nr_0324",
+          "title": "Crestline Partners \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "lena.kowalski@crestlinepartners.com",
+          "due_date": "2026-05-07",
+          "properties": {
+            "deal_value": "$15k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0325",
+          "task_id": "nt_0325",
+          "title": "Pricing model \u2014 Review",
+          "status": "done",
+          "owner": "omar.nakamura@foundry.ai",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0326",
+          "task_id": "nt_0326",
+          "title": "Board presentation \u2014 Ship",
+          "status": "done",
+          "owner": "luke.m\u00fcller@foundry.ai",
+          "due_date": "2026-05-07",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0327",
+          "task_id": "nt_0327",
+          "title": "Product launch \u2014 Review",
+          "status": "done",
+          "owner": "tom.novak@novaengineering.com",
+          "due_date": "2026-05-08",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0328",
+          "task_id": "nt_0328",
+          "title": "Customer churn \u2014 Ship",
+          "status": "open",
+          "owner": "tom.novak@novaengineering.com",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0329",
+          "task_id": "nt_0329",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "in_progress",
+          "owner": "luke.m\u00fcller@foundry.ai",
+          "due_date": "2026-05-19",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0330",
+          "task_id": "nt_0330",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "tom.novak@novaengineering.com",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0331",
+          "task_id": "nt_0331",
+          "title": "Api integration \u2014 Update",
+          "status": "open",
+          "owner": "luke.m\u00fcller@foundry.ai",
+          "due_date": "2026-04-30",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0332",
+          "task_id": "np_0332",
+          "title": "ML Pipeline Overhaul",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-14",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0333",
+          "task_id": "np_0333",
+          "title": "Series A Data Room",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-06",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending",
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0334",
+          "task_id": "np_0334",
+          "title": "PCB Redesign v2",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-13",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#general": [
+        {
+          "ts": "1777713739.000000",
+          "user": "omar",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        },
+        {
+          "ts": "1777725619.000001",
+          "user": "lena",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        },
+        {
+          "ts": "1777711219.000002",
+          "user": "omar",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777733659.000003",
+          "user": "lena",
+          "text": "Quick question on pricing model \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777729759.000000",
+          "user": "lena",
+          "text": "Reminder: board presentation sync is at 3pm today."
+        },
+        {
+          "ts": "1777737859.000001",
+          "user": "lena",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777725619.000002",
+          "user": "omar",
+          "text": "Reminder: infrastructure costs sync is at 3pm today."
+        },
+        {
+          "ts": "1777736539.000003",
+          "user": "tom",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777714819.000000",
+          "user": "tom",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        },
+        {
+          "ts": "1777728979.000001",
+          "user": "luke",
+          "text": "Just finished the security audit review. Notes in the doc."
+        },
+        {
+          "ts": "1777732219.000002",
+          "user": "omar",
+          "text": "Reminder: API integration sync is at 3pm today."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777726939.000000",
+          "user": "luke",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777735639.000001",
+          "user": "tom",
+          "text": "Quick question on customer churn \u2014 anyone free for a 10min call?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0037"
+}

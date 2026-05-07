@@ -1,0 +1,466 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "external_email"
+  ],
+  "user": {
+    "name": "Chloe Kim",
+    "email": "chloe.kim@foundry.ai",
+    "role": "Marketing Lead",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Marcus Chen",
+      "email": "marcus.chen@atlasventures.com",
+      "company": "Atlas Ventures",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Elena Berg",
+      "email": "elena.berg@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Yuki Nakamura",
+      "email": "yuki.nakamura@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Raj Rao",
+      "email": "raj.rao@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Lena Okafor",
+      "email": "lena.okafor@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Ingrid Novak",
+      "email": "ingrid.novak@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Lena M\u00fcller",
+      "email": "lena.m\u00fcller@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Ben Park",
+      "email": "ben.park@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "Senior Engineer",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00038",
+        "subject": "Quick question on product launch",
+        "from": "elena.berg@acmecorp.com",
+        "snippet": "Hi Chloe,  Just a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Ple",
+        "date": "2026-04-28T02:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00038_001",
+            "from": "elena.berg@acmecorp.com",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T02:24:19Z",
+            "body": "Hi Chloe,\n\nJust a reminder that the board presentation review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00039",
+        "subject": "Cap Table Update",
+        "from": "ben.park@vantagepoint.com",
+        "snippet": "Hi Chloe,  In preparation for the upcoming board meeting, could you please share the latest metrics on board presentatio",
+        "date": "2026-05-02T14:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00039_001",
+            "from": "ben.park@vantagepoint.com",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-02T14:24:19Z",
+            "body": "Hi Chloe,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on board presentation? We'll need them at least 48 hours in advance.\n\nThank you,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00040",
+        "subject": "Invoice #5728 \u2014 Pinnacle Tech",
+        "from": "ingrid.novak@pinnacletech.com",
+        "snippet": "Hi Chloe,  Please find attached Invoice #5582 for services rendered in May. Payment terms are net 30.  Thank you, Ingrid",
+        "date": "2026-04-20T04:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00040_001",
+            "from": "ingrid.novak@pinnacletech.com",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T04:24:19Z",
+            "body": "Hi Chloe,\n\nPlease find attached Invoice #5582 for services rendered in May. Payment terms are net 30.\n\nThank you,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00041",
+        "subject": "RE: Shipment Delay",
+        "from": "ingrid.novak@pinnacletech.com",
+        "snippet": "Hi Chloe,  Please find attached Invoice #9508 for services rendered in May. Payment terms are net 30.  Thank you, Ingrid",
+        "date": "2026-04-20T06:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00041_001",
+            "from": "ingrid.novak@pinnacletech.com",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T06:24:19Z",
+            "body": "Hi Chloe,\n\nPlease find attached Invoice #9508 for services rendered in May. Payment terms are net 30.\n\nThank you,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00042",
+        "subject": "RE: Shipment Delay",
+        "from": "ingrid.novak@pinnacletech.com",
+        "snippet": "Hi Chloe,  We wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to su",
+        "date": "2026-04-17T21:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00042_001",
+            "from": "ingrid.novak@pinnacletech.com",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-17T21:24:19Z",
+            "body": "Hi Chloe,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to supply chain issues. We apologize for the inconvenience.\n\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00043",
+        "subject": "Tier 2 Pricing Discussion",
+        "from": "lena.m\u00fcller@foundry.ai",
+        "snippet": "Hi Chloe,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is abou",
+        "date": "2026-04-23T07:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00043_001",
+            "from": "lena.m\u00fcller@foundry.ai",
+            "to": [
+              "chloe.kim@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T07:24:19Z",
+            "body": "Hi Chloe,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is about 30% above what Crestline Partners is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nLena"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_832",
+        "title": "Roadmap Review",
+        "start": "2026-05-02T14:00:00Z",
+        "end": "2026-05-02T15:30:00Z",
+        "attendees": [
+          "lena.m\u00fcller@foundry.ai",
+          "elena.berg@acmecorp.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Board presentation",
+        "organizer": "lena.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_833",
+        "title": "Design Review",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T17:00:00Z",
+        "attendees": [
+          "raj.rao@apexsolutions.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "raj.rao@apexsolutions.com"
+      },
+      {
+        "event_id": "ev_835",
+        "title": "Investor Update",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T12:30:00Z",
+        "attendees": [
+          "raj.rao@apexsolutions.com",
+          "ingrid.novak@pinnacletech.com"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Customer churn",
+        "organizer": "raj.rao@apexsolutions.com"
+      },
+      {
+        "event_id": "ev_834",
+        "title": "All Hands",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:00:00Z",
+        "attendees": [
+          "ingrid.novak@pinnacletech.com",
+          "ben.park@vantagepoint.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Product launch",
+        "organizer": "chloe.kim@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0050",
+          "task_id": "nr_0050",
+          "title": "Atlas Ventures \u2014 Q3 Renewal",
+          "status": "open",
+          "owner": "marcus.chen@atlasventures.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$303k",
+            "action_items": [
+              "Share product roadmap",
+              "Review contract terms",
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0051",
+          "task_id": "nr_0051",
+          "title": "Acme Corp \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "elena.berg@acmecorp.com",
+          "due_date": "2026-05-19",
+          "properties": {
+            "deal_value": "$31k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0052",
+          "task_id": "nr_0052",
+          "title": "Horizon Health \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "yuki.nakamura@horizonhealth.com",
+          "due_date": "2026-05-19",
+          "properties": {
+            "deal_value": "$392k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0053",
+          "task_id": "nt_0053",
+          "title": "Security audit \u2014 Implement",
+          "status": "open",
+          "owner": "yuki.nakamura@horizonhealth.com",
+          "due_date": "2026-04-29",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0054",
+          "task_id": "nt_0054",
+          "title": "Board presentation \u2014 Update",
+          "status": "open",
+          "owner": "raj.rao@apexsolutions.com",
+          "due_date": "2026-04-30",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0055",
+          "task_id": "nt_0055",
+          "title": "Sales pipeline \u2014 Update",
+          "status": "done",
+          "owner": "marcus.chen@atlasventures.com",
+          "due_date": "2026-05-13",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0056",
+          "task_id": "nt_0056",
+          "title": "Security audit \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "elena.berg@acmecorp.com",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0057",
+          "task_id": "nt_0057",
+          "title": "Customer churn \u2014 Update",
+          "status": "open",
+          "owner": "lena.m\u00fcller@foundry.ai",
+          "due_date": "2026-04-22",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0058",
+          "task_id": "nt_0058",
+          "title": "Sales pipeline \u2014 Implement",
+          "status": "done",
+          "owner": "ingrid.novak@pinnacletech.com",
+          "due_date": "2026-05-07",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0059",
+          "task_id": "nt_0059",
+          "title": "Q3 roadmap \u2014 Ship",
+          "status": "open",
+          "owner": "raj.rao@apexsolutions.com",
+          "due_date": "2026-05-12",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0060",
+          "task_id": "np_0060",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-01",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Engineering in progress"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777729639.000000",
+          "user": "marcus",
+          "text": "Can someone double-check the board presentation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777730059.000001",
+          "user": "ingrid",
+          "text": "The API integration issue has been resolved."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777730419.000000",
+          "user": "ben",
+          "text": "Can someone double-check the sales pipeline numbers before tomorrow?"
+        },
+        {
+          "ts": "1777733779.000001",
+          "user": "ingrid",
+          "text": "The security audit issue has been resolved."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777716739.000000",
+          "user": "lena",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        },
+        {
+          "ts": "1777714519.000001",
+          "user": "ingrid",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777720039.000002",
+          "user": "yuki",
+          "text": "PR for vendor evaluation is ready for review."
+        },
+        {
+          "ts": "1777722979.000003",
+          "user": "lena",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777733119.000000",
+          "user": "elena",
+          "text": "The infrastructure costs issue has been resolved."
+        },
+        {
+          "ts": "1777731139.000001",
+          "user": "ingrid",
+          "text": "Quick question on pricing model \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777731559.000002",
+          "user": "lena",
+          "text": "Quick question on API integration \u2014 anyone free for a 10min call?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0007"
+}

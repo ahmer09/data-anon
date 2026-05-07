@@ -1,0 +1,457 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Luke Singh",
+    "email": "luke.singh@flow.ai",
+    "role": "Legal Counsel",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Derek Lopez",
+      "email": "derek.lopez@flow.ai",
+      "company": "flow.ai",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Ingrid Sharma",
+      "email": "ingrid.sharma@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Omar Novak",
+      "email": "omar.novak@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Carlos Park",
+      "email": "carlos.park@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Elena Santos",
+      "email": "elena.santos@atlasventures.com",
+      "company": "Atlas Ventures",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Yuki Al-Rashid",
+      "email": "yuki.al-rashid@flow.ai",
+      "company": "flow.ai",
+      "role": "Senior Engineer",
+      "external": false
+    },
+    {
+      "name": "James Dubois",
+      "email": "james.dubois@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Sales",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00031",
+        "subject": "Partnership Proposal \u2014 Horizon Health",
+        "from": "ingrid.sharma@horizonhealth.com",
+        "snippet": "Hi Luke,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the sales pipeline you proposed is about",
+        "date": "2026-04-19T03:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00031_001",
+            "from": "ingrid.sharma@horizonhealth.com",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T03:24:19Z",
+            "body": "Hi Luke,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the sales pipeline you proposed is about 22% above what Vertex AI is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00032",
+        "subject": "RE: Shipment Delay",
+        "from": "james.dubois@flow.ai",
+        "snippet": "Hi Luke,  Please find attached Invoice #1311 for services rendered in May. Payment terms are net 30.  Thank you, James",
+        "date": "2026-04-20T20:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00032_001",
+            "from": "james.dubois@flow.ai",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T20:24:19Z",
+            "body": "Hi Luke,\n\nPlease find attached Invoice #1311 for services rendered in May. Payment terms are net 30.\n\nThank you,\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00033",
+        "subject": "Partnership Expansion \u2014 Status Update",
+        "from": "derek.lopez@flow.ai",
+        "snippet": "Hi Luke,  Quick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before w",
+        "date": "2026-04-20T07:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00033_001",
+            "from": "derek.lopez@flow.ai",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T07:24:19Z",
+            "body": "Hi Luke,\n\nQuick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00034",
+        "subject": "RE: Q1 Metrics",
+        "from": "elena.santos@atlasventures.com",
+        "snippet": "Hi Luke,  We've completed our initial due diligence and have a few follow-up questions on the vendor evaluation. Could w",
+        "date": "2026-04-27T09:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00034_001",
+            "from": "elena.santos@atlasventures.com",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T09:24:19Z",
+            "body": "Hi Luke,\n\nWe've completed our initial due diligence and have a few follow-up questions on the vendor evaluation. Could we schedule a call this week?\n\nBest,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00035",
+        "subject": "Tier 4 Pricing Discussion",
+        "from": "ingrid.sharma@horizonhealth.com",
+        "snippet": "Hi Luke,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on th",
+        "date": "2026-04-20T19:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00035_001",
+            "from": "ingrid.sharma@horizonhealth.com",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T19:24:19Z",
+            "body": "Hi Luke,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the security audit. Our deadline is end of this month.\n\nThanks,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00036",
+        "subject": "Follow-up: Contract Terms",
+        "from": "derek.lopez@flow.ai",
+        "snippet": "Hi Luke,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the product launch you proposed is about",
+        "date": "2026-04-20T10:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00036_001",
+            "from": "derek.lopez@flow.ai",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T10:24:19Z",
+            "body": "Hi Luke,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the product launch you proposed is about 21% above what Nexus Systems is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00037",
+        "subject": "Investor Update: April",
+        "from": "carlos.park@novaengineering.com",
+        "snippet": "Hi Luke,  We've completed our initial due diligence and have a few follow-up questions on the security audit. Could we s",
+        "date": "2026-04-21T02:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00037_001",
+            "from": "carlos.park@novaengineering.com",
+            "to": [
+              "luke.singh@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T02:24:19Z",
+            "body": "Hi Luke,\n\nWe've completed our initial due diligence and have a few follow-up questions on the security audit. Could we schedule a call this week?\n\nBest,\nCarlos"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_828",
+        "title": "1:1",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "james.dubois@flow.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "james.dubois@flow.ai"
+      },
+      {
+        "event_id": "ev_826",
+        "title": "Post-Mortem",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T12:30:00Z",
+        "attendees": [
+          "elena.santos@atlasventures.com",
+          "yuki.al-rashid@flow.ai"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "luke.singh@flow.ai"
+      },
+      {
+        "event_id": "ev_829",
+        "title": "Investor Update",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T11:45:00Z",
+        "attendees": [
+          "elena.santos@atlasventures.com",
+          "derek.lopez@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Api integration",
+        "organizer": "elena.santos@atlasventures.com"
+      },
+      {
+        "event_id": "ev_827",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T15:30:00Z",
+        "attendees": [
+          "omar.novak@apexsolutions.com",
+          "yuki.al-rashid@flow.ai"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "luke.singh@flow.ai"
+      },
+      {
+        "event_id": "ev_830",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-06T10:00:00Z",
+        "end": "2026-05-06T11:00:00Z",
+        "attendees": [
+          "omar.novak@apexsolutions.com",
+          "carlos.park@novaengineering.com",
+          "james.dubois@flow.ai"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Security audit",
+        "organizer": "luke.singh@flow.ai"
+      },
+      {
+        "event_id": "ev_831",
+        "title": "Design Review",
+        "start": "2026-05-06T10:15:00Z",
+        "end": "2026-05-06T10:45:00Z",
+        "attendees": [
+          "elena.santos@atlasventures.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "derek.lopez@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0043",
+          "task_id": "nr_0043",
+          "title": "Horizon Health \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "ingrid.sharma@horizonhealth.com",
+          "due_date": "2026-05-13",
+          "properties": {
+            "deal_value": "$323k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0044",
+          "task_id": "nr_0044",
+          "title": "Apex Solutions \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "omar.novak@apexsolutions.com",
+          "due_date": "2026-05-09",
+          "properties": {
+            "deal_value": "$446k",
+            "action_items": [
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0045",
+          "task_id": "nt_0045",
+          "title": "Api integration \u2014 Review",
+          "status": "done",
+          "owner": "james.dubois@flow.ai",
+          "due_date": "2026-05-20",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0046",
+          "task_id": "nt_0046",
+          "title": "Security audit \u2014 Review",
+          "status": "in_progress",
+          "owner": "elena.santos@atlasventures.com",
+          "due_date": "2026-05-13",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0047",
+          "task_id": "nt_0047",
+          "title": "Infrastructure costs \u2014 Update",
+          "status": "in_progress",
+          "owner": "james.dubois@flow.ai",
+          "due_date": "2026-05-20",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0048",
+          "task_id": "nt_0048",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "open",
+          "owner": "james.dubois@flow.ai",
+          "due_date": "2026-05-08",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0049",
+          "task_id": "np_0049",
+          "title": "Compliance Audit",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-21",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777711639.000000",
+          "user": "elena",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777726579.000001",
+          "user": "omar",
+          "text": "The security audit issue has been resolved."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777715179.000000",
+          "user": "carlos",
+          "text": "Can someone double-check the compliance requirements numbers before tomorrow?"
+        },
+        {
+          "ts": "1777729039.000001",
+          "user": "ingrid",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777724479.000002",
+          "user": "carlos",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777711819.000003",
+          "user": "ingrid",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777723339.000000",
+          "user": "carlos",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777734079.000001",
+          "user": "elena",
+          "text": "Heads up \u2014 product launch is blocked. Need a decision from leadership."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777716979.000000",
+          "user": "omar",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        },
+        {
+          "ts": "1777711279.000001",
+          "user": "elena",
+          "text": "Can someone double-check the product launch numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0006"
+}

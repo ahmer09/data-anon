@@ -1,0 +1,363 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "multi_step",
+    "ambiguous_sender"
+  ],
+  "user": {
+    "name": "Fatima Rivera",
+    "email": "fatima.rivera@foundry.co",
+    "role": "Head of Product",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Luke Fischer",
+      "email": "luke.fischer@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Yuki Park",
+      "email": "yuki.park@foundry.co",
+      "company": "foundry.co",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Mei Fischer",
+      "email": "mei.fischer@foundry.co",
+      "company": "foundry.co",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Aisha Sharma",
+      "email": "aisha.sharma@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Yuki Kim",
+      "email": "yuki.kim@bridgewaterconsulting.com",
+      "company": "bridgewaterconsulting",
+      "role": "Chief of Staff",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00244",
+        "subject": "RE: Budget Approval Needed",
+        "from": "mei.fischer@foundry.co",
+        "snippet": "Hi Fatima,  Just a reminder that the pricing model review is due by EOD Friday. I've attached the relevant docs. Please ",
+        "date": "2026-04-23T03:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00244_001",
+            "from": "mei.fischer@foundry.co",
+            "to": [
+              "fatima.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T03:24:19Z",
+            "body": "Hi Fatima,\n\nJust a reminder that the pricing model review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00245",
+        "subject": "Follow-up: Contract Terms",
+        "from": "yuki.kim@bridgewaterconsulting.com",
+        "snippet": "Hi Fatima,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is",
+        "date": "2026-04-27T16:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00245_001",
+            "from": "yuki.kim@bridgewaterconsulting.com",
+            "to": [
+              "fatima.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T16:24:19Z",
+            "body": "Hi Fatima,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is about 26% above what Meridian Capital is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00246",
+        "subject": "RE: SLA Amendment Request",
+        "from": "luke.fischer@vertexai.com",
+        "snippet": "Hi Fatima,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-04-26T14:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00246_001",
+            "from": "luke.fischer@vertexai.com",
+            "to": [
+              "fatima.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-26T14:24:19Z",
+            "body": "Hi Fatima,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the API integration. Our deadline is end of this month.\n\nThanks,\nLuke"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00247",
+        "subject": "Quick question on infrastructure costs",
+        "from": "aisha.sharma@acmecorp.com",
+        "snippet": "Hi Fatima,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-24T17:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00247_001",
+            "from": "aisha.sharma@acmecorp.com",
+            "to": [
+              "fatima.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T17:24:19Z",
+            "body": "Hi Fatima,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00248",
+        "subject": "RE: Shipment Delay",
+        "from": "mei.fischer@foundry.co",
+        "snippet": "Hi Fatima,  Please find attached Invoice #3342 for services rendered in May. Payment terms are net 30.  Thank you, Mei",
+        "date": "2026-04-21T02:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00248_001",
+            "from": "mei.fischer@foundry.co",
+            "to": [
+              "fatima.rivera@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T02:24:19Z",
+            "body": "Hi Fatima,\n\nPlease find attached Invoice #3342 for services rendered in May. Payment terms are net 30.\n\nThank you,\nMei"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1015",
+        "title": "Contract Review",
+        "start": "2026-05-05T09:00:00Z",
+        "end": "2026-05-05T09:45:00Z",
+        "attendees": [
+          "mei.fischer@foundry.co",
+          "yuki.kim@bridgewaterconsulting.com",
+          "yuki.park@foundry.co"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Api integration",
+        "organizer": "mei.fischer@foundry.co"
+      },
+      {
+        "event_id": "ev_1016",
+        "title": "Investor Update",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T17:00:00Z",
+        "attendees": [
+          "mei.fischer@foundry.co"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "mei.fischer@foundry.co"
+      },
+      {
+        "event_id": "ev_1014",
+        "title": "Post-Mortem",
+        "start": "2026-05-06T14:00:00Z",
+        "end": "2026-05-06T15:30:00Z",
+        "attendees": [
+          "mei.fischer@foundry.co",
+          "yuki.park@foundry.co"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Board presentation",
+        "organizer": "fatima.rivera@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0410",
+          "task_id": "nr_0410",
+          "title": "Vertex AI \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "luke.fischer@vertexai.com",
+          "due_date": "2026-05-05",
+          "properties": {
+            "deal_value": "$244k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0411",
+          "task_id": "nr_0411",
+          "title": "Acme Corp \u2014 Q3 Renewal",
+          "status": "in_progress",
+          "owner": "aisha.sharma@acmecorp.com",
+          "due_date": "2026-06-01",
+          "properties": {
+            "deal_value": "$457k",
+            "action_items": [
+              "Schedule QBR",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0412",
+          "task_id": "nr_0412",
+          "title": "bridgewaterconsulting \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "yuki.kim@bridgewaterconsulting.com",
+          "due_date": "2026-05-24",
+          "properties": {
+            "deal_value": "$213k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Complete security questionnaire",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0413",
+          "task_id": "nt_0413",
+          "title": "Security audit \u2014 Implement",
+          "status": "open",
+          "owner": "yuki.kim@bridgewaterconsulting.com",
+          "due_date": "2026-04-30",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0414",
+          "task_id": "nt_0414",
+          "title": "Customer churn \u2014 Ship",
+          "status": "open",
+          "owner": "luke.fischer@vertexai.com",
+          "due_date": "2026-05-01",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0415",
+          "task_id": "nt_0415",
+          "title": "Security audit \u2014 Ship",
+          "status": "open",
+          "owner": "yuki.park@foundry.co",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0416",
+          "task_id": "np_0416",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-31",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#general": [
+        {
+          "ts": "1777726459.000000",
+          "user": "luke",
+          "text": "PR for product launch is ready for review."
+        },
+        {
+          "ts": "1777725859.000001",
+          "user": "yuki",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777734619.000002",
+          "user": "mei",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777731079.000000",
+          "user": "luke",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777710439.000001",
+          "user": "yuki",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777734499.000000",
+          "user": "aisha",
+          "text": "The infrastructure costs issue has been resolved."
+        },
+        {
+          "ts": "1777715299.000001",
+          "user": "yuki",
+          "text": "PR for sales pipeline is ready for review."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777726759.000000",
+          "user": "aisha",
+          "text": "Updated the board presentation deck with latest figures."
+        },
+        {
+          "ts": "1777713139.000001",
+          "user": "yuki",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0047"
+}

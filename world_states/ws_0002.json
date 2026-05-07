@@ -1,0 +1,456 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "external_email",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Priya Sharma",
+    "email": "priya.sharma@foundry.co",
+    "role": "VP of Sales",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Arjun Lopez",
+      "email": "arjun.lopez@foundry.co",
+      "company": "foundry.co",
+      "role": "Chief of Staff",
+      "external": false
+    },
+    {
+      "name": "Yuki Dubois",
+      "email": "yuki.dubois@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Customer Success Manager",
+      "external": true
+    },
+    {
+      "name": "Hassan Rivera",
+      "email": "hassan.rivera@foundry.co",
+      "company": "foundry.co",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Mei Rivera",
+      "email": "mei.rivera@foundry.co",
+      "company": "foundry.co",
+      "role": "Legal Counsel",
+      "external": false
+    },
+    {
+      "name": "Arjun Kim",
+      "email": "arjun.kim@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Nadia Novak",
+      "email": "nadia.novak@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Mei Dubois",
+      "email": "mei.dubois@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "CTO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00007",
+        "subject": "RE: Shipment Delay",
+        "from": "mei.dubois@nexussystems.com",
+        "snippet": "Hi Priya,  Please find attached Invoice #3426 for services rendered in May. Payment terms are net 30.  Thank you, Mei",
+        "date": "2026-04-29T20:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00007_001",
+            "from": "mei.dubois@nexussystems.com",
+            "to": [
+              "priya.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T20:24:19Z",
+            "body": "Hi Priya,\n\nPlease find attached Invoice #3426 for services rendered in May. Payment terms are net 30.\n\nThank you,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00008",
+        "subject": "RE: Shipment Delay",
+        "from": "mei.dubois@nexussystems.com",
+        "snippet": "Hi Priya,  We wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to su",
+        "date": "2026-04-19T15:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00008_001",
+            "from": "mei.dubois@nexussystems.com",
+            "to": [
+              "priya.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T15:24:19Z",
+            "body": "Hi Priya,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to supply chain issues. We apologize for the inconvenience.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00009",
+        "subject": "Customer Onboarding Revamp \u2014 Status Update",
+        "from": "mei.dubois@nexussystems.com",
+        "snippet": "Hi Priya,  Quick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-21T17:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00009_001",
+            "from": "mei.dubois@nexussystems.com",
+            "to": [
+              "priya.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T17:24:19Z",
+            "body": "Hi Priya,\n\nQuick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00010",
+        "subject": "Follow-up: Contract Terms",
+        "from": "mei.rivera@foundry.co",
+        "snippet": "Hi Priya,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-27T08:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00010_001",
+            "from": "mei.rivera@foundry.co",
+            "to": [
+              "priya.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T08:24:19Z",
+            "body": "Hi Priya,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the infrastructure costs. Our deadline is end of this month.\n\nThanks,\nMei"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00011",
+        "subject": "RE: SLA Amendment Request",
+        "from": "mei.rivera@foundry.co",
+        "snippet": "Hi Priya,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the hiring plan you proposed is about 2",
+        "date": "2026-04-23T00:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00011_001",
+            "from": "mei.rivera@foundry.co",
+            "to": [
+              "priya.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T00:24:19Z",
+            "body": "Hi Priya,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the hiring plan you proposed is about 23% above what Vertex AI is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nMei"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_808",
+        "title": "Contract Review",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T12:00:00Z",
+        "attendees": [
+          "nadia.novak@foundry.co",
+          "mei.dubois@nexussystems.com",
+          "arjun.kim@solarisgroup.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "nadia.novak@foundry.co"
+      },
+      {
+        "event_id": "ev_809",
+        "title": "Budget Discussion",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "arjun.lopez@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "priya.sharma@foundry.co"
+      },
+      {
+        "event_id": "ev_806",
+        "title": "All Hands",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "hassan.rivera@foundry.co",
+          "mei.rivera@foundry.co",
+          "arjun.kim@solarisgroup.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "hassan.rivera@foundry.co"
+      },
+      {
+        "event_id": "ev_805",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:45:00Z",
+        "attendees": [
+          "nadia.novak@foundry.co",
+          "hassan.rivera@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "nadia.novak@foundry.co"
+      },
+      {
+        "event_id": "ev_807",
+        "title": "Post-Mortem",
+        "start": "2026-05-06T16:00:00Z",
+        "end": "2026-05-06T17:30:00Z",
+        "attendees": [
+          "mei.rivera@foundry.co",
+          "mei.dubois@nexussystems.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Security audit",
+        "organizer": "priya.sharma@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0009",
+          "task_id": "nr_0009",
+          "title": "Horizon Health \u2014 Q4 Renewal",
+          "status": "done",
+          "owner": "yuki.dubois@horizonhealth.com",
+          "due_date": "2026-05-09",
+          "properties": {
+            "deal_value": "$214k",
+            "action_items": [
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0010",
+          "task_id": "nr_0010",
+          "title": "Solaris Group \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "arjun.kim@solarisgroup.com",
+          "due_date": "2026-04-27",
+          "properties": {
+            "deal_value": "$122k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0011",
+          "task_id": "nr_0011",
+          "title": "Nexus Systems \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "mei.dubois@nexussystems.com",
+          "due_date": "2026-05-30",
+          "properties": {
+            "deal_value": "$295k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0012",
+          "task_id": "nt_0012",
+          "title": "Api integration \u2014 Ship",
+          "status": "open",
+          "owner": "arjun.kim@solarisgroup.com",
+          "due_date": "2026-05-01",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0013",
+          "task_id": "nt_0013",
+          "title": "Api integration \u2014 Ship",
+          "status": "open",
+          "owner": "mei.dubois@nexussystems.com",
+          "due_date": "2026-05-01",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0014",
+          "task_id": "nt_0014",
+          "title": "Api integration \u2014 Update",
+          "status": "done",
+          "owner": "nadia.novak@foundry.co",
+          "due_date": "2026-05-18",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0015",
+          "task_id": "nt_0015",
+          "title": "Sales pipeline \u2014 Implement",
+          "status": "in_progress",
+          "owner": "mei.dubois@nexussystems.com",
+          "due_date": "2026-05-06",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0016",
+          "task_id": "nt_0016",
+          "title": "Product launch \u2014 Resolve",
+          "status": "open",
+          "owner": "arjun.lopez@foundry.co",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0017",
+          "task_id": "nt_0017",
+          "title": "Product launch \u2014 Implement",
+          "status": "open",
+          "owner": "hassan.rivera@foundry.co",
+          "due_date": "2026-04-29",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0018",
+          "task_id": "np_0018",
+          "title": "Infrastructure Migration",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-05-31",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Kickoff complete",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#ops": [
+        {
+          "ts": "1777722139.000000",
+          "user": "hassan",
+          "text": "PR for API integration is ready for review."
+        },
+        {
+          "ts": "1777732459.000001",
+          "user": "arjun",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777720819.000002",
+          "user": "mei",
+          "text": "Just finished the security audit review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777724119.000000",
+          "user": "mei",
+          "text": "Reminder: pricing model sync is at 3pm today."
+        },
+        {
+          "ts": "1777715659.000001",
+          "user": "hassan",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777715839.000002",
+          "user": "arjun",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777732039.000003",
+          "user": "mei",
+          "text": "PR for product launch is ready for review."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777726819.000000",
+          "user": "arjun",
+          "text": "PR for hiring plan is ready for review."
+        },
+        {
+          "ts": "1777733719.000001",
+          "user": "nadia",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777722379.000002",
+          "user": "arjun",
+          "text": "PR for pricing model is ready for review."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777718419.000000",
+          "user": "arjun",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777725619.000001",
+          "user": "nadia",
+          "text": "The infrastructure costs issue has been resolved."
+        },
+        {
+          "ts": "1777737259.000002",
+          "user": "yuki",
+          "text": "PR for product launch is ready for review."
+        },
+        {
+          "ts": "1777732279.000003",
+          "user": "hassan",
+          "text": "Reminder: API integration sync is at 3pm today."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0002"
+}

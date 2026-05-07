@@ -1,0 +1,395 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "overdue_tasks",
+    "external_email"
+  ],
+  "user": {
+    "name": "Tom Al-Rashid",
+    "email": "tom.al-rashid@flow.ai",
+    "role": "Legal Counsel",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Yuki Lopez",
+      "email": "yuki.lopez@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Marcus M\u00fcller",
+      "email": "marcus.m\u00fcller@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "James Sharma",
+      "email": "james.sharma@flow.ai",
+      "company": "flow.ai",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Derek Chen",
+      "email": "derek.chen@flow.ai",
+      "company": "flow.ai",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Fatima Okafor",
+      "email": "fatima.okafor@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Arjun Berg",
+      "email": "arjun.berg@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Raj Kim",
+      "email": "raj.kim@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Derek Berg",
+      "email": "derek.berg@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "Director of Partnerships",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00097",
+        "subject": "Tier 2 Pricing Discussion",
+        "from": "marcus.m\u00fcller@novaengineering.com",
+        "snippet": "Hi Tom,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the API integration you proposed is about",
+        "date": "2026-04-24T22:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00097_001",
+            "from": "marcus.m\u00fcller@novaengineering.com",
+            "to": [
+              "tom.al-rashid@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T22:24:19Z",
+            "body": "Hi Tom,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the API integration you proposed is about 27% above what Solaris Group is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nMarcus"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00098",
+        "subject": "Investor Update: May",
+        "from": "derek.chen@flow.ai",
+        "snippet": "Hi Tom,  We've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we sched",
+        "date": "2026-05-01T08:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00098_001",
+            "from": "derek.chen@flow.ai",
+            "to": [
+              "tom.al-rashid@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-05-01T08:24:19Z",
+            "body": "Hi Tom,\n\nWe've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we schedule a call this week?\n\nBest,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00099",
+        "subject": "Quick question on security audit",
+        "from": "james.sharma@flow.ai",
+        "snippet": "Hi Tom,  Quick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before we",
+        "date": "2026-04-25T15:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00099_001",
+            "from": "james.sharma@flow.ai",
+            "to": [
+              "tom.al-rashid@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T15:24:19Z",
+            "body": "Hi Tom,\n\nQuick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00100",
+        "subject": "Quick question on API integration",
+        "from": "yuki.lopez@crestlinepartners.com",
+        "snippet": "Hi Tom,  Just a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-27T10:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00100_001",
+            "from": "yuki.lopez@crestlinepartners.com",
+            "to": [
+              "tom.al-rashid@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T10:24:19Z",
+            "body": "Hi Tom,\n\nJust a reminder that the product launch review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00101",
+        "subject": "Contract Renewal \u2014 Nova Engineering",
+        "from": "marcus.m\u00fcller@novaengineering.com",
+        "snippet": "Hi Tom,  We wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to supp",
+        "date": "2026-04-25T19:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00101_001",
+            "from": "marcus.m\u00fcller@novaengineering.com",
+            "to": [
+              "tom.al-rashid@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T19:24:19Z",
+            "body": "Hi Tom,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to supply chain issues. We apologize for the inconvenience.\n\nMarcus"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_889",
+        "title": "Design Review",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:45:00Z",
+        "attendees": [
+          "raj.kim@crestlinepartners.com",
+          "arjun.berg@ironcladsecurity.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Customer churn",
+        "organizer": "raj.kim@crestlinepartners.com"
+      },
+      {
+        "event_id": "ev_890",
+        "title": "Pipeline Review",
+        "start": "2026-05-03T10:15:00Z",
+        "end": "2026-05-03T10:45:00Z",
+        "attendees": [
+          "derek.chen@flow.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "raj.kim@crestlinepartners.com"
+      },
+      {
+        "event_id": "ev_887",
+        "title": "Investor Update",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T16:30:00Z",
+        "attendees": [
+          "arjun.berg@ironcladsecurity.com",
+          "derek.chen@flow.ai"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "tom.al-rashid@flow.ai"
+      },
+      {
+        "event_id": "ev_888",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:00:00Z",
+        "attendees": [
+          "fatima.okafor@nexussystems.com",
+          "raj.kim@crestlinepartners.com",
+          "yuki.lopez@crestlinepartners.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Customer churn",
+        "organizer": "fatima.okafor@nexussystems.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0162",
+          "task_id": "nr_0162",
+          "title": "Crestline Partners \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "yuki.lopez@crestlinepartners.com",
+          "due_date": "2026-05-06",
+          "properties": {
+            "deal_value": "$475k",
+            "action_items": [
+              "Schedule QBR",
+              "Review contract terms",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0163",
+          "task_id": "nt_0163",
+          "title": "Board presentation \u2014 Ship",
+          "status": "open",
+          "owner": "derek.chen@flow.ai",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0164",
+          "task_id": "nt_0164",
+          "title": "Security audit \u2014 Ship",
+          "status": "open",
+          "owner": "james.sharma@flow.ai",
+          "due_date": "2026-04-30",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0165",
+          "task_id": "nt_0165",
+          "title": "Vendor evaluation \u2014 Ship",
+          "status": "open",
+          "owner": "james.sharma@flow.ai",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0166",
+          "task_id": "nt_0166",
+          "title": "Customer churn \u2014 Ship",
+          "status": "open",
+          "owner": "marcus.m\u00fcller@novaengineering.com",
+          "due_date": "2026-04-24",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0167",
+          "task_id": "np_0167",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-03",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0168",
+          "task_id": "np_0168",
+          "title": "PCB Redesign v2",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-25",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#product": [
+        {
+          "ts": "1777720159.000000",
+          "user": "fatima",
+          "text": "Updated the board presentation deck with latest figures."
+        },
+        {
+          "ts": "1777731679.000001",
+          "user": "derek",
+          "text": "Just finished the vendor evaluation review. Notes in the doc."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777717639.000000",
+          "user": "marcus",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777716919.000001",
+          "user": "derek",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777712599.000002",
+          "user": "james",
+          "text": "The compliance requirements issue has been resolved."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777733779.000000",
+          "user": "james",
+          "text": "Updated the sales pipeline deck with latest figures."
+        },
+        {
+          "ts": "1777726219.000001",
+          "user": "yuki",
+          "text": "Quick question on pricing model \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777731979.000002",
+          "user": "raj",
+          "text": "Updated the security audit deck with latest figures."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777733359.000000",
+          "user": "marcus",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777712179.000001",
+          "user": "arjun",
+          "text": "Updated the API integration deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0019"
+}

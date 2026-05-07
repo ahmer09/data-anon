@@ -1,0 +1,419 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "internal_email",
+    "ambiguous_sender",
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Chloe M\u00fcller",
+    "email": "chloe.m\u00fcller@foundry.ai",
+    "role": "Senior Engineer",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Lena Tanaka",
+      "email": "lena.tanaka@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Hassan Singh",
+      "email": "hassan.singh@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Raj Singh",
+      "email": "raj.singh@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "James Dubois",
+      "email": "james.dubois@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Raj Rao",
+      "email": "raj.rao@novaengineering.com",
+      "company": "novaengineering",
+      "role": "CTO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00213",
+        "subject": "Technical Support Request",
+        "from": "raj.rao@novaengineering.com",
+        "snippet": "Hi Chloe,  We wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to su",
+        "date": "2026-04-20T05:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00213_001",
+            "from": "raj.rao@novaengineering.com",
+            "to": [
+              "chloe.m\u00fcller@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T05:24:19Z",
+            "body": "Hi Chloe,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 6 business days due to supply chain issues. We apologize for the inconvenience.\n\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00214",
+        "subject": "Partnership Proposal \u2014 Nexus Systems",
+        "from": "hassan.singh@nexussystems.com",
+        "snippet": "Hi Chloe,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-25T22:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00214_001",
+            "from": "hassan.singh@nexussystems.com",
+            "to": [
+              "chloe.m\u00fcller@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T22:24:19Z",
+            "body": "Hi Chloe,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the customer churn. Our deadline is end of this month.\n\nThanks,\nHassan"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00215",
+        "subject": "RE: Shipment Delay",
+        "from": "raj.rao@novaengineering.com",
+        "snippet": "Hi Chloe,  Please find attached Invoice #2305 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-28T09:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00215_001",
+            "from": "raj.rao@novaengineering.com",
+            "to": [
+              "chloe.m\u00fcller@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T09:24:19Z",
+            "body": "Hi Chloe,\n\nPlease find attached Invoice #2305 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00216",
+        "subject": "RE: Q2 Metrics",
+        "from": "raj.rao@novaengineering.com",
+        "snippet": "Hi Chloe,  We've completed our initial due diligence and have a few follow-up questions on the product launch. Could we ",
+        "date": "2026-04-29T02:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00216_001",
+            "from": "raj.rao@novaengineering.com",
+            "to": [
+              "chloe.m\u00fcller@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-29T02:24:19Z",
+            "body": "Hi Chloe,\n\nWe've completed our initial due diligence and have a few follow-up questions on the product launch. Could we schedule a call this week?\n\nBest,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00217",
+        "subject": "Quick question on infrastructure costs",
+        "from": "raj.rao@novaengineering.com",
+        "snippet": "Hi Chloe,  Quick question on the infrastructure costs \u2014 have we made a final decision? The team is waiting on this befor",
+        "date": "2026-04-24T20:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00217_001",
+            "from": "raj.rao@novaengineering.com",
+            "to": [
+              "chloe.m\u00fcller@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T20:24:19Z",
+            "body": "Hi Chloe,\n\nQuick question on the infrastructure costs \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nRaj"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_990",
+        "title": "Investor Update",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T17:00:00Z",
+        "attendees": [
+          "hassan.singh@nexussystems.com",
+          "james.dubois@solarisgroup.com",
+          "raj.singh@ironcladsecurity.com"
+        ],
+        "location": "Offsite \u2014 San Francisco",
+        "notes": "Agenda: Product launch",
+        "organizer": "chloe.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_985",
+        "title": "Team Standup",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:00:00Z",
+        "attendees": [
+          "raj.rao@novaengineering.com",
+          "hassan.singh@nexussystems.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "chloe.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_987",
+        "title": "Budget Discussion",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:30:00Z",
+        "attendees": [
+          "hassan.singh@nexussystems.com",
+          "raj.rao@novaengineering.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Board presentation",
+        "organizer": "chloe.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_988",
+        "title": "Partnership Sync",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T15:00:00Z",
+        "attendees": [
+          "james.dubois@solarisgroup.com",
+          "hassan.singh@nexussystems.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Api integration",
+        "organizer": "chloe.m\u00fcller@foundry.ai"
+      },
+      {
+        "event_id": "ev_986",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T10:00:00Z",
+        "attendees": [
+          "lena.tanaka@foundry.ai",
+          "raj.rao@novaengineering.com",
+          "raj.singh@ironcladsecurity.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Api integration",
+        "organizer": "lena.tanaka@foundry.ai"
+      },
+      {
+        "event_id": "ev_989",
+        "title": "Contract Review",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T16:00:00Z",
+        "attendees": [
+          "raj.rao@novaengineering.com",
+          "james.dubois@solarisgroup.com",
+          "hassan.singh@nexussystems.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "raj.rao@novaengineering.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0359",
+          "task_id": "nr_0359",
+          "title": "Nexus Systems \u2014 Q4 Renewal",
+          "status": "done",
+          "owner": "hassan.singh@nexussystems.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$124k",
+            "action_items": [
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0360",
+          "task_id": "nr_0360",
+          "title": "Ironclad Security \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "raj.singh@ironcladsecurity.com",
+          "due_date": "2026-05-13",
+          "properties": {
+            "deal_value": "$351k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0361",
+          "task_id": "nt_0361",
+          "title": "Customer churn \u2014 Update",
+          "status": "open",
+          "owner": "lena.tanaka@foundry.ai",
+          "due_date": "2026-05-01",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0362",
+          "task_id": "nt_0362",
+          "title": "Customer churn \u2014 Update",
+          "status": "open",
+          "owner": "lena.tanaka@foundry.ai",
+          "due_date": "2026-04-29",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0363",
+          "task_id": "nt_0363",
+          "title": "Hiring plan \u2014 Update",
+          "status": "open",
+          "owner": "raj.singh@ironcladsecurity.com",
+          "due_date": "2026-05-18",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0364",
+          "task_id": "nt_0364",
+          "title": "Customer churn \u2014 Update",
+          "status": "in_progress",
+          "owner": "james.dubois@solarisgroup.com",
+          "due_date": "2026-05-15",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0365",
+          "task_id": "np_0365",
+          "title": "Customer Onboarding Revamp",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-14",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#ops": [
+        {
+          "ts": "1777727899.000000",
+          "user": "lena",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777728739.000001",
+          "user": "lena",
+          "text": "Reminder: infrastructure costs sync is at 3pm today."
+        },
+        {
+          "ts": "1777724839.000002",
+          "user": "raj",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777711399.000000",
+          "user": "raj",
+          "text": "PR for pricing model is ready for review."
+        },
+        {
+          "ts": "1777717099.000001",
+          "user": "lena",
+          "text": "Reminder: customer churn sync is at 3pm today."
+        },
+        {
+          "ts": "1777712959.000002",
+          "user": "hassan",
+          "text": "Just finished the customer churn review. Notes in the doc."
+        },
+        {
+          "ts": "1777731259.000003",
+          "user": "lena",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "hassan",
+          "text": "@chloe \u2014 can you take a look at the pricing model before EOD?"
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777730659.000000",
+          "user": "hassan",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777713799.000001",
+          "user": "james",
+          "text": "The infrastructure costs issue has been resolved."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777732699.000000",
+          "user": "hassan",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777712479.000001",
+          "user": "raj",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777725439.000002",
+          "user": "lena",
+          "text": "The Q3 roadmap issue has been resolved."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0041"
+}

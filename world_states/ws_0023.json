@@ -1,0 +1,433 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Aisha Fischer",
+    "email": "aisha.fischer@foundry.co",
+    "role": "Senior Engineer",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Raj Walsh",
+      "email": "raj.walsh@foundry.co",
+      "company": "foundry.co",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Derek Walsh",
+      "email": "derek.walsh@foundry.co",
+      "company": "foundry.co",
+      "role": "Product Manager",
+      "external": false
+    },
+    {
+      "name": "Priya Fischer",
+      "email": "priya.fischer@foundry.co",
+      "company": "foundry.co",
+      "role": "VP of Sales",
+      "external": false
+    },
+    {
+      "name": "Ben Kowalski",
+      "email": "ben.kowalski@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "James Dubois",
+      "email": "james.dubois@foundry.co",
+      "company": "foundry.co",
+      "role": "Product Manager",
+      "external": false
+    },
+    {
+      "name": "Ben Nakamura",
+      "email": "ben.nakamura@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Yuki Rao",
+      "email": "yuki.rao@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "VP of Engineering",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00117",
+        "subject": "Follow-up: Contract Terms",
+        "from": "derek.walsh@foundry.co",
+        "snippet": "Hi Aisha,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-22T15:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00117_001",
+            "from": "derek.walsh@foundry.co",
+            "to": [
+              "aisha.fischer@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T15:24:19Z",
+            "body": "Hi Aisha,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the Q3 roadmap. Our deadline is end of this month.\n\nThanks,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00118",
+        "subject": "Technical Support Request",
+        "from": "derek.walsh@foundry.co",
+        "snippet": "Hi Aisha,  Please find attached Invoice #4276 for services rendered in May. Payment terms are net 30.  Thank you, Derek",
+        "date": "2026-04-21T02:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00118_001",
+            "from": "derek.walsh@foundry.co",
+            "to": [
+              "aisha.fischer@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T02:24:19Z",
+            "body": "Hi Aisha,\n\nPlease find attached Invoice #4276 for services rendered in May. Payment terms are net 30.\n\nThank you,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00119",
+        "subject": "Quick question on compliance requirements",
+        "from": "raj.walsh@foundry.co",
+        "snippet": "Hi Aisha,  Quick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-18T03:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00119_001",
+            "from": "raj.walsh@foundry.co",
+            "to": [
+              "aisha.fischer@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-18T03:24:19Z",
+            "body": "Hi Aisha,\n\nQuick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00120",
+        "subject": "RE: Q3 Metrics",
+        "from": "yuki.rao@nexussystems.com",
+        "snippet": "Hi Aisha,  We've completed our initial due diligence and have a few follow-up questions on the compliance requirements. ",
+        "date": "2026-04-25T02:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00120_001",
+            "from": "yuki.rao@nexussystems.com",
+            "to": [
+              "aisha.fischer@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-25T02:24:19Z",
+            "body": "Hi Aisha,\n\nWe've completed our initial due diligence and have a few follow-up questions on the compliance requirements. Could we schedule a call this week?\n\nBest,\nYuki"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_906",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T17:00:00Z",
+        "attendees": [
+          "ben.kowalski@quantumdynamics.com",
+          "derek.walsh@foundry.co",
+          "ben.nakamura@apexsolutions.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "aisha.fischer@foundry.co"
+      },
+      {
+        "event_id": "ev_904",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T11:45:00Z",
+        "attendees": [
+          "james.dubois@foundry.co",
+          "derek.walsh@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Pricing model",
+        "organizer": "james.dubois@foundry.co"
+      },
+      {
+        "event_id": "ev_907",
+        "title": "Contract Review",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T10:30:00Z",
+        "attendees": [
+          "ben.kowalski@quantumdynamics.com",
+          "james.dubois@foundry.co",
+          "ben.nakamura@apexsolutions.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "ben.kowalski@quantumdynamics.com"
+      },
+      {
+        "event_id": "ev_905",
+        "title": "Post-Mortem",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T10:30:00Z",
+        "attendees": [
+          "james.dubois@foundry.co",
+          "ben.kowalski@quantumdynamics.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "aisha.fischer@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0198",
+          "task_id": "nr_0198",
+          "title": "Quantum Dynamics \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "ben.kowalski@quantumdynamics.com",
+          "due_date": "2026-05-08",
+          "properties": {
+            "deal_value": "$370k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Complete security questionnaire",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0199",
+          "task_id": "nr_0199",
+          "title": "Apex Solutions \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "ben.nakamura@apexsolutions.com",
+          "due_date": "2026-05-18",
+          "properties": {
+            "deal_value": "$228k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0200",
+          "task_id": "nt_0200",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "james.dubois@foundry.co",
+          "due_date": "2026-05-01",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0201",
+          "task_id": "nt_0201",
+          "title": "Customer churn \u2014 Implement",
+          "status": "open",
+          "owner": "raj.walsh@foundry.co",
+          "due_date": "2026-04-25",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0202",
+          "task_id": "nt_0202",
+          "title": "Api integration \u2014 Ship",
+          "status": "in_progress",
+          "owner": "raj.walsh@foundry.co",
+          "due_date": "2026-05-04",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0203",
+          "task_id": "nt_0203",
+          "title": "Vendor evaluation \u2014 Ship",
+          "status": "open",
+          "owner": "ben.nakamura@apexsolutions.com",
+          "due_date": "2026-05-03",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0204",
+          "task_id": "nt_0204",
+          "title": "Sales pipeline \u2014 Update",
+          "status": "done",
+          "owner": "priya.fischer@foundry.co",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0205",
+          "task_id": "nt_0205",
+          "title": "Vendor evaluation \u2014 Resolve",
+          "status": "open",
+          "owner": "ben.nakamura@apexsolutions.com",
+          "due_date": "2026-05-09",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0206",
+          "task_id": "nt_0206",
+          "title": "Sales pipeline \u2014 Implement",
+          "status": "done",
+          "owner": "priya.fischer@foundry.co",
+          "due_date": "2026-05-16",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0207",
+          "task_id": "np_0207",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-20",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0208",
+          "task_id": "np_0208",
+          "title": "Compliance Audit",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-19",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Engineering in progress",
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0209",
+          "task_id": "np_0209",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-09",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777729939.000000",
+          "user": "derek",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777730299.000001",
+          "user": "derek",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777734139.000002",
+          "user": "ben",
+          "text": "Just finished the sales pipeline review. Notes in the doc."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777717819.000000",
+          "user": "ben",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777728139.000001",
+          "user": "ben",
+          "text": "The compliance requirements issue has been resolved."
+        },
+        {
+          "ts": "1777718959.000002",
+          "user": "ben",
+          "text": "Quick question on pricing model \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777738099.000000",
+          "user": "raj",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        },
+        {
+          "ts": "1777720999.000001",
+          "user": "ben",
+          "text": "Reminder: hiring plan sync is at 3pm today."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777718359.000000",
+          "user": "james",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777729459.000001",
+          "user": "ben",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729399.000002",
+          "user": "yuki",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0023"
+}

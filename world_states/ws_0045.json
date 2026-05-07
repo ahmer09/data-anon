@@ -1,0 +1,367 @@
+{
+  "scenario_tags": [
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Derek Berg",
+    "email": "derek.berg@flow.ai",
+    "role": "Director of Partnerships",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Derek Sharma",
+      "email": "derek.sharma@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Priya Singh",
+      "email": "priya.singh@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "Senior Engineer",
+      "external": true
+    },
+    {
+      "name": "Sophie Novak",
+      "email": "sophie.novak@flow.ai",
+      "company": "flow.ai",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Ingrid Singh",
+      "email": "ingrid.singh@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Tom Al-Rashid",
+      "email": "tom.al-rashid@flow.ai",
+      "company": "flow.ai",
+      "role": "Customer Success Manager",
+      "external": false
+    },
+    {
+      "name": "Elena M\u00fcller",
+      "email": "elena.m\u00fcller@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Customer Success Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00235",
+        "subject": "Quick question on vendor evaluation",
+        "from": "elena.m\u00fcller@vertexai.com",
+        "snippet": "Hi Derek,  Just a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please ",
+        "date": "2026-04-23T02:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00235_001",
+            "from": "elena.m\u00fcller@vertexai.com",
+            "to": [
+              "derek.berg@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T02:24:19Z",
+            "body": "Hi Derek,\n\nJust a reminder that the security audit review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00236",
+        "subject": "Tier 3 Pricing Discussion",
+        "from": "ingrid.singh@flow.ai",
+        "snippet": "Hi Derek,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you propose",
+        "date": "2026-04-27T18:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00236_001",
+            "from": "ingrid.singh@flow.ai",
+            "to": [
+              "derek.berg@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T18:24:19Z",
+            "body": "Hi Derek,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed is about 26% above what Apex Solutions is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nIngrid"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00237",
+        "subject": "Infrastructure Migration \u2014 Status Update",
+        "from": "tom.al-rashid@flow.ai",
+        "snippet": "Hi Derek,  Quick question on the Q3 roadmap \u2014 have we made a final decision? The team is waiting on this before we can p",
+        "date": "2026-04-20T13:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00237_001",
+            "from": "tom.al-rashid@flow.ai",
+            "to": [
+              "derek.berg@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T13:24:19Z",
+            "body": "Hi Derek,\n\nQuick question on the Q3 roadmap \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00238",
+        "subject": "Technical Support Request",
+        "from": "sophie.novak@flow.ai",
+        "snippet": "Hi Derek,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to su",
+        "date": "2026-04-21T02:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00238_001",
+            "from": "sophie.novak@flow.ai",
+            "to": [
+              "derek.berg@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T02:24:19Z",
+            "body": "Hi Derek,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nSophie"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1008",
+        "title": "Partnership Sync",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T11:45:00Z",
+        "attendees": [
+          "sophie.novak@flow.ai"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Board presentation",
+        "organizer": "sophie.novak@flow.ai"
+      },
+      {
+        "event_id": "ev_1007",
+        "title": "Team Standup",
+        "start": "2026-05-04T14:00:00Z",
+        "end": "2026-05-04T15:30:00Z",
+        "attendees": [
+          "elena.m\u00fcller@vertexai.com",
+          "priya.singh@crestlinepartners.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "derek.berg@flow.ai"
+      },
+      {
+        "event_id": "ev_1005",
+        "title": "Budget Discussion",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:45:00Z",
+        "attendees": [
+          "derek.sharma@bridgewaterconsulting.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Pricing model",
+        "organizer": "derek.berg@flow.ai"
+      },
+      {
+        "event_id": "ev_1004",
+        "title": "Budget Discussion",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T16:45:00Z",
+        "attendees": [
+          "elena.m\u00fcller@vertexai.com",
+          "sophie.novak@flow.ai"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Product launch",
+        "organizer": "elena.m\u00fcller@vertexai.com"
+      },
+      {
+        "event_id": "ev_1006",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T16:00:00Z",
+        "end": "2026-05-06T17:00:00Z",
+        "attendees": [
+          "ingrid.singh@flow.ai",
+          "elena.m\u00fcller@vertexai.com",
+          "priya.singh@crestlinepartners.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Customer churn",
+        "organizer": "derek.berg@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0395",
+          "task_id": "nr_0395",
+          "title": "Bridgewater Consulting \u2014 Q3 Renewal",
+          "status": "done",
+          "owner": "derek.sharma@bridgewaterconsulting.com",
+          "due_date": "2026-05-09",
+          "properties": {
+            "deal_value": "$245k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0396",
+          "task_id": "nt_0396",
+          "title": "Pricing model \u2014 Resolve",
+          "status": "done",
+          "owner": "elena.m\u00fcller@vertexai.com",
+          "due_date": "2026-05-03",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0397",
+          "task_id": "nt_0397",
+          "title": "Customer churn \u2014 Review",
+          "status": "in_progress",
+          "owner": "sophie.novak@flow.ai",
+          "due_date": "2026-05-22",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0398",
+          "task_id": "nt_0398",
+          "title": "Api integration \u2014 Ship",
+          "status": "open",
+          "owner": "tom.al-rashid@flow.ai",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0399",
+          "task_id": "nt_0399",
+          "title": "Product launch \u2014 Update",
+          "status": "open",
+          "owner": "elena.m\u00fcller@vertexai.com",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0400",
+          "task_id": "np_0400",
+          "title": "Compliance Audit",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-28",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Engineering in progress"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#general": [
+        {
+          "ts": "1777732939.000000",
+          "user": "elena",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        },
+        {
+          "ts": "1777722739.000001",
+          "user": "priya",
+          "text": "Just finished the product launch review. Notes in the doc."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777731319.000000",
+          "user": "priya",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777735759.000001",
+          "user": "ingrid",
+          "text": "Just finished the customer churn review. Notes in the doc."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777736539.000000",
+          "user": "elena",
+          "text": "The sales pipeline issue has been resolved."
+        },
+        {
+          "ts": "1777725199.000001",
+          "user": "derek",
+          "text": "The Q3 roadmap issue has been resolved."
+        },
+        {
+          "ts": "1777735699.000002",
+          "user": "priya",
+          "text": "Updated the customer churn deck with latest figures."
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777729579.000000",
+          "user": "ingrid",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        },
+        {
+          "ts": "1777725559.000001",
+          "user": "tom",
+          "text": "The Q3 roadmap issue has been resolved."
+        },
+        {
+          "ts": "1777732819.000002",
+          "user": "elena",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777731079.000003",
+          "user": "derek",
+          "text": "Quick question on compliance requirements \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "elena",
+          "text": "@derek \u2014 can you take a look at the infrastructure costs before EOD?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0045"
+}

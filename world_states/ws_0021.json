@@ -1,0 +1,389 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "slack_mention",
+    "external_email",
+    "overdue_tasks",
+    "internal_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Derek M\u00fcller",
+    "email": "derek.m\u00fcller@flow.ai",
+    "role": "Engineering Manager",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sarah Al-Rashid",
+      "email": "sarah.al-rashid@flow.ai",
+      "company": "flow.ai",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "James Park",
+      "email": "james.park@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Tom Santos",
+      "email": "tom.santos@flow.ai",
+      "company": "flow.ai",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Lena Andersen",
+      "email": "lena.andersen@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Sales",
+      "external": false
+    },
+    {
+      "name": "Nadia Novak",
+      "email": "nadia.novak@flow.ai",
+      "company": "flow.ai",
+      "role": "Marketing Lead",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00107",
+        "subject": "Board Meeting Prep \u2014 Apr 18",
+        "from": "sarah.al-rashid@flow.ai",
+        "snippet": "Hi Derek,  We've completed our initial due diligence and have a few follow-up questions on the board presentation. Could",
+        "date": "2026-04-18T18:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00107_001",
+            "from": "sarah.al-rashid@flow.ai",
+            "to": [
+              "derek.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T18:24:19Z",
+            "body": "Hi Derek,\n\nWe've completed our initial due diligence and have a few follow-up questions on the board presentation. Could we schedule a call this week?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00108",
+        "subject": "RE: SLA Amendment Request",
+        "from": "lena.andersen@flow.ai",
+        "snippet": "Hi Derek,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is abou",
+        "date": "2026-04-25T16:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00108_001",
+            "from": "lena.andersen@flow.ai",
+            "to": [
+              "derek.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T16:24:19Z",
+            "body": "Hi Derek,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the customer churn you proposed is about 13% above what Crestline Partners is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00109",
+        "subject": "Team: Please review before Monday",
+        "from": "lena.andersen@flow.ai",
+        "snippet": "Hi Derek,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-23T03:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00109_001",
+            "from": "lena.andersen@flow.ai",
+            "to": [
+              "derek.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-23T03:24:19Z",
+            "body": "Hi Derek,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00110",
+        "subject": "Tier 4 Pricing Discussion",
+        "from": "nadia.novak@flow.ai",
+        "snippet": "Hi Derek,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-19T01:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00110_001",
+            "from": "nadia.novak@flow.ai",
+            "to": [
+              "derek.m\u00fcller@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T01:24:19Z",
+            "body": "Hi Derek,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the Q3 roadmap. Our deadline is end of this month.\n\nThanks,\nNadia"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_896",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:45:00Z",
+        "attendees": [
+          "sarah.al-rashid@flow.ai",
+          "james.park@novaengineering.com",
+          "tom.santos@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "sarah.al-rashid@flow.ai"
+      },
+      {
+        "event_id": "ev_897",
+        "title": "Demo Day",
+        "start": "2026-05-05T10:00:00Z",
+        "end": "2026-05-05T11:00:00Z",
+        "attendees": [
+          "tom.santos@flow.ai"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "tom.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_898",
+        "title": "Team Standup",
+        "start": "2026-05-06T09:00:00Z",
+        "end": "2026-05-06T10:00:00Z",
+        "attendees": [
+          "nadia.novak@flow.ai",
+          "lena.andersen@flow.ai",
+          "sarah.al-rashid@flow.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Customer churn",
+        "organizer": "nadia.novak@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0181",
+          "task_id": "nr_0181",
+          "title": "Nova Engineering \u2014 Q3 Renewal",
+          "status": "open",
+          "owner": "james.park@novaengineering.com",
+          "due_date": "2026-06-01",
+          "properties": {
+            "deal_value": "$450k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0182",
+          "task_id": "nt_0182",
+          "title": "Compliance requirements \u2014 Implement",
+          "status": "open",
+          "owner": "lena.andersen@flow.ai",
+          "due_date": "2026-04-29",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0183",
+          "task_id": "nt_0183",
+          "title": "Customer churn \u2014 Update",
+          "status": "open",
+          "owner": "james.park@novaengineering.com",
+          "due_date": "2026-04-28",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0184",
+          "task_id": "nt_0184",
+          "title": "Sales pipeline \u2014 Ship",
+          "status": "open",
+          "owner": "lena.andersen@flow.ai",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0185",
+          "task_id": "nt_0185",
+          "title": "Infrastructure costs \u2014 Implement",
+          "status": "in_progress",
+          "owner": "james.park@novaengineering.com",
+          "due_date": "2026-05-18",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0186",
+          "task_id": "nt_0186",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "open",
+          "owner": "james.park@novaengineering.com",
+          "due_date": "2026-04-22",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0187",
+          "task_id": "nt_0187",
+          "title": "Infrastructure costs \u2014 Review",
+          "status": "in_progress",
+          "owner": "james.park@novaengineering.com",
+          "due_date": "2026-05-13",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0188",
+          "task_id": "np_0188",
+          "title": "Partnership Expansion",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-16",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0189",
+          "task_id": "np_0189",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-04",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777712779.000000",
+          "user": "lena",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777730539.000001",
+          "user": "nadia",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777737619.000002",
+          "user": "sarah",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777735339.000003",
+          "user": "tom",
+          "text": "The board presentation issue has been resolved."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777734439.000000",
+          "user": "sarah",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777722919.000001",
+          "user": "lena",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777724299.000002",
+          "user": "james",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777714279.000003",
+          "user": "nadia",
+          "text": "Quick question on board presentation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "nadia",
+          "text": "@derek \u2014 can you take a look at the pricing model before EOD?"
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777711039.000000",
+          "user": "sarah",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        },
+        {
+          "ts": "1777724839.000001",
+          "user": "lena",
+          "text": "The customer churn issue has been resolved."
+        },
+        {
+          "ts": "1777716259.000002",
+          "user": "nadia",
+          "text": "PR for hiring plan is ready for review."
+        },
+        {
+          "ts": "1777714279.000003",
+          "user": "tom",
+          "text": "Quick question on product launch \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777717459.000000",
+          "user": "sarah",
+          "text": "Quick question on board presentation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777730779.000001",
+          "user": "nadia",
+          "text": "The pricing model issue has been resolved."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0021"
+}

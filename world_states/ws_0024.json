@@ -1,0 +1,425 @@
+{
+  "scenario_tags": [
+    "slack_mention",
+    "external_email",
+    "ambiguous_sender",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Tom Nakamura",
+    "email": "tom.nakamura@foundry.co",
+    "role": "CFO",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Tom Sharma",
+      "email": "tom.sharma@stratumanalytics.com",
+      "company": "Stratum Analytics",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Aisha Andersen",
+      "email": "aisha.andersen@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Arjun Okafor",
+      "email": "arjun.okafor@foundry.co",
+      "company": "foundry.co",
+      "role": "Head of Product",
+      "external": false
+    },
+    {
+      "name": "Aisha Singh",
+      "email": "aisha.singh@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "Senior Engineer",
+      "external": true
+    },
+    {
+      "name": "Carlos Rivera",
+      "email": "carlos.rivera@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Aisha Kim",
+      "email": "aisha.kim@apexsolutions.com",
+      "company": "apexsolutions",
+      "role": "Customer Success Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00121",
+        "subject": "Technical Support Request",
+        "from": "carlos.rivera@foundry.co",
+        "snippet": "Hi Tom,  We wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to supp",
+        "date": "2026-04-26T20:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00121_001",
+            "from": "carlos.rivera@foundry.co",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-26T20:24:19Z",
+            "body": "Hi Tom,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to supply chain issues. We apologize for the inconvenience.\n\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00122",
+        "subject": "Invoice #1369 \u2014 Meridian Capital",
+        "from": "aisha.singh@meridiancapital.com",
+        "snippet": "Hi Tom,  Please find attached Invoice #9385 for services rendered in May. Payment terms are net 30.  Thank you, Aisha",
+        "date": "2026-04-27T14:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00122_001",
+            "from": "aisha.singh@meridiancapital.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T14:24:19Z",
+            "body": "Hi Tom,\n\nPlease find attached Invoice #9385 for services rendered in May. Payment terms are net 30.\n\nThank you,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00123",
+        "subject": "RE: Budget Approval Needed",
+        "from": "aisha.kim@apexsolutions.com",
+        "snippet": "Hi Tom,  Just a reminder that the API integration review is due by EOD Friday. I've attached the relevant docs. Please r",
+        "date": "2026-04-27T04:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00123_001",
+            "from": "aisha.kim@apexsolutions.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T04:24:19Z",
+            "body": "Hi Tom,\n\nJust a reminder that the API integration review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00124",
+        "subject": "Due Diligence Request",
+        "from": "aisha.andersen@meridiancapital.com",
+        "snippet": "Hi Tom,  In preparation for the upcoming board meeting, could you please share the latest metrics on customer churn? We'",
+        "date": "2026-04-19T17:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00124_001",
+            "from": "aisha.andersen@meridiancapital.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T17:24:19Z",
+            "body": "Hi Tom,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on customer churn? We'll need them at least 48 hours in advance.\n\nThank you,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00125",
+        "subject": "Cap Table Update",
+        "from": "aisha.singh@meridiancapital.com",
+        "snippet": "Hi Tom,  In preparation for the upcoming board meeting, could you please share the latest metrics on product launch? We'",
+        "date": "2026-04-29T23:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00125_001",
+            "from": "aisha.singh@meridiancapital.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T23:24:19Z",
+            "body": "Hi Tom,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on product launch? We'll need them at least 48 hours in advance.\n\nThank you,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00126",
+        "subject": "Board Meeting Prep \u2014 Apr 28",
+        "from": "aisha.andersen@meridiancapital.com",
+        "snippet": "Hi Tom,  We've completed our initial due diligence and have a few follow-up questions on the API integration. Could we s",
+        "date": "2026-04-28T07:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00126_001",
+            "from": "aisha.andersen@meridiancapital.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T07:24:19Z",
+            "body": "Hi Tom,\n\nWe've completed our initial due diligence and have a few follow-up questions on the API integration. Could we schedule a call this week?\n\nBest,\nAisha"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00127",
+        "subject": "Onboarding Checklist \u2014 apexsolutions",
+        "from": "aisha.kim@apexsolutions.com",
+        "snippet": "Hi Tom,  We wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to supp",
+        "date": "2026-04-19T13:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00127_001",
+            "from": "aisha.kim@apexsolutions.com",
+            "to": [
+              "tom.nakamura@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T13:24:19Z",
+            "body": "Hi Tom,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 3 business days due to supply chain issues. We apologize for the inconvenience.\n\nAisha"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_908",
+        "title": "Contract Review",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T11:45:00Z",
+        "attendees": [
+          "aisha.kim@apexsolutions.com",
+          "tom.sharma@stratumanalytics.com",
+          "aisha.andersen@meridiancapital.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "tom.nakamura@foundry.co"
+      },
+      {
+        "event_id": "ev_910",
+        "title": "Sprint Planning",
+        "start": "2026-05-04T12:00:00Z",
+        "end": "2026-05-04T12:45:00Z",
+        "attendees": [
+          "aisha.singh@meridiancapital.com",
+          "arjun.okafor@foundry.co"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Customer churn",
+        "organizer": "tom.nakamura@foundry.co"
+      },
+      {
+        "event_id": "ev_909",
+        "title": "Sprint Planning",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "arjun.okafor@foundry.co",
+          "aisha.kim@apexsolutions.com"
+        ],
+        "location": "Offsite \u2014 Tokyo",
+        "notes": "Agenda: Pricing model",
+        "organizer": "tom.nakamura@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0210",
+          "task_id": "nr_0210",
+          "title": "Stratum Analytics \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "tom.sharma@stratumanalytics.com",
+          "due_date": "2026-06-01",
+          "properties": {
+            "deal_value": "$245k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0211",
+          "task_id": "nt_0211",
+          "title": "Api integration \u2014 Implement",
+          "status": "open",
+          "owner": "arjun.okafor@foundry.co",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0212",
+          "task_id": "nt_0212",
+          "title": "Api integration \u2014 Ship",
+          "status": "open",
+          "owner": "carlos.rivera@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0213",
+          "task_id": "nt_0213",
+          "title": "Security audit \u2014 Implement",
+          "status": "open",
+          "owner": "tom.sharma@stratumanalytics.com",
+          "due_date": "2026-04-27",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0214",
+          "task_id": "nt_0214",
+          "title": "Infrastructure costs \u2014 Update",
+          "status": "open",
+          "owner": "aisha.kim@apexsolutions.com",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0215",
+          "task_id": "np_0215",
+          "title": "Infrastructure Migration",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-22",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0216",
+          "task_id": "np_0216",
+          "title": "Product Roadmap Q4",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-05-17",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#design": [
+        {
+          "ts": "1777723039.000000",
+          "user": "aisha",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        },
+        {
+          "ts": "1777735159.000001",
+          "user": "aisha",
+          "text": "Just finished the product launch review. Notes in the doc."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777718299.000000",
+          "user": "arjun",
+          "text": "Can someone double-check the pricing model numbers before tomorrow?"
+        },
+        {
+          "ts": "1777710499.000001",
+          "user": "tom",
+          "text": "Updated the board presentation deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777733119.000000",
+          "user": "aisha",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777735999.000001",
+          "user": "tom",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777728079.000002",
+          "user": "carlos",
+          "text": "Heads up \u2014 hiring plan is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777714819.000003",
+          "user": "carlos",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "aisha",
+          "text": "@tom \u2014 can you take a look at the board presentation before EOD?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777736719.000000",
+          "user": "carlos",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        },
+        {
+          "ts": "1777732099.000001",
+          "user": "carlos",
+          "text": "Updated the security audit deck with latest figures."
+        },
+        {
+          "ts": "1777733539.000002",
+          "user": "arjun",
+          "text": "Just finished the customer churn review. Notes in the doc."
+        },
+        {
+          "ts": "1777735759.000003",
+          "user": "aisha",
+          "text": "The sales pipeline issue has been resolved."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0024"
+}

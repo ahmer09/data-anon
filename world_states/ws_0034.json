@@ -1,0 +1,480 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Chloe Rao",
+    "email": "chloe.rao@flow.ai",
+    "role": "Account Executive",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Aisha M\u00fcller",
+      "email": "aisha.m\u00fcller@flow.ai",
+      "company": "flow.ai",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Fatima Chen",
+      "email": "fatima.chen@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Priya Tanaka",
+      "email": "priya.tanaka@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Arjun Kowalski",
+      "email": "arjun.kowalski@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Nadia Tanaka",
+      "email": "nadia.tanaka@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Sarah Rivera",
+      "email": "sarah.rivera@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "James Rivera",
+      "email": "james.rivera@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Product Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00174",
+        "subject": "Onboarding Checklist \u2014 Horizon Health",
+        "from": "james.rivera@horizonhealth.com",
+        "snippet": "Hi Chloe,  We wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to su",
+        "date": "2026-04-27T23:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00174_001",
+            "from": "james.rivera@horizonhealth.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T23:24:19Z",
+            "body": "Hi Chloe,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to supply chain issues. We apologize for the inconvenience.\n\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00175",
+        "subject": "Cap Table Update",
+        "from": "sarah.rivera@quantumdynamics.com",
+        "snippet": "Hi Chloe,  We've completed our initial due diligence and have a few follow-up questions on the infrastructure costs. Cou",
+        "date": "2026-04-30T12:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00175_001",
+            "from": "sarah.rivera@quantumdynamics.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T12:24:19Z",
+            "body": "Hi Chloe,\n\nWe've completed our initial due diligence and have a few follow-up questions on the infrastructure costs. Could we schedule a call this week?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00176",
+        "subject": "Technical Support Request",
+        "from": "priya.tanaka@orbitlabs.com",
+        "snippet": "Hi Chloe,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to su",
+        "date": "2026-04-22T14:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00176_001",
+            "from": "priya.tanaka@orbitlabs.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T14:24:19Z",
+            "body": "Hi Chloe,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00177",
+        "subject": "RE: Budget Approval Needed",
+        "from": "arjun.kowalski@vertexai.com",
+        "snippet": "Hi Chloe,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-22T00:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00177_001",
+            "from": "arjun.kowalski@vertexai.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T00:24:19Z",
+            "body": "Hi Chloe,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00178",
+        "subject": "Quick question on infrastructure costs",
+        "from": "nadia.tanaka@quantumdynamics.com",
+        "snippet": "Hi Chloe,  Quick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this be",
+        "date": "2026-04-25T11:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00178_001",
+            "from": "nadia.tanaka@quantumdynamics.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T11:24:19Z",
+            "body": "Hi Chloe,\n\nQuick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00179",
+        "subject": "Contract Renewal \u2014 Orbit Labs",
+        "from": "priya.tanaka@orbitlabs.com",
+        "snippet": "Hi Chloe,  Please find attached Invoice #1942 for services rendered in May. Payment terms are net 30.  Thank you, Priya",
+        "date": "2026-04-28T01:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00179_001",
+            "from": "priya.tanaka@orbitlabs.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T01:24:19Z",
+            "body": "Hi Chloe,\n\nPlease find attached Invoice #1942 for services rendered in May. Payment terms are net 30.\n\nThank you,\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00180",
+        "subject": "Follow-up: Contract Terms",
+        "from": "priya.tanaka@orbitlabs.com",
+        "snippet": "Hi Chloe,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 26",
+        "date": "2026-04-27T13:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00180_001",
+            "from": "priya.tanaka@orbitlabs.com",
+            "to": [
+              "chloe.rao@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T13:24:19Z",
+            "body": "Hi Chloe,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 26% above what Ironclad Security is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nPriya"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_956",
+        "title": "Roadmap Review",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T10:30:00Z",
+        "attendees": [
+          "fatima.chen@flow.ai",
+          "arjun.kowalski@vertexai.com",
+          "priya.tanaka@orbitlabs.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Api integration",
+        "organizer": "fatima.chen@flow.ai"
+      },
+      {
+        "event_id": "ev_955",
+        "title": "Design Review",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T09:30:00Z",
+        "attendees": [
+          "priya.tanaka@orbitlabs.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Security audit",
+        "organizer": "chloe.rao@flow.ai"
+      },
+      {
+        "event_id": "ev_954",
+        "title": "Demo Day",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T09:45:00Z",
+        "attendees": [
+          "sarah.rivera@quantumdynamics.com",
+          "arjun.kowalski@vertexai.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "chloe.rao@flow.ai"
+      },
+      {
+        "event_id": "ev_957",
+        "title": "Investor Update",
+        "start": "2026-05-04T09:15:00Z",
+        "end": "2026-05-04T09:45:00Z",
+        "attendees": [
+          "james.rivera@horizonhealth.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "james.rivera@horizonhealth.com"
+      },
+      {
+        "event_id": "ev_953",
+        "title": "Team Standup",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:00:00Z",
+        "attendees": [
+          "arjun.kowalski@vertexai.com",
+          "priya.tanaka@orbitlabs.com"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "chloe.rao@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0296",
+          "task_id": "nr_0296",
+          "title": "Orbit Labs \u2014 Q4 Renewal",
+          "status": "in_progress",
+          "owner": "priya.tanaka@orbitlabs.com",
+          "due_date": "2026-05-29",
+          "properties": {
+            "deal_value": "$66k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0297",
+          "task_id": "nr_0297",
+          "title": "Vertex AI \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "arjun.kowalski@vertexai.com",
+          "due_date": "2026-05-05",
+          "properties": {
+            "deal_value": "$266k",
+            "action_items": [
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0298",
+          "task_id": "nt_0298",
+          "title": "Vendor evaluation \u2014 Implement",
+          "status": "open",
+          "owner": "arjun.kowalski@vertexai.com",
+          "due_date": "2026-04-23",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0299",
+          "task_id": "nt_0299",
+          "title": "Product launch \u2014 Implement",
+          "status": "in_progress",
+          "owner": "arjun.kowalski@vertexai.com",
+          "due_date": "2026-05-05",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0300",
+          "task_id": "nt_0300",
+          "title": "Sales pipeline \u2014 Ship",
+          "status": "in_progress",
+          "owner": "fatima.chen@flow.ai",
+          "due_date": "2026-05-16",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0301",
+          "task_id": "nt_0301",
+          "title": "Product launch \u2014 Review",
+          "status": "open",
+          "owner": "james.rivera@horizonhealth.com",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0302",
+          "task_id": "np_0302",
+          "title": "Series A Data Room",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-11",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Design signed off",
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0303",
+          "task_id": "np_0303",
+          "title": "Infrastructure Migration",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-28",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0304",
+          "task_id": "np_0304",
+          "title": "Series A Data Room",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-05-14",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Kickoff complete",
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#marketing": [
+        {
+          "ts": "1777722679.000000",
+          "user": "arjun",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777728439.000001",
+          "user": "fatima",
+          "text": "The compliance requirements issue has been resolved."
+        },
+        {
+          "ts": "1777723099.000002",
+          "user": "aisha",
+          "text": "Just finished the compliance requirements review. Notes in the doc."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777730539.000000",
+          "user": "aisha",
+          "text": "Quick question on hiring plan \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777716919.000001",
+          "user": "priya",
+          "text": "Updated the compliance requirements deck with latest figures."
+        },
+        {
+          "ts": "1777711279.000002",
+          "user": "priya",
+          "text": "Heads up \u2014 pricing model is blocked. Need a decision from leadership."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777737199.000000",
+          "user": "aisha",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777729999.000001",
+          "user": "fatima",
+          "text": "Quick question on API integration \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777725559.000000",
+          "user": "aisha",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777727599.000001",
+          "user": "arjun",
+          "text": "Quick question on hiring plan \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777735819.000002",
+          "user": "aisha",
+          "text": "Just finished the vendor evaluation review. Notes in the doc."
+        },
+        {
+          "ts": "1777721839.000003",
+          "user": "sarah",
+          "text": "Reminder: infrastructure costs sync is at 3pm today."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0034"
+}

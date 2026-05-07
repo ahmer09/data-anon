@@ -1,0 +1,420 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "external_email",
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Priya Rivera",
+    "email": "priya.rivera@foundry.ai",
+    "role": "Marketing Lead",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Chloe Fischer",
+      "email": "chloe.fischer@foundry.ai",
+      "company": "foundry.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Lena Andersen",
+      "email": "lena.andersen@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CTO",
+      "external": false
+    },
+    {
+      "name": "Arjun Santos",
+      "email": "arjun.santos@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Elena Nakamura",
+      "email": "elena.nakamura@foundry.ai",
+      "company": "foundry.ai",
+      "role": "CEO",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00181",
+        "subject": "Board Meeting Prep \u2014 Apr 18",
+        "from": "arjun.santos@bridgewaterconsulting.com",
+        "snippet": "Hi Priya,  We've completed our initial due diligence and have a few follow-up questions on the product launch. Could we ",
+        "date": "2026-04-18T05:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00181_001",
+            "from": "arjun.santos@bridgewaterconsulting.com",
+            "to": [
+              "priya.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T05:24:19Z",
+            "body": "Hi Priya,\n\nWe've completed our initial due diligence and have a few follow-up questions on the product launch. Could we schedule a call this week?\n\nBest,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00182",
+        "subject": "Cap Table Update",
+        "from": "lena.andersen@foundry.ai",
+        "snippet": "Hi Priya,  We've completed our initial due diligence and have a few follow-up questions on the board presentation. Could",
+        "date": "2026-04-25T00:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00182_001",
+            "from": "lena.andersen@foundry.ai",
+            "to": [
+              "priya.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T00:24:19Z",
+            "body": "Hi Priya,\n\nWe've completed our initial due diligence and have a few follow-up questions on the board presentation. Could we schedule a call this week?\n\nBest,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00183",
+        "subject": "Partnership Proposal \u2014 Bridgewater Consulting",
+        "from": "arjun.santos@bridgewaterconsulting.com",
+        "snippet": "Hi Priya,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the infrastructure costs you proposed i",
+        "date": "2026-04-21T08:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00183_001",
+            "from": "arjun.santos@bridgewaterconsulting.com",
+            "to": [
+              "priya.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T08:24:19Z",
+            "body": "Hi Priya,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the infrastructure costs you proposed is about 18% above what Nexus Systems is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00184",
+        "subject": "RE: Shipment Delay",
+        "from": "arjun.santos@bridgewaterconsulting.com",
+        "snippet": "Hi Priya,  Please find attached Invoice #5194 for services rendered in May. Payment terms are net 30.  Thank you, Arjun",
+        "date": "2026-04-27T14:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00184_001",
+            "from": "arjun.santos@bridgewaterconsulting.com",
+            "to": [
+              "priya.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T14:24:19Z",
+            "body": "Hi Priya,\n\nPlease find attached Invoice #5194 for services rendered in May. Payment terms are net 30.\n\nThank you,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00185",
+        "subject": "RE: Budget Approval Needed",
+        "from": "arjun.santos@bridgewaterconsulting.com",
+        "snippet": "Hi Priya,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-18T20:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00185_001",
+            "from": "arjun.santos@bridgewaterconsulting.com",
+            "to": [
+              "priya.rivera@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T20:24:19Z",
+            "body": "Hi Priya,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nArjun"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_961",
+        "title": "Budget Discussion",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T11:00:00Z",
+        "attendees": [
+          "chloe.fischer@foundry.ai"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Pricing model",
+        "organizer": "chloe.fischer@foundry.ai"
+      },
+      {
+        "event_id": "ev_960",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T16:30:00Z",
+        "attendees": [
+          "lena.andersen@foundry.ai",
+          "arjun.santos@bridgewaterconsulting.com",
+          "chloe.fischer@foundry.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "lena.andersen@foundry.ai"
+      },
+      {
+        "event_id": "ev_958",
+        "title": "Sprint Planning",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T11:00:00Z",
+        "attendees": [
+          "elena.nakamura@foundry.ai",
+          "arjun.santos@bridgewaterconsulting.com",
+          "chloe.fischer@foundry.ai"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "elena.nakamura@foundry.ai"
+      },
+      {
+        "event_id": "ev_959",
+        "title": "Post-Mortem",
+        "start": "2026-05-06T10:00:00Z",
+        "end": "2026-05-06T10:30:00Z",
+        "attendees": [
+          "lena.andersen@foundry.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "lena.andersen@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0305",
+          "task_id": "nr_0305",
+          "title": "Bridgewater Consulting \u2014 Q3 Renewal",
+          "status": "open",
+          "owner": "arjun.santos@bridgewaterconsulting.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$113k",
+            "action_items": [
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0306",
+          "task_id": "nt_0306",
+          "title": "Infrastructure costs \u2014 Implement",
+          "status": "in_progress",
+          "owner": "arjun.santos@bridgewaterconsulting.com",
+          "due_date": "2026-05-20",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0307",
+          "task_id": "nt_0307",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "arjun.santos@bridgewaterconsulting.com",
+          "due_date": "2026-04-26",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0308",
+          "task_id": "nt_0308",
+          "title": "Pricing model \u2014 Review",
+          "status": "open",
+          "owner": "arjun.santos@bridgewaterconsulting.com",
+          "due_date": "2026-04-22",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0309",
+          "task_id": "nt_0309",
+          "title": "Infrastructure costs \u2014 Review",
+          "status": "in_progress",
+          "owner": "lena.andersen@foundry.ai",
+          "due_date": "2026-05-08",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0310",
+          "task_id": "nt_0310",
+          "title": "Compliance requirements \u2014 Resolve",
+          "status": "open",
+          "owner": "lena.andersen@foundry.ai",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0311",
+          "task_id": "nt_0311",
+          "title": "Sales pipeline \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "chloe.fischer@foundry.ai",
+          "due_date": "2026-05-12",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0312",
+          "task_id": "nt_0312",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "open",
+          "owner": "chloe.fischer@foundry.ai",
+          "due_date": "2026-04-27",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0313",
+          "task_id": "np_0313",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-27",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0314",
+          "task_id": "np_0314",
+          "title": "Infrastructure Migration",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-18",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#sales": [
+        {
+          "ts": "1777734199.000000",
+          "user": "elena",
+          "text": "Quick question on vendor evaluation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777728079.000001",
+          "user": "arjun",
+          "text": "Quick question on Q3 roadmap \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777718479.000002",
+          "user": "elena",
+          "text": "Quick question on hiring plan \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777714579.000003",
+          "user": "chloe",
+          "text": "Heads up \u2014 pricing model is blocked. Need a decision from leadership."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777728979.000000",
+          "user": "lena",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777716619.000001",
+          "user": "elena",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        },
+        {
+          "ts": "1777721059.000002",
+          "user": "chloe",
+          "text": "Quick question on compliance requirements \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777735999.000003",
+          "user": "lena",
+          "text": "Heads up \u2014 hiring plan is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "chloe",
+          "text": "@priya \u2014 can you take a look at the sales pipeline before EOD?"
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777727959.000000",
+          "user": "elena",
+          "text": "The hiring plan issue has been resolved."
+        },
+        {
+          "ts": "1777723999.000001",
+          "user": "elena",
+          "text": "PR for security audit is ready for review."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777734559.000000",
+          "user": "arjun",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        },
+        {
+          "ts": "1777725919.000001",
+          "user": "elena",
+          "text": "The customer churn issue has been resolved."
+        },
+        {
+          "ts": "1777722439.000002",
+          "user": "elena",
+          "text": "Updated the customer churn deck with latest figures."
+        },
+        {
+          "ts": "1777736239.000003",
+          "user": "elena",
+          "text": "PR for board presentation is ready for review."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0035"
+}

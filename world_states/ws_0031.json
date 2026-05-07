@@ -1,0 +1,357 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "external_email",
+    "internal_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Arjun Walsh",
+    "email": "arjun.walsh@foundry.ai",
+    "role": "Account Executive",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Tom Novak",
+      "email": "tom.novak@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Elena Sharma",
+      "email": "elena.sharma@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Ingrid Okafor",
+      "email": "ingrid.okafor@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Nadia Kowalski",
+      "email": "nadia.kowalski@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "CFO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00160",
+        "subject": "Quick question on security audit",
+        "from": "nadia.kowalski@orbitlabs.com",
+        "snippet": "Hi Arjun,  Quick question on the customer churn \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-18T10:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00160_001",
+            "from": "nadia.kowalski@orbitlabs.com",
+            "to": [
+              "arjun.walsh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-18T10:24:19Z",
+            "body": "Hi Arjun,\n\nQuick question on the customer churn \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00161",
+        "subject": "Due Diligence Request",
+        "from": "elena.sharma@ironcladsecurity.com",
+        "snippet": "Hi Arjun,  In preparation for the upcoming board meeting, could you please share the latest metrics on security audit? W",
+        "date": "2026-04-24T06:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00161_001",
+            "from": "elena.sharma@ironcladsecurity.com",
+            "to": [
+              "arjun.walsh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T06:24:19Z",
+            "body": "Hi Arjun,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on security audit? We'll need them at least 48 hours in advance.\n\nThank you,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00162",
+        "subject": "Team: Please review before Monday",
+        "from": "nadia.kowalski@orbitlabs.com",
+        "snippet": "Hi Arjun,  Quick question on the vendor evaluation \u2014 have we made a final decision? The team is waiting on this before w",
+        "date": "2026-04-25T19:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00162_001",
+            "from": "nadia.kowalski@orbitlabs.com",
+            "to": [
+              "arjun.walsh@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T19:24:19Z",
+            "body": "Hi Arjun,\n\nQuick question on the vendor evaluation \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nNadia"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_940",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T11:30:00Z",
+        "attendees": [
+          "nadia.kowalski@orbitlabs.com",
+          "elena.sharma@ironcladsecurity.com",
+          "ingrid.okafor@acmecorp.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "nadia.kowalski@orbitlabs.com"
+      },
+      {
+        "event_id": "ev_939",
+        "title": "Partnership Sync",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T15:30:00Z",
+        "attendees": [
+          "nadia.kowalski@orbitlabs.com",
+          "tom.novak@crestlinepartners.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "nadia.kowalski@orbitlabs.com"
+      },
+      {
+        "event_id": "ev_941",
+        "title": "Sprint Planning",
+        "start": "2026-05-05T14:15:00Z",
+        "end": "2026-05-05T14:45:00Z",
+        "attendees": [
+          "nadia.kowalski@orbitlabs.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "ingrid.okafor@acmecorp.com"
+      },
+      {
+        "event_id": "ev_938",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T12:00:00Z",
+        "attendees": [
+          "nadia.kowalski@orbitlabs.com",
+          "tom.novak@crestlinepartners.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Api integration",
+        "organizer": "arjun.walsh@foundry.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0272",
+          "task_id": "nr_0272",
+          "title": "Crestline Partners \u2014 Q1 Renewal",
+          "status": "open",
+          "owner": "tom.novak@crestlinepartners.com",
+          "due_date": "2026-05-07",
+          "properties": {
+            "deal_value": "$100k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0273",
+          "task_id": "nt_0273",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "open",
+          "owner": "ingrid.okafor@acmecorp.com",
+          "due_date": "2026-04-27",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0274",
+          "task_id": "nt_0274",
+          "title": "Infrastructure costs \u2014 Update",
+          "status": "in_progress",
+          "owner": "tom.novak@crestlinepartners.com",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0275",
+          "task_id": "nt_0275",
+          "title": "Pricing model \u2014 Ship",
+          "status": "done",
+          "owner": "tom.novak@crestlinepartners.com",
+          "due_date": "2026-05-06",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0276",
+          "task_id": "nt_0276",
+          "title": "Api integration \u2014 Review",
+          "status": "in_progress",
+          "owner": "tom.novak@crestlinepartners.com",
+          "due_date": "2026-05-14",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0277",
+          "task_id": "nt_0277",
+          "title": "Sales pipeline \u2014 Update",
+          "status": "in_progress",
+          "owner": "ingrid.okafor@acmecorp.com",
+          "due_date": "2026-05-16",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0278",
+          "task_id": "nt_0278",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "open",
+          "owner": "nadia.kowalski@orbitlabs.com",
+          "due_date": "2026-04-28",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0279",
+          "task_id": "np_0279",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-09",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777737439.000000",
+          "user": "elena",
+          "text": "Can someone double-check the compliance requirements numbers before tomorrow?"
+        },
+        {
+          "ts": "1777728859.000001",
+          "user": "ingrid",
+          "text": "Updated the customer churn deck with latest figures."
+        },
+        {
+          "ts": "1777722139.000002",
+          "user": "elena",
+          "text": "PR for compliance requirements is ready for review."
+        },
+        {
+          "ts": "1777731679.000003",
+          "user": "tom",
+          "text": "Can someone double-check the sales pipeline numbers before tomorrow?"
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777733479.000000",
+          "user": "ingrid",
+          "text": "PR for pricing model is ready for review."
+        },
+        {
+          "ts": "1777738399.000001",
+          "user": "ingrid",
+          "text": "Updated the compliance requirements deck with latest figures."
+        },
+        {
+          "ts": "1777732039.000002",
+          "user": "nadia",
+          "text": "Quick question on Q3 roadmap \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777737439.000000",
+          "user": "ingrid",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777729519.000001",
+          "user": "nadia",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777716919.000002",
+          "user": "tom",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777735879.000003",
+          "user": "ingrid",
+          "text": "Reminder: board presentation sync is at 3pm today."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777717939.000000",
+          "user": "nadia",
+          "text": "Heads up \u2014 security audit is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777733419.000001",
+          "user": "ingrid",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777736719.000002",
+          "user": "nadia",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        },
+        {
+          "ts": "1777727059.000003",
+          "user": "nadia",
+          "text": "Updated the customer churn deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0031"
+}

@@ -1,0 +1,464 @@
+{
+  "scenario_tags": [
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Carlos Sharma",
+    "email": "carlos.sharma@foundry.co",
+    "role": "Marketing Lead",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Yuki Park",
+      "email": "yuki.park@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "James Sharma",
+      "email": "james.sharma@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Ingrid M\u00fcller",
+      "email": "ingrid.m\u00fcller@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Tom Andersen",
+      "email": "tom.andersen@foundry.co",
+      "company": "foundry.co",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "James Singh",
+      "email": "james.singh@foundry.co",
+      "company": "foundry.co",
+      "role": "Legal Counsel",
+      "external": false
+    },
+    {
+      "name": "Aisha Al-Rashid",
+      "email": "aisha.al-rashid@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Omar Santos",
+      "email": "omar.santos@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "CEO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00218",
+        "subject": "Contract Renewal \u2014 Bridgewater Consulting",
+        "from": "yuki.park@bridgewaterconsulting.com",
+        "snippet": "Hi Carlos,  We wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to s",
+        "date": "2026-04-24T06:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00218_001",
+            "from": "yuki.park@bridgewaterconsulting.com",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T06:24:19Z",
+            "body": "Hi Carlos,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 7 business days due to supply chain issues. We apologize for the inconvenience.\n\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00219",
+        "subject": "Tier 4 Pricing Discussion",
+        "from": "james.singh@foundry.co",
+        "snippet": "Hi Carlos,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 2",
+        "date": "2026-04-28T20:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00219_001",
+            "from": "james.singh@foundry.co",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T20:24:19Z",
+            "body": "Hi Carlos,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 20% above what Vantage Point is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00220",
+        "subject": "RE: Q3 Metrics",
+        "from": "james.sharma@horizonhealth.com",
+        "snippet": "Hi Carlos,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we ",
+        "date": "2026-04-18T23:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00220_001",
+            "from": "james.sharma@horizonhealth.com",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-18T23:24:19Z",
+            "body": "Hi Carlos,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00221",
+        "subject": "Partnership Proposal \u2014 Horizon Health",
+        "from": "james.sharma@horizonhealth.com",
+        "snippet": "Hi Carlos,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-04-28T07:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00221_001",
+            "from": "james.sharma@horizonhealth.com",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T07:24:19Z",
+            "body": "Hi Carlos,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the security audit. Our deadline is end of this month.\n\nThanks,\nJames"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00222",
+        "subject": "RE: Q3 Metrics",
+        "from": "yuki.park@bridgewaterconsulting.com",
+        "snippet": "Hi Carlos,  We've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we",
+        "date": "2026-04-20T22:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00222_001",
+            "from": "yuki.park@bridgewaterconsulting.com",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T22:24:19Z",
+            "body": "Hi Carlos,\n\nWe've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we schedule a call this week?\n\nBest,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00223",
+        "subject": "Investor Update: April",
+        "from": "tom.andersen@foundry.co",
+        "snippet": "Hi Carlos,  We've completed our initial due diligence and have a few follow-up questions on the API integration. Could w",
+        "date": "2026-04-24T08:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00223_001",
+            "from": "tom.andersen@foundry.co",
+            "to": [
+              "carlos.sharma@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T08:24:19Z",
+            "body": "Hi Carlos,\n\nWe've completed our initial due diligence and have a few follow-up questions on the API integration. Could we schedule a call this week?\n\nBest,\nTom"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_995",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-02T09:00:00Z",
+        "end": "2026-05-02T10:30:00Z",
+        "attendees": [
+          "aisha.al-rashid@foundry.co",
+          "yuki.park@bridgewaterconsulting.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "carlos.sharma@foundry.co"
+      },
+      {
+        "event_id": "ev_992",
+        "title": "Post-Mortem",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:45:00Z",
+        "attendees": [
+          "omar.santos@quantumdynamics.com",
+          "tom.andersen@foundry.co",
+          "james.singh@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Product launch",
+        "organizer": "carlos.sharma@foundry.co"
+      },
+      {
+        "event_id": "ev_991",
+        "title": "Post-Mortem",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T10:45:00Z",
+        "attendees": [
+          "yuki.park@bridgewaterconsulting.com",
+          "omar.santos@quantumdynamics.com",
+          "james.singh@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Board presentation",
+        "organizer": "carlos.sharma@foundry.co"
+      },
+      {
+        "event_id": "ev_993",
+        "title": "Demo Day",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T12:30:00Z",
+        "attendees": [
+          "ingrid.m\u00fcller@novaengineering.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "ingrid.m\u00fcller@novaengineering.com"
+      },
+      {
+        "event_id": "ev_994",
+        "title": "Demo Day",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T15:45:00Z",
+        "attendees": [
+          "ingrid.m\u00fcller@novaengineering.com",
+          "aisha.al-rashid@foundry.co"
+        ],
+        "location": "Offsite \u2014 Berlin",
+        "notes": "Agenda: Api integration",
+        "organizer": "carlos.sharma@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0366",
+          "task_id": "nr_0366",
+          "title": "Bridgewater Consulting \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "yuki.park@bridgewaterconsulting.com",
+          "due_date": "2026-05-07",
+          "properties": {
+            "deal_value": "$455k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0367",
+          "task_id": "nt_0367",
+          "title": "Vendor evaluation \u2014 Ship",
+          "status": "open",
+          "owner": "tom.andersen@foundry.co",
+          "due_date": "2026-05-07",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0368",
+          "task_id": "nt_0368",
+          "title": "Compliance requirements \u2014 Resolve",
+          "status": "done",
+          "owner": "yuki.park@bridgewaterconsulting.com",
+          "due_date": "2026-05-15",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0369",
+          "task_id": "nt_0369",
+          "title": "Compliance requirements \u2014 Implement",
+          "status": "open",
+          "owner": "aisha.al-rashid@foundry.co",
+          "due_date": "2026-04-25",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0370",
+          "task_id": "nt_0370",
+          "title": "Board presentation \u2014 Implement",
+          "status": "in_progress",
+          "owner": "james.singh@foundry.co",
+          "due_date": "2026-05-08",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0371",
+          "task_id": "nt_0371",
+          "title": "Product launch \u2014 Ship",
+          "status": "open",
+          "owner": "aisha.al-rashid@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0372",
+          "task_id": "nt_0372",
+          "title": "Security audit \u2014 Implement",
+          "status": "done",
+          "owner": "james.singh@foundry.co",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0373",
+          "task_id": "np_0373",
+          "title": "Compliance Audit",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-29",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0374",
+          "task_id": "np_0374",
+          "title": "Compliance Audit",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-04",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#product": [
+        {
+          "ts": "1777738639.000000",
+          "user": "yuki",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777717459.000001",
+          "user": "james",
+          "text": "The Q3 roadmap issue has been resolved."
+        },
+        {
+          "ts": "1777735879.000002",
+          "user": "ingrid",
+          "text": "The pricing model issue has been resolved."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777736719.000000",
+          "user": "james",
+          "text": "Updated the hiring plan deck with latest figures."
+        },
+        {
+          "ts": "1777719499.000001",
+          "user": "ingrid",
+          "text": "Updated the pricing model deck with latest figures."
+        },
+        {
+          "ts": "1777730059.000002",
+          "user": "ingrid",
+          "text": "Quick question on compliance requirements \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777719619.000003",
+          "user": "ingrid",
+          "text": "Quick question on compliance requirements \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777719079.000000",
+          "user": "james",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        },
+        {
+          "ts": "1777720579.000001",
+          "user": "yuki",
+          "text": "Can someone double-check the infrastructure costs numbers before tomorrow?"
+        },
+        {
+          "ts": "1777732159.000002",
+          "user": "aisha",
+          "text": "Heads up \u2014 product launch is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777721479.000003",
+          "user": "ingrid",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777718959.000000",
+          "user": "james",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777715059.000001",
+          "user": "james",
+          "text": "Quick question on board presentation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777716139.000002",
+          "user": "omar",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777733599.000003",
+          "user": "james",
+          "text": "Updated the pricing model deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0042"
+}

@@ -1,0 +1,452 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "multi_step",
+    "ambiguous_sender",
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Sophie Rao",
+    "email": "sophie.rao@foundry.co",
+    "role": "CEO",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "James Kowalski",
+      "email": "james.kowalski@foundry.co",
+      "company": "foundry.co",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Nadia Singh",
+      "email": "nadia.singh@foundry.co",
+      "company": "foundry.co",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Fatima Kim",
+      "email": "fatima.kim@foundry.co",
+      "company": "foundry.co",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Aisha Patel",
+      "email": "aisha.patel@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Product Manager",
+      "external": true
+    },
+    {
+      "name": "Yuki Walsh",
+      "email": "yuki.walsh@solarisgroup.com",
+      "company": "Solaris Group",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Yuki Kim",
+      "email": "yuki.kim@novaengineering.com",
+      "company": "novaengineering",
+      "role": "Product Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00057",
+        "subject": "Investor Update: April",
+        "from": "yuki.kim@novaengineering.com",
+        "snippet": "Hi Sophie,  In preparation for the upcoming board meeting, could you please share the latest metrics on customer churn? ",
+        "date": "2026-04-30T22:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00057_001",
+            "from": "yuki.kim@novaengineering.com",
+            "to": [
+              "sophie.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-30T22:24:19Z",
+            "body": "Hi Sophie,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on customer churn? We'll need them at least 48 hours in advance.\n\nThank you,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00058",
+        "subject": "Partnership Proposal \u2014 Solaris Group",
+        "from": "yuki.walsh@solarisgroup.com",
+        "snippet": "Hi Sophie,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on ",
+        "date": "2026-04-26T07:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00058_001",
+            "from": "yuki.walsh@solarisgroup.com",
+            "to": [
+              "sophie.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-26T07:24:19Z",
+            "body": "Hi Sophie,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the hiring plan. Our deadline is end of this month.\n\nThanks,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00059",
+        "subject": "Tier 3 Pricing Discussion",
+        "from": "yuki.kim@novaengineering.com",
+        "snippet": "Hi Sophie,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is ",
+        "date": "2026-04-25T14:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00059_001",
+            "from": "yuki.kim@novaengineering.com",
+            "to": [
+              "sophie.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-25T14:24:19Z",
+            "body": "Hi Sophie,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is about 26% above what Nova Engineering is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00060",
+        "subject": "Tier 3 Pricing Discussion",
+        "from": "nadia.singh@foundry.co",
+        "snippet": "Hi Sophie,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is abo",
+        "date": "2026-05-01T07:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00060_001",
+            "from": "nadia.singh@foundry.co",
+            "to": [
+              "sophie.rao@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-05-01T07:24:19Z",
+            "body": "Hi Sophie,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about 23% above what Quantum Dynamics is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nNadia"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_854",
+        "title": "Sprint Planning",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T11:00:00Z",
+        "attendees": [
+          "fatima.kim@foundry.co"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Pricing model",
+        "organizer": "sophie.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_853",
+        "title": "Roadmap Review",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T11:30:00Z",
+        "attendees": [
+          "aisha.patel@acmecorp.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Pricing model",
+        "organizer": "sophie.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_850",
+        "title": "Sprint Planning",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T15:00:00Z",
+        "attendees": [
+          "aisha.patel@acmecorp.com",
+          "yuki.kim@novaengineering.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Security audit",
+        "organizer": "aisha.patel@acmecorp.com"
+      },
+      {
+        "event_id": "ev_851",
+        "title": "Design Review",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "yuki.kim@novaengineering.com"
+        ],
+        "location": "Offsite \u2014 Tokyo",
+        "notes": "Agenda: Product launch",
+        "organizer": "sophie.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_852",
+        "title": "Post-Mortem",
+        "start": "2026-05-04T17:00:00Z",
+        "end": "2026-05-04T18:30:00Z",
+        "attendees": [
+          "yuki.walsh@solarisgroup.com",
+          "james.kowalski@foundry.co",
+          "fatima.kim@foundry.co"
+        ],
+        "location": "Offsite \u2014 San Francisco",
+        "notes": "Agenda: Board presentation",
+        "organizer": "sophie.rao@foundry.co"
+      },
+      {
+        "event_id": "ev_849",
+        "title": "Demo Day",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T15:45:00Z",
+        "attendees": [
+          "nadia.singh@foundry.co"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "nadia.singh@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0083",
+          "task_id": "nr_0083",
+          "title": "Orbit Labs \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "priya.sharma@orbitlabs.com",
+          "due_date": "2026-05-23",
+          "properties": {
+            "deal_value": "$137k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0084",
+          "task_id": "nr_0084",
+          "title": "Acme Corp \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "aisha.patel@acmecorp.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$71k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Send updated SLA doc",
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0085",
+          "task_id": "nr_0085",
+          "title": "Solaris Group \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "yuki.walsh@solarisgroup.com",
+          "due_date": "2026-05-11",
+          "properties": {
+            "deal_value": "$45k",
+            "action_items": [
+              "Schedule QBR",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0086",
+          "task_id": "nt_0086",
+          "title": "Api integration \u2014 Review",
+          "status": "open",
+          "owner": "nadia.singh@foundry.co",
+          "due_date": "2026-04-29",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0087",
+          "task_id": "nt_0087",
+          "title": "Product launch \u2014 Ship",
+          "status": "open",
+          "owner": "priya.sharma@orbitlabs.com",
+          "due_date": "2026-04-29",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0088",
+          "task_id": "nt_0088",
+          "title": "Api integration \u2014 Update",
+          "status": "done",
+          "owner": "yuki.walsh@solarisgroup.com",
+          "due_date": "2026-05-03",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0089",
+          "task_id": "nt_0089",
+          "title": "Pricing model \u2014 Resolve",
+          "status": "open",
+          "owner": "james.kowalski@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0090",
+          "task_id": "nt_0090",
+          "title": "Vendor evaluation \u2014 Review",
+          "status": "in_progress",
+          "owner": "nadia.singh@foundry.co",
+          "due_date": "2026-05-09",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0091",
+          "task_id": "np_0091",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-07",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "QA pending",
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0092",
+          "task_id": "np_0092",
+          "title": "Product Roadmap Q2",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-23",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0093",
+          "task_id": "np_0093",
+          "title": "ML Pipeline Overhaul",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-09",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Launch ready",
+              "Engineering in progress"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#marketing": [
+        {
+          "ts": "1777713619.000000",
+          "user": "yuki",
+          "text": "Can someone double-check the compliance requirements numbers before tomorrow?"
+        },
+        {
+          "ts": "1777721359.000001",
+          "user": "aisha",
+          "text": "PR for pricing model is ready for review."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777731499.000000",
+          "user": "priya",
+          "text": "Quick question on product launch \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777729099.000001",
+          "user": "yuki",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777724899.000002",
+          "user": "nadia",
+          "text": "Updated the product launch deck with latest figures."
+        },
+        {
+          "ts": "1777732579.000003",
+          "user": "james",
+          "text": "Can someone double-check the infrastructure costs numbers before tomorrow?"
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777733719.000000",
+          "user": "james",
+          "text": "The API integration issue has been resolved."
+        },
+        {
+          "ts": "1777726279.000001",
+          "user": "nadia",
+          "text": "Reminder: Q3 roadmap sync is at 3pm today."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "yuki",
+          "text": "@sophie \u2014 can you take a look at the security audit before EOD?"
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777729339.000000",
+          "user": "fatima",
+          "text": "Quick question on API integration \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777735099.000001",
+          "user": "yuki",
+          "text": "Heads up \u2014 Q3 roadmap is blocked. Need a decision from leadership."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0011"
+}

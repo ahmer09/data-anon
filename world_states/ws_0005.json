@@ -1,0 +1,491 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "slack_mention",
+    "internal_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Dev Kowalski",
+    "email": "dev.kowalski@flow.ai",
+    "role": "CTO",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Ingrid Singh",
+      "email": "ingrid.singh@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Sophie Sharma",
+      "email": "sophie.sharma@flow.ai",
+      "company": "flow.ai",
+      "role": "CEO",
+      "external": false
+    },
+    {
+      "name": "Dev Rao",
+      "email": "dev.rao@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Sarah Okafor",
+      "email": "sarah.okafor@flow.ai",
+      "company": "flow.ai",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Fatima Kowalski",
+      "email": "fatima.kowalski@flow.ai",
+      "company": "flow.ai",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Lena Andersen",
+      "email": "lena.andersen@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Head of Product",
+      "external": true
+    },
+    {
+      "name": "Derek Kim",
+      "email": "derek.kim@atlasventures.com",
+      "company": "Atlas Ventures",
+      "role": "Product Manager",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00024",
+        "subject": "Board Meeting Prep \u2014 Apr 28",
+        "from": "fatima.kowalski@flow.ai",
+        "snippet": "Hi Dev,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirem",
+        "date": "2026-04-28T02:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00024_001",
+            "from": "fatima.kowalski@flow.ai",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T02:24:19Z",
+            "body": "Hi Dev,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00025",
+        "subject": "RE: Budget Approval Needed",
+        "from": "lena.andersen@vertexai.com",
+        "snippet": "Hi Dev,  Just a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-28T05:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00025_001",
+            "from": "lena.andersen@vertexai.com",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T05:24:19Z",
+            "body": "Hi Dev,\n\nJust a reminder that the customer churn review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00026",
+        "subject": "Follow-up: Contract Terms",
+        "from": "derek.kim@atlasventures.com",
+        "snippet": "Hi Dev,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 21% ",
+        "date": "2026-04-17T17:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00026_001",
+            "from": "derek.kim@atlasventures.com",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-17T17:24:19Z",
+            "body": "Hi Dev,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the Q3 roadmap you proposed is about 21% above what Vantage Point is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00027",
+        "subject": "Invoice #1100 \u2014 flow.ai",
+        "from": "fatima.kowalski@flow.ai",
+        "snippet": "Hi Dev,  Please find attached Invoice #2140 for services rendered in May. Payment terms are net 30.  Thank you, Fatima",
+        "date": "2026-04-17T19:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00027_001",
+            "from": "fatima.kowalski@flow.ai",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-17T19:24:19Z",
+            "body": "Hi Dev,\n\nPlease find attached Invoice #2140 for services rendered in May. Payment terms are net 30.\n\nThank you,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00028",
+        "subject": "RE: Shipment Delay",
+        "from": "sarah.okafor@flow.ai",
+        "snippet": "Hi Dev,  We wanted to inform you that the shipment for your recent order has been delayed by 10 business days due to sup",
+        "date": "2026-04-26T02:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00028_001",
+            "from": "sarah.okafor@flow.ai",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T02:24:19Z",
+            "body": "Hi Dev,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 10 business days due to supply chain issues. We apologize for the inconvenience.\n\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00029",
+        "subject": "Follow-up: Contract Terms",
+        "from": "sarah.okafor@flow.ai",
+        "snippet": "Hi Dev,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is ab",
+        "date": "2026-04-28T10:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00029_001",
+            "from": "sarah.okafor@flow.ai",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T10:24:19Z",
+            "body": "Hi Dev,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is about 11% above what Acme Corp is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nSarah"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00030",
+        "subject": "RE: SLA Amendment Request",
+        "from": "dev.rao@apexsolutions.com",
+        "snippet": "Hi Dev,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed ",
+        "date": "2026-04-27T13:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00030_001",
+            "from": "dev.rao@apexsolutions.com",
+            "to": [
+              "dev.kowalski@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T13:24:19Z",
+            "body": "Hi Dev,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the compliance requirements you proposed is about 11% above what Nova Engineering is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nDev"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_822",
+        "title": "Sprint Planning",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T11:45:00Z",
+        "attendees": [
+          "lena.andersen@vertexai.com",
+          "derek.kim@atlasventures.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Product launch",
+        "organizer": "dev.kowalski@flow.ai"
+      },
+      {
+        "event_id": "ev_820",
+        "title": "Design Review",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T09:45:00Z",
+        "attendees": [
+          "derek.kim@atlasventures.com",
+          "ingrid.singh@orbitlabs.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Customer churn",
+        "organizer": "dev.kowalski@flow.ai"
+      },
+      {
+        "event_id": "ev_821",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:45:00Z",
+        "attendees": [
+          "sophie.sharma@flow.ai",
+          "dev.rao@apexsolutions.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "dev.kowalski@flow.ai"
+      },
+      {
+        "event_id": "ev_819",
+        "title": "Contract Review",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:30:00Z",
+        "attendees": [
+          "sarah.okafor@flow.ai"
+        ],
+        "location": "Offsite \u2014 New York",
+        "notes": "Agenda: Board presentation",
+        "organizer": "dev.kowalski@flow.ai"
+      },
+      {
+        "event_id": "ev_823",
+        "title": "Team Standup",
+        "start": "2026-05-06T10:00:00Z",
+        "end": "2026-05-06T11:30:00Z",
+        "attendees": [
+          "ingrid.singh@orbitlabs.com",
+          "sophie.sharma@flow.ai",
+          "sarah.okafor@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Board presentation",
+        "organizer": "ingrid.singh@orbitlabs.com"
+      },
+      {
+        "event_id": "ev_825",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-06T10:15:00Z",
+        "end": "2026-05-06T10:45:00Z",
+        "attendees": [
+          "dev.rao@apexsolutions.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "fatima.kowalski@flow.ai"
+      },
+      {
+        "event_id": "ev_824",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T11:30:00Z",
+        "attendees": [
+          "dev.rao@apexsolutions.com",
+          "sophie.sharma@flow.ai",
+          "sarah.okafor@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Product launch",
+        "organizer": "dev.rao@apexsolutions.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0035",
+          "task_id": "nr_0035",
+          "title": "Orbit Labs \u2014 Q4 Renewal",
+          "status": "done",
+          "owner": "ingrid.singh@orbitlabs.com",
+          "due_date": "2026-05-16",
+          "properties": {
+            "deal_value": "$29k",
+            "action_items": [
+              "Schedule QBR"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0036",
+          "task_id": "nt_0036",
+          "title": "Vendor evaluation \u2014 Review",
+          "status": "open",
+          "owner": "fatima.kowalski@flow.ai",
+          "due_date": "2026-04-24",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0037",
+          "task_id": "nt_0037",
+          "title": "Customer churn \u2014 Review",
+          "status": "done",
+          "owner": "sarah.okafor@flow.ai",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0038",
+          "task_id": "nt_0038",
+          "title": "Api integration \u2014 Ship",
+          "status": "done",
+          "owner": "sophie.sharma@flow.ai",
+          "due_date": "2026-05-02",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0039",
+          "task_id": "nt_0039",
+          "title": "Hiring plan \u2014 Review",
+          "status": "open",
+          "owner": "fatima.kowalski@flow.ai",
+          "due_date": "2026-05-06",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0040",
+          "task_id": "nt_0040",
+          "title": "Sales pipeline \u2014 Resolve",
+          "status": "open",
+          "owner": "sarah.okafor@flow.ai",
+          "due_date": "2026-04-23",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0041",
+          "task_id": "np_0041",
+          "title": "GTM Strategy 2026",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-03",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0042",
+          "task_id": "np_0042",
+          "title": "GTM Strategy 2026",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-24",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Engineering in progress",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#customer-success": [
+        {
+          "ts": "1777718599.000000",
+          "user": "derek",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777736299.000001",
+          "user": "dev",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729279.000002",
+          "user": "dev",
+          "text": "PR for vendor evaluation is ready for review."
+        },
+        {
+          "ts": "1777720519.000003",
+          "user": "sophie",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777727239.000000",
+          "user": "fatima",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777734859.000001",
+          "user": "derek",
+          "text": "Can someone double-check the vendor evaluation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777718179.000002",
+          "user": "lena",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777729279.000000",
+          "user": "dev",
+          "text": "Updated the infrastructure costs deck with latest figures."
+        },
+        {
+          "ts": "1777715239.000001",
+          "user": "dev",
+          "text": "Updated the API integration deck with latest figures."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "derek",
+          "text": "@dev \u2014 can you take a look at the board presentation before EOD?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777734019.000000",
+          "user": "sophie",
+          "text": "Quick question on Q3 roadmap \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777714579.000001",
+          "user": "derek",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0005"
+}

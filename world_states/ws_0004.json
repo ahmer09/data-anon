@@ -1,0 +1,436 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Yuki Kim",
+    "email": "yuki.kim@foundry.co",
+    "role": "Customer Success Manager",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Lena Tanaka",
+      "email": "lena.tanaka@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Raj Andersen",
+      "email": "raj.andersen@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Derek Dubois",
+      "email": "derek.dubois@foundry.co",
+      "company": "foundry.co",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Priya Tanaka",
+      "email": "priya.tanaka@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Luke M\u00fcller",
+      "email": "luke.m\u00fcller@foundry.co",
+      "company": "foundry.co",
+      "role": "Senior Engineer",
+      "external": false
+    },
+    {
+      "name": "Mei Chen",
+      "email": "mei.chen@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Chloe Berg",
+      "email": "chloe.berg@foundry.co",
+      "company": "foundry.co",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Aisha Andersen",
+      "email": "aisha.andersen@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "Head of Product",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00019",
+        "subject": "RE: Q4 Metrics",
+        "from": "priya.tanaka@foundry.co",
+        "snippet": "Hi Yuki,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we sc",
+        "date": "2026-04-21T09:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00019_001",
+            "from": "priya.tanaka@foundry.co",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T09:24:19Z",
+            "body": "Hi Yuki,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00020",
+        "subject": "RE: Q1 Metrics",
+        "from": "lena.tanaka@bridgewaterconsulting.com",
+        "snippet": "Hi Yuki,  In preparation for the upcoming board meeting, could you please share the latest metrics on vendor evaluation?",
+        "date": "2026-04-21T12:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00020_001",
+            "from": "lena.tanaka@bridgewaterconsulting.com",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T12:24:19Z",
+            "body": "Hi Yuki,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on vendor evaluation? We'll need them at least 48 hours in advance.\n\nThank you,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00021",
+        "subject": "RE: SLA Amendment Request",
+        "from": "luke.m\u00fcller@foundry.co",
+        "snippet": "Hi Yuki,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on th",
+        "date": "2026-04-28T17:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00021_001",
+            "from": "luke.m\u00fcller@foundry.co",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T17:24:19Z",
+            "body": "Hi Yuki,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the pricing model. Our deadline is end of this month.\n\nThanks,\nLuke"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00022",
+        "subject": "Quick question on board presentation",
+        "from": "chloe.berg@foundry.co",
+        "snippet": "Hi Yuki,  Quick question on the API integration \u2014 have we made a final decision? The team is waiting on this before we c",
+        "date": "2026-04-22T19:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00022_001",
+            "from": "chloe.berg@foundry.co",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T19:24:19Z",
+            "body": "Hi Yuki,\n\nQuick question on the API integration \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nChloe"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00023",
+        "subject": "RE: Action Items from Investor Update",
+        "from": "luke.m\u00fcller@foundry.co",
+        "snippet": "Hi Yuki,  Quick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we ca",
+        "date": "2026-04-21T23:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00023_001",
+            "from": "luke.m\u00fcller@foundry.co",
+            "to": [
+              "yuki.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T23:24:19Z",
+            "body": "Hi Yuki,\n\nQuick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nLuke"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_816",
+        "title": "Roadmap Review",
+        "start": "2026-05-02T11:00:00Z",
+        "end": "2026-05-02T11:45:00Z",
+        "attendees": [
+          "chloe.berg@foundry.co",
+          "raj.andersen@crestlinepartners.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "yuki.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_814",
+        "title": "Contract Review",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T15:45:00Z",
+        "attendees": [
+          "priya.tanaka@foundry.co",
+          "mei.chen@horizonhealth.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Security audit",
+        "organizer": "priya.tanaka@foundry.co"
+      },
+      {
+        "event_id": "ev_818",
+        "title": "Contract Review",
+        "start": "2026-05-03T15:15:00Z",
+        "end": "2026-05-03T15:45:00Z",
+        "attendees": [
+          "priya.tanaka@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "chloe.berg@foundry.co"
+      },
+      {
+        "event_id": "ev_815",
+        "title": "Budget Discussion",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T17:00:00Z",
+        "attendees": [
+          "lena.tanaka@bridgewaterconsulting.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "lena.tanaka@bridgewaterconsulting.com"
+      },
+      {
+        "event_id": "ev_813",
+        "title": "Team Standup",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T09:30:00Z",
+        "attendees": [
+          "chloe.berg@foundry.co",
+          "derek.dubois@foundry.co",
+          "lena.tanaka@bridgewaterconsulting.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Product launch",
+        "organizer": "chloe.berg@foundry.co"
+      },
+      {
+        "event_id": "ev_817",
+        "title": "1:1",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:00:00Z",
+        "attendees": [
+          "aisha.andersen@vantagepoint.com",
+          "chloe.berg@foundry.co"
+        ],
+        "location": "Offsite \u2014 Tokyo",
+        "notes": "Agenda: Api integration",
+        "organizer": "aisha.andersen@vantagepoint.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0027",
+          "task_id": "nr_0027",
+          "title": "Bridgewater Consulting \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "lena.tanaka@bridgewaterconsulting.com",
+          "due_date": "2026-05-20",
+          "properties": {
+            "deal_value": "$17k",
+            "action_items": [
+              "Share product roadmap",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0028",
+          "task_id": "nr_0028",
+          "title": "Crestline Partners \u2014 Q3 Renewal",
+          "status": "in_progress",
+          "owner": "raj.andersen@crestlinepartners.com",
+          "due_date": "2026-05-26",
+          "properties": {
+            "deal_value": "$309k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0029",
+          "task_id": "nr_0029",
+          "title": "Horizon Health \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "mei.chen@horizonhealth.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$22k",
+            "action_items": [
+              "Share product roadmap",
+              "Schedule QBR",
+              "Confirm pricing tiers"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0030",
+          "task_id": "nt_0030",
+          "title": "Security audit \u2014 Implement",
+          "status": "in_progress",
+          "owner": "chloe.berg@foundry.co",
+          "due_date": "2026-05-12",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0031",
+          "task_id": "nt_0031",
+          "title": "Pricing model \u2014 Review",
+          "status": "open",
+          "owner": "luke.m\u00fcller@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0032",
+          "task_id": "nt_0032",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "open",
+          "owner": "derek.dubois@foundry.co",
+          "due_date": "2026-04-25",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0033",
+          "task_id": "np_0033",
+          "title": "GTM Strategy 2026",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-04",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "QA pending",
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0034",
+          "task_id": "np_0034",
+          "title": "Partnership Expansion",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-28",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#leadership": [
+        {
+          "ts": "1777712539.000000",
+          "user": "priya",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        },
+        {
+          "ts": "1777722079.000001",
+          "user": "mei",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777726579.000002",
+          "user": "lena",
+          "text": "Updated the product launch deck with latest figures."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777735999.000000",
+          "user": "aisha",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        },
+        {
+          "ts": "1777737259.000001",
+          "user": "lena",
+          "text": "Updated the hiring plan deck with latest figures."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777736659.000000",
+          "user": "priya",
+          "text": "Updated the customer churn deck with latest figures."
+        },
+        {
+          "ts": "1777713799.000001",
+          "user": "priya",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777730299.000000",
+          "user": "lena",
+          "text": "Heads up \u2014 infrastructure costs is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777714279.000001",
+          "user": "luke",
+          "text": "Can someone double-check the infrastructure costs numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0004"
+}

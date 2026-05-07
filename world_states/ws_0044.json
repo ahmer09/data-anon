@@ -1,0 +1,454 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step",
+    "slack_mention",
+    "overdue_tasks",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Ben Chen",
+    "email": "ben.chen@foundry.co",
+    "role": "CFO",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Omar Nakamura",
+      "email": "omar.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Legal Counsel",
+      "external": false
+    },
+    {
+      "name": "Elena Al-Rashid",
+      "email": "elena.al-rashid@foundry.co",
+      "company": "foundry.co",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Ingrid Sharma",
+      "email": "ingrid.sharma@foundry.co",
+      "company": "foundry.co",
+      "role": "CTO",
+      "external": false
+    },
+    {
+      "name": "Fatima Kim",
+      "email": "fatima.kim@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "Director of Partnerships",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00229",
+        "subject": "Partnership Proposal \u2014 foundry.co",
+        "from": "omar.nakamura@foundry.co",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is ab",
+        "date": "2026-04-27T01:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00229_001",
+            "from": "omar.nakamura@foundry.co",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T01:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the board presentation you proposed is about 29% above what Crestline Partners is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00230",
+        "subject": "Follow-up: Contract Terms",
+        "from": "elena.al-rashid@foundry.co",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is abo",
+        "date": "2026-04-28T03:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00230_001",
+            "from": "elena.al-rashid@foundry.co",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-28T03:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the vendor evaluation you proposed is about 25% above what Nexus Systems is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00231",
+        "subject": "Invoice #9306 \u2014 Pinnacle Tech",
+        "from": "fatima.kim@pinnacletech.com",
+        "snippet": "Hi Ben,  We wanted to inform you that the shipment for your recent order has been delayed by 9 business days due to supp",
+        "date": "2026-04-20T14:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00231_001",
+            "from": "fatima.kim@pinnacletech.com",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-20T14:24:19Z",
+            "body": "Hi Ben,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 9 business days due to supply chain issues. We apologize for the inconvenience.\n\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00232",
+        "subject": "Tier 1 Pricing Discussion",
+        "from": "fatima.kim@pinnacletech.com",
+        "snippet": "Hi Ben,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the infrastructure costs you proposed is ",
+        "date": "2026-04-27T17:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00232_001",
+            "from": "fatima.kim@pinnacletech.com",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-27T17:24:19Z",
+            "body": "Hi Ben,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the infrastructure costs you proposed is about 23% above what Crestline Partners is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00233",
+        "subject": "Due Diligence Request",
+        "from": "elena.al-rashid@foundry.co",
+        "snippet": "Hi Ben,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we sch",
+        "date": "2026-04-23T21:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00233_001",
+            "from": "elena.al-rashid@foundry.co",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T21:24:19Z",
+            "body": "Hi Ben,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00234",
+        "subject": "Technical Support Request",
+        "from": "ingrid.sharma@foundry.co",
+        "snippet": "Hi Ben,  Please find attached Invoice #5073 for services rendered in May. Payment terms are net 30.  Thank you, Ingrid",
+        "date": "2026-04-30T07:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00234_001",
+            "from": "ingrid.sharma@foundry.co",
+            "to": [
+              "ben.chen@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-30T07:24:19Z",
+            "body": "Hi Ben,\n\nPlease find attached Invoice #5073 for services rendered in May. Payment terms are net 30.\n\nThank you,\nIngrid"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1000",
+        "title": "Design Review",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T16:00:00Z",
+        "attendees": [
+          "omar.nakamura@foundry.co",
+          "elena.al-rashid@foundry.co",
+          "fatima.kim@pinnacletech.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Pricing model",
+        "organizer": "ben.chen@foundry.co"
+      },
+      {
+        "event_id": "ev_1003",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T15:15:00Z",
+        "end": "2026-05-03T15:45:00Z",
+        "attendees": [
+          "omar.nakamura@foundry.co"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "fatima.kim@pinnacletech.com"
+      },
+      {
+        "event_id": "ev_1002",
+        "title": "Team Standup",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T17:30:00Z",
+        "attendees": [
+          "ingrid.sharma@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "ben.chen@foundry.co"
+      },
+      {
+        "event_id": "ev_1001",
+        "title": "Budget Discussion",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:45:00Z",
+        "attendees": [
+          "omar.nakamura@foundry.co",
+          "elena.al-rashid@foundry.co",
+          "fatima.kim@pinnacletech.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Customer churn",
+        "organizer": "ben.chen@foundry.co"
+      },
+      {
+        "event_id": "ev_999",
+        "title": "1:1",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T14:45:00Z",
+        "attendees": [
+          "ingrid.sharma@foundry.co",
+          "elena.al-rashid@foundry.co"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "ben.chen@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0385",
+          "task_id": "nr_0385",
+          "title": "Pinnacle Tech \u2014 Q3 Renewal",
+          "status": "open",
+          "owner": "fatima.kim@pinnacletech.com",
+          "due_date": "2026-05-15",
+          "properties": {
+            "deal_value": "$218k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0386",
+          "task_id": "nt_0386",
+          "title": "Product launch \u2014 Implement",
+          "status": "open",
+          "owner": "fatima.kim@pinnacletech.com",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0387",
+          "task_id": "nt_0387",
+          "title": "Sales pipeline \u2014 Review",
+          "status": "open",
+          "owner": "ingrid.sharma@foundry.co",
+          "due_date": "2026-04-26",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0388",
+          "task_id": "nt_0388",
+          "title": "Board presentation \u2014 Implement",
+          "status": "open",
+          "owner": "fatima.kim@pinnacletech.com",
+          "due_date": "2026-04-24",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0389",
+          "task_id": "nt_0389",
+          "title": "Hiring plan \u2014 Ship",
+          "status": "done",
+          "owner": "fatima.kim@pinnacletech.com",
+          "due_date": "2026-05-12",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0390",
+          "task_id": "nt_0390",
+          "title": "Pricing model \u2014 Implement",
+          "status": "done",
+          "owner": "ingrid.sharma@foundry.co",
+          "due_date": "2026-05-21",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0391",
+          "task_id": "nt_0391",
+          "title": "Infrastructure costs \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "fatima.kim@pinnacletech.com",
+          "due_date": "2026-05-03",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0392",
+          "task_id": "np_0392",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-02",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0393",
+          "task_id": "np_0393",
+          "title": "Customer Onboarding Revamp",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-22",
+          "properties": {
+            "milestones": [
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0394",
+          "task_id": "np_0394",
+          "title": "GTM Strategy 2026",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-06-21",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#design": [
+        {
+          "ts": "1777719619.000000",
+          "user": "elena",
+          "text": "PR for hiring plan is ready for review."
+        },
+        {
+          "ts": "1777715299.000001",
+          "user": "fatima",
+          "text": "Quick question on pricing model \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "fatima",
+          "text": "@ben \u2014 can you take a look at the board presentation before EOD?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777731559.000000",
+          "user": "fatima",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777720159.000001",
+          "user": "fatima",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777732099.000002",
+          "user": "fatima",
+          "text": "Can someone double-check the sales pipeline numbers before tomorrow?"
+        },
+        {
+          "ts": "1777733299.000003",
+          "user": "ingrid",
+          "text": "PR for infrastructure costs is ready for review."
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777727959.000000",
+          "user": "fatima",
+          "text": "PR for sales pipeline is ready for review."
+        },
+        {
+          "ts": "1777728979.000001",
+          "user": "ingrid",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        },
+        {
+          "ts": "1777723339.000002",
+          "user": "ingrid",
+          "text": "PR for customer churn is ready for review."
+        },
+        {
+          "ts": "1777712419.000003",
+          "user": "elena",
+          "text": "The compliance requirements issue has been resolved."
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777713439.000000",
+          "user": "ingrid",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777726519.000001",
+          "user": "elena",
+          "text": "Just finished the product launch review. Notes in the doc."
+        },
+        {
+          "ts": "1777715359.000002",
+          "user": "ingrid",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0044"
+}

@@ -1,0 +1,400 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "external_email",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Sophie Novak",
+    "email": "sophie.novak@foundry.ai",
+    "role": "Marketing Lead",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Raj Singh",
+      "email": "raj.singh@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Sophie Berg",
+      "email": "sophie.berg@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Marcus Lopez",
+      "email": "marcus.lopez@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Engineering Manager",
+      "external": false
+    },
+    {
+      "name": "Dev Dubois",
+      "email": "dev.dubois@stratumanalytics.com",
+      "company": "Stratum Analytics",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Hassan Kim",
+      "email": "hassan.kim@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "Head of Product",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00072",
+        "subject": "RE: Action Items from 1:1",
+        "from": "sophie.berg@vertexai.com",
+        "snippet": "Hi Sophie,  Quick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before",
+        "date": "2026-04-21T12:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00072_001",
+            "from": "sophie.berg@vertexai.com",
+            "to": [
+              "sophie.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T12:24:19Z",
+            "body": "Hi Sophie,\n\nQuick question on the board presentation \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nSophie"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00073",
+        "subject": "RE: Q2 Metrics",
+        "from": "raj.singh@orbitlabs.com",
+        "snippet": "Hi Sophie,  In preparation for the upcoming board meeting, could you please share the latest metrics on board presentati",
+        "date": "2026-04-24T08:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00073_001",
+            "from": "raj.singh@orbitlabs.com",
+            "to": [
+              "sophie.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-24T08:24:19Z",
+            "body": "Hi Sophie,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on board presentation? We'll need them at least 48 hours in advance.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00074",
+        "subject": "Partnership Expansion \u2014 Status Update",
+        "from": "dev.dubois@stratumanalytics.com",
+        "snippet": "Hi Sophie,  Quick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-28T21:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00074_001",
+            "from": "dev.dubois@stratumanalytics.com",
+            "to": [
+              "sophie.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T21:24:19Z",
+            "body": "Hi Sophie,\n\nQuick question on the sales pipeline \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nDev"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00075",
+        "subject": "RE: Action Items from Demo Day",
+        "from": "hassan.kim@bridgewaterconsulting.com",
+        "snippet": "Hi Sophie,  Quick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-22T01:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00075_001",
+            "from": "hassan.kim@bridgewaterconsulting.com",
+            "to": [
+              "sophie.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T01:24:19Z",
+            "body": "Hi Sophie,\n\nQuick question on the product launch \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nHassan"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_866",
+        "title": "Design Review",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "hassan.kim@bridgewaterconsulting.com",
+          "dev.dubois@stratumanalytics.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "hassan.kim@bridgewaterconsulting.com"
+      },
+      {
+        "event_id": "ev_867",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "raj.singh@orbitlabs.com",
+          "dev.dubois@stratumanalytics.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "sophie.novak@foundry.ai"
+      },
+      {
+        "event_id": "ev_863",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T14:00:00Z",
+        "end": "2026-05-04T14:30:00Z",
+        "attendees": [
+          "raj.singh@orbitlabs.com",
+          "hassan.kim@bridgewaterconsulting.com",
+          "dev.dubois@stratumanalytics.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "sophie.novak@foundry.ai"
+      },
+      {
+        "event_id": "ev_865",
+        "title": "Demo Day",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T15:45:00Z",
+        "attendees": [
+          "dev.dubois@stratumanalytics.com",
+          "hassan.kim@bridgewaterconsulting.com",
+          "marcus.lopez@foundry.ai"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Security audit",
+        "organizer": "sophie.novak@foundry.ai"
+      },
+      {
+        "event_id": "ev_864",
+        "title": "Design Review",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:00:00Z",
+        "attendees": [
+          "raj.singh@orbitlabs.com",
+          "marcus.lopez@foundry.ai"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "raj.singh@orbitlabs.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0114",
+          "task_id": "nr_0114",
+          "title": "Orbit Labs \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "raj.singh@orbitlabs.com",
+          "due_date": "2026-05-30",
+          "properties": {
+            "deal_value": "$275k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Share product roadmap",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0115",
+          "task_id": "nr_0115",
+          "title": "Vertex AI \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "sophie.berg@vertexai.com",
+          "due_date": "2026-05-24",
+          "properties": {
+            "deal_value": "$187k",
+            "action_items": [
+              "Complete security questionnaire",
+              "Review contract terms",
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0116",
+          "task_id": "nr_0116",
+          "title": "Stratum Analytics \u2014 Q1 Renewal",
+          "status": "open",
+          "owner": "dev.dubois@stratumanalytics.com",
+          "due_date": "2026-06-01",
+          "properties": {
+            "deal_value": "$339k",
+            "action_items": [
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0117",
+          "task_id": "nt_0117",
+          "title": "Infrastructure costs \u2014 Review",
+          "status": "open",
+          "owner": "dev.dubois@stratumanalytics.com",
+          "due_date": "2026-04-28",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0118",
+          "task_id": "nt_0118",
+          "title": "Product launch \u2014 Review",
+          "status": "open",
+          "owner": "hassan.kim@bridgewaterconsulting.com",
+          "due_date": "2026-04-27",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0119",
+          "task_id": "nt_0119",
+          "title": "Compliance requirements \u2014 Resolve",
+          "status": "done",
+          "owner": "sophie.berg@vertexai.com",
+          "due_date": "2026-05-09",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0120",
+          "task_id": "nt_0120",
+          "title": "Board presentation \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "raj.singh@orbitlabs.com",
+          "due_date": "2026-05-06",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0121",
+          "task_id": "nt_0121",
+          "title": "Q3 roadmap \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "raj.singh@orbitlabs.com",
+          "due_date": "2026-05-06",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0122",
+          "task_id": "nt_0122",
+          "title": "Pricing model \u2014 Ship",
+          "status": "in_progress",
+          "owner": "hassan.kim@bridgewaterconsulting.com",
+          "due_date": "2026-05-04",
+          "priority": "low",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0123",
+          "task_id": "np_0123",
+          "title": "PCB Redesign v2",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-06-24",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Design signed off"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777721599.000000",
+          "user": "marcus",
+          "text": "The board presentation issue has been resolved."
+        },
+        {
+          "ts": "1777716799.000001",
+          "user": "marcus",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        },
+        {
+          "ts": "1777715479.000002",
+          "user": "raj",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777727899.000000",
+          "user": "marcus",
+          "text": "Quick question on vendor evaluation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777722739.000001",
+          "user": "hassan",
+          "text": "Can someone double-check the hiring plan numbers before tomorrow?"
+        }
+      ],
+      "#ops": [
+        {
+          "ts": "1777723639.000000",
+          "user": "sophie",
+          "text": "PR for infrastructure costs is ready for review."
+        },
+        {
+          "ts": "1777730959.000001",
+          "user": "raj",
+          "text": "Updated the board presentation deck with latest figures."
+        }
+      ],
+      "#general": [
+        {
+          "ts": "1777712599.000000",
+          "user": "raj",
+          "text": "Updated the compliance requirements deck with latest figures."
+        },
+        {
+          "ts": "1777713439.000001",
+          "user": "dev",
+          "text": "Reminder: sales pipeline sync is at 3pm today."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0014"
+}

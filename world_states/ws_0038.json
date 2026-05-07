@@ -1,0 +1,473 @@
+{
+  "scenario_tags": [
+    "slack_mention"
+  ],
+  "user": {
+    "name": "Elena Novak",
+    "email": "elena.novak@foundry.ai",
+    "role": "Chief of Staff",
+    "timezone": "Asia/Singapore"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Marcus Tanaka",
+      "email": "marcus.tanaka@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Engineering Manager",
+      "external": true
+    },
+    {
+      "name": "Tom Santos",
+      "email": "tom.santos@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "VP of Engineering",
+      "external": true
+    },
+    {
+      "name": "Chloe Chen",
+      "email": "chloe.chen@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Customer Success Manager",
+      "external": true
+    },
+    {
+      "name": "Ingrid Lopez",
+      "email": "ingrid.lopez@crestlinepartners.com",
+      "company": "Crestline Partners",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Arjun Dubois",
+      "email": "arjun.dubois@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Omar Rivera",
+      "email": "omar.rivera@foundry.ai",
+      "company": "foundry.ai",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Dev Lopez",
+      "email": "dev.lopez@vantagepoint.com",
+      "company": "Vantage Point",
+      "role": "Director of Partnerships",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00198",
+        "subject": "Due Diligence Request",
+        "from": "marcus.tanaka@orbitlabs.com",
+        "snippet": "Hi Elena,  In preparation for the upcoming board meeting, could you please share the latest metrics on infrastructure co",
+        "date": "2026-04-26T07:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00198_001",
+            "from": "marcus.tanaka@orbitlabs.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T07:24:19Z",
+            "body": "Hi Elena,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on infrastructure costs? We'll need them at least 48 hours in advance.\n\nThank you,\nMarcus"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00199",
+        "subject": "RE: Q3 Renewal \u2014 Pricing Concern",
+        "from": "dev.lopez@vantagepoint.com",
+        "snippet": "Hi Elena,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the hiring plan you proposed is about 2",
+        "date": "2026-04-17T23:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00199_001",
+            "from": "dev.lopez@vantagepoint.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-17T23:24:19Z",
+            "body": "Hi Elena,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the hiring plan you proposed is about 29% above what Crestline Partners is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nDev"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00200",
+        "subject": "Due Diligence Request",
+        "from": "tom.santos@crestlinepartners.com",
+        "snippet": "Hi Elena,  We've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we sch",
+        "date": "2026-04-27T12:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00200_001",
+            "from": "tom.santos@crestlinepartners.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T12:24:19Z",
+            "body": "Hi Elena,\n\nWe've completed our initial due diligence and have a few follow-up questions on the hiring plan. Could we schedule a call this week?\n\nBest,\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00201",
+        "subject": "RE: Action Items from Post-Mortem",
+        "from": "arjun.dubois@acmecorp.com",
+        "snippet": "Hi Elena,  Quick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this be",
+        "date": "2026-04-19T09:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00201_001",
+            "from": "arjun.dubois@acmecorp.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-19T09:24:19Z",
+            "body": "Hi Elena,\n\nQuick question on the compliance requirements \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00202",
+        "subject": "RE: Q1 Metrics",
+        "from": "dev.lopez@vantagepoint.com",
+        "snippet": "Hi Elena,  In preparation for the upcoming board meeting, could you please share the latest metrics on compliance requir",
+        "date": "2026-04-27T18:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00202_001",
+            "from": "dev.lopez@vantagepoint.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T18:24:19Z",
+            "body": "Hi Elena,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on compliance requirements? We'll need them at least 48 hours in advance.\n\nThank you,\nDev"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00203",
+        "subject": "Partnership Proposal \u2014 Crestline Partners",
+        "from": "tom.santos@crestlinepartners.com",
+        "snippet": "Hi Elena,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on t",
+        "date": "2026-04-25T13:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00203_001",
+            "from": "tom.santos@crestlinepartners.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T13:24:19Z",
+            "body": "Hi Elena,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the hiring plan. Our deadline is end of this month.\n\nThanks,\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00204",
+        "subject": "Invoice #7267 \u2014 Acme Corp",
+        "from": "arjun.dubois@acmecorp.com",
+        "snippet": "Hi Elena,  We wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to su",
+        "date": "2026-04-26T00:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00204_001",
+            "from": "arjun.dubois@acmecorp.com",
+            "to": [
+              "elena.novak@foundry.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T00:24:19Z",
+            "body": "Hi Elena,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 5 business days due to supply chain issues. We apologize for the inconvenience.\n\nArjun"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_970",
+        "title": "1:1",
+        "start": "2026-05-02T16:00:00Z",
+        "end": "2026-05-02T16:45:00Z",
+        "attendees": [
+          "omar.rivera@foundry.ai"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Pricing model",
+        "organizer": "omar.rivera@foundry.ai"
+      },
+      {
+        "event_id": "ev_975",
+        "title": "Team Standup",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T09:30:00Z",
+        "attendees": [
+          "ingrid.lopez@crestlinepartners.com",
+          "dev.lopez@vantagepoint.com",
+          "chloe.chen@acmecorp.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "elena.novak@foundry.ai"
+      },
+      {
+        "event_id": "ev_973",
+        "title": "Team Standup",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "chloe.chen@acmecorp.com",
+          "omar.rivera@foundry.ai",
+          "marcus.tanaka@orbitlabs.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Security audit",
+        "organizer": "chloe.chen@acmecorp.com"
+      },
+      {
+        "event_id": "ev_974",
+        "title": "Sprint Planning",
+        "start": "2026-05-04T17:00:00Z",
+        "end": "2026-05-04T18:00:00Z",
+        "attendees": [
+          "tom.santos@crestlinepartners.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "tom.santos@crestlinepartners.com"
+      },
+      {
+        "event_id": "ev_972",
+        "title": "Sprint Planning",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T15:00:00Z",
+        "attendees": [
+          "marcus.tanaka@orbitlabs.com",
+          "tom.santos@crestlinepartners.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "elena.novak@foundry.ai"
+      },
+      {
+        "event_id": "ev_971",
+        "title": "Team Standup",
+        "start": "2026-05-06T11:00:00Z",
+        "end": "2026-05-06T11:30:00Z",
+        "attendees": [
+          "marcus.tanaka@orbitlabs.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Board presentation",
+        "organizer": "marcus.tanaka@orbitlabs.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0335",
+          "task_id": "nr_0335",
+          "title": "Orbit Labs \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "marcus.tanaka@orbitlabs.com",
+          "due_date": "2026-05-19",
+          "properties": {
+            "deal_value": "$260k",
+            "action_items": [
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0336",
+          "task_id": "nt_0336",
+          "title": "Pricing model \u2014 Ship",
+          "status": "open",
+          "owner": "omar.rivera@foundry.ai",
+          "due_date": "2026-04-23",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0337",
+          "task_id": "nt_0337",
+          "title": "Customer churn \u2014 Ship",
+          "status": "open",
+          "owner": "tom.santos@crestlinepartners.com",
+          "due_date": "2026-05-18",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0338",
+          "task_id": "nt_0338",
+          "title": "Q3 roadmap \u2014 Implement",
+          "status": "open",
+          "owner": "dev.lopez@vantagepoint.com",
+          "due_date": "2026-05-16",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0339",
+          "task_id": "np_0339",
+          "title": "Compliance Audit",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-13",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "QA pending"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0340",
+          "task_id": "np_0340",
+          "title": "Product Roadmap Q3",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-06-23",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777722859.000000",
+          "user": "omar",
+          "text": "Just finished the security audit review. Notes in the doc."
+        },
+        {
+          "ts": "1777726159.000001",
+          "user": "tom",
+          "text": "Heads up \u2014 sales pipeline is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777723519.000002",
+          "user": "chloe",
+          "text": "Updated the pricing model deck with latest figures."
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777717399.000000",
+          "user": "omar",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777715899.000001",
+          "user": "tom",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777719139.000002",
+          "user": "ingrid",
+          "text": "Quick question on Q3 roadmap \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777717939.000003",
+          "user": "omar",
+          "text": "The customer churn issue has been resolved."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777730659.000000",
+          "user": "tom",
+          "text": "Reminder: vendor evaluation sync is at 3pm today."
+        },
+        {
+          "ts": "1777726759.000001",
+          "user": "chloe",
+          "text": "PR for board presentation is ready for review."
+        },
+        {
+          "ts": "1777729279.000002",
+          "user": "chloe",
+          "text": "Just finished the sales pipeline review. Notes in the doc."
+        },
+        {
+          "ts": "1777722799.000003",
+          "user": "arjun",
+          "text": "Reminder: security audit sync is at 3pm today."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "ingrid",
+          "text": "@elena \u2014 can you take a look at the product launch before EOD?"
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777725499.000000",
+          "user": "marcus",
+          "text": "Reminder: API integration sync is at 3pm today."
+        },
+        {
+          "ts": "1777735399.000001",
+          "user": "chloe",
+          "text": "The pricing model issue has been resolved."
+        },
+        {
+          "ts": "1777734259.000002",
+          "user": "omar",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729879.000003",
+          "user": "arjun",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0038"
+}

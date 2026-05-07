@@ -1,0 +1,453 @@
+{
+  "scenario_tags": [
+    "external_email",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Sophie Kim",
+    "email": "sophie.kim@foundry.co",
+    "role": "CEO",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Luke Berg",
+      "email": "luke.berg@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Tom Berg",
+      "email": "tom.berg@pinnacletech.com",
+      "company": "Pinnacle Tech",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Fatima Rao",
+      "email": "fatima.rao@foundry.co",
+      "company": "foundry.co",
+      "role": "Customer Success Manager",
+      "external": false
+    },
+    {
+      "name": "Nadia Dubois",
+      "email": "nadia.dubois@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Derek Sharma",
+      "email": "derek.sharma@stratumanalytics.com",
+      "company": "Stratum Analytics",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Ingrid Kim",
+      "email": "ingrid.kim@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Lena Nakamura",
+      "email": "lena.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Legal Counsel",
+      "external": false
+    },
+    {
+      "name": "Dev Nakamura",
+      "email": "dev.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "VP of Engineering",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00076",
+        "subject": "Invoice #1209 \u2014 foundry.co",
+        "from": "fatima.rao@foundry.co",
+        "snippet": "Hi Sophie,  Please find attached Invoice #1869 for services rendered in May. Payment terms are net 30.  Thank you, Fatim",
+        "date": "2026-04-23T23:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00076_001",
+            "from": "fatima.rao@foundry.co",
+            "to": [
+              "sophie.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T23:24:19Z",
+            "body": "Hi Sophie,\n\nPlease find attached Invoice #1869 for services rendered in May. Payment terms are net 30.\n\nThank you,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00077",
+        "subject": "RE: Action Items from All Hands",
+        "from": "derek.sharma@stratumanalytics.com",
+        "snippet": "Hi Sophie,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-22T08:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00077_001",
+            "from": "derek.sharma@stratumanalytics.com",
+            "to": [
+              "sophie.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-22T08:24:19Z",
+            "body": "Hi Sophie,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00078",
+        "subject": "Onboarding Checklist \u2014 foundry.co",
+        "from": "lena.nakamura@foundry.co",
+        "snippet": "Hi Sophie,  Please find attached Invoice #9955 for services rendered in May. Payment terms are net 30.  Thank you, Lena",
+        "date": "2026-04-19T19:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00078_001",
+            "from": "lena.nakamura@foundry.co",
+            "to": [
+              "sophie.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T19:24:19Z",
+            "body": "Hi Sophie,\n\nPlease find attached Invoice #9955 for services rendered in May. Payment terms are net 30.\n\nThank you,\nLena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00079",
+        "subject": "RE: SLA Amendment Request",
+        "from": "tom.berg@pinnacletech.com",
+        "snippet": "Hi Sophie,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the pricing model you proposed is abou",
+        "date": "2026-04-30T11:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00079_001",
+            "from": "tom.berg@pinnacletech.com",
+            "to": [
+              "sophie.kim@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-30T11:24:19Z",
+            "body": "Hi Sophie,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the pricing model you proposed is about 20% above what Apex Solutions is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nTom"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_869",
+        "title": "Investor Update",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:45:00Z",
+        "attendees": [
+          "lena.nakamura@foundry.co",
+          "luke.berg@ironcladsecurity.com",
+          "fatima.rao@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "sophie.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_870",
+        "title": "Investor Update",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T15:30:00Z",
+        "attendees": [
+          "dev.nakamura@foundry.co",
+          "derek.sharma@stratumanalytics.com",
+          "ingrid.kim@ironcladsecurity.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Api integration",
+        "organizer": "sophie.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_872",
+        "title": "Partnership Sync",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T10:30:00Z",
+        "attendees": [
+          "ingrid.kim@ironcladsecurity.com",
+          "derek.sharma@stratumanalytics.com",
+          "lena.nakamura@foundry.co"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "sophie.kim@foundry.co"
+      },
+      {
+        "event_id": "ev_868",
+        "title": "Roadmap Review",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:00:00Z",
+        "attendees": [
+          "ingrid.kim@ironcladsecurity.com",
+          "luke.berg@ironcladsecurity.com",
+          "dev.nakamura@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "ingrid.kim@ironcladsecurity.com"
+      },
+      {
+        "event_id": "ev_871",
+        "title": "1:1",
+        "start": "2026-05-06T15:00:00Z",
+        "end": "2026-05-06T16:00:00Z",
+        "attendees": [
+          "luke.berg@ironcladsecurity.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "sophie.kim@foundry.co"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0124",
+          "task_id": "nr_0124",
+          "title": "Ironclad Security \u2014 Q1 Renewal",
+          "status": "in_progress",
+          "owner": "luke.berg@ironcladsecurity.com",
+          "due_date": "2026-05-02",
+          "properties": {
+            "deal_value": "$499k",
+            "action_items": [
+              "Share product roadmap",
+              "Send updated SLA doc",
+              "Complete security questionnaire"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0125",
+          "task_id": "nr_0125",
+          "title": "Pinnacle Tech \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "tom.berg@pinnacletech.com",
+          "due_date": "2026-05-10",
+          "properties": {
+            "deal_value": "$437k",
+            "action_items": [
+              "Confirm pricing tiers"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0126",
+          "task_id": "nr_0126",
+          "title": "Stratum Analytics \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "derek.sharma@stratumanalytics.com",
+          "due_date": "2026-05-31",
+          "properties": {
+            "deal_value": "$392k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Send updated SLA doc",
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0127",
+          "task_id": "nt_0127",
+          "title": "Q3 roadmap \u2014 Review",
+          "status": "open",
+          "owner": "luke.berg@ironcladsecurity.com",
+          "due_date": "2026-04-23",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0128",
+          "task_id": "nt_0128",
+          "title": "Customer churn \u2014 Review",
+          "status": "in_progress",
+          "owner": "nadia.dubois@foundry.co",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0129",
+          "task_id": "nt_0129",
+          "title": "Api integration \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "lena.nakamura@foundry.co",
+          "due_date": "2026-05-05",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0130",
+          "task_id": "nt_0130",
+          "title": "Compliance requirements \u2014 Review",
+          "status": "open",
+          "owner": "luke.berg@ironcladsecurity.com",
+          "due_date": "2026-04-22",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0131",
+          "task_id": "nt_0131",
+          "title": "Board presentation \u2014 Review",
+          "status": "done",
+          "owner": "tom.berg@pinnacletech.com",
+          "due_date": "2026-05-16",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0132",
+          "task_id": "np_0132",
+          "title": "Customer Onboarding Revamp",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-28",
+          "properties": {
+            "milestones": [
+              "Engineering in progress"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0133",
+          "task_id": "np_0133",
+          "title": "Compliance Audit",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-05-15",
+          "properties": {
+            "milestones": [
+              "Design signed off",
+              "Launch ready"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0134",
+          "task_id": "np_0134",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-05-30",
+          "properties": {
+            "milestones": [
+              "Engineering in progress",
+              "Kickoff complete"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#partnerships": [
+        {
+          "ts": "1777734979.000000",
+          "user": "fatima",
+          "text": "Just finished the pricing model review. Notes in the doc."
+        },
+        {
+          "ts": "1777722259.000001",
+          "user": "lena",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        },
+        {
+          "ts": "1777732339.000002",
+          "user": "derek",
+          "text": "Reminder: security audit sync is at 3pm today."
+        },
+        {
+          "ts": "1777726099.000003",
+          "user": "nadia",
+          "text": "Heads up \u2014 vendor evaluation is blocked. Need a decision from leadership."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777731979.000000",
+          "user": "fatima",
+          "text": "Quick question on board presentation \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777735279.000001",
+          "user": "nadia",
+          "text": "Just finished the infrastructure costs review. Notes in the doc."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777718959.000000",
+          "user": "dev",
+          "text": "Can someone double-check the customer churn numbers before tomorrow?"
+        },
+        {
+          "ts": "1777718179.000001",
+          "user": "derek",
+          "text": "Quick question on Q3 roadmap \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777732699.000002",
+          "user": "tom",
+          "text": "The security audit issue has been resolved."
+        },
+        {
+          "ts": "1777727839.000003",
+          "user": "ingrid",
+          "text": "Updated the infrastructure costs deck with latest figures."
+        }
+      ],
+      "#marketing": [
+        {
+          "ts": "1777719739.000000",
+          "user": "derek",
+          "text": "Updated the Q3 roadmap deck with latest figures."
+        },
+        {
+          "ts": "1777723879.000001",
+          "user": "ingrid",
+          "text": "Reminder: API integration sync is at 3pm today."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0015"
+}

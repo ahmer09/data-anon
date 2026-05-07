@@ -1,0 +1,487 @@
+{
+  "scenario_tags": [
+    "conflict",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Raj Santos",
+    "email": "raj.santos@flow.ai",
+    "role": "VP of Sales",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Arjun M\u00fcller",
+      "email": "arjun.m\u00fcller@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Sophie Nakamura",
+      "email": "sophie.nakamura@meridiancapital.com",
+      "company": "Meridian Capital",
+      "role": "Legal Counsel",
+      "external": true
+    },
+    {
+      "name": "Nadia Singh",
+      "email": "nadia.singh@orbitlabs.com",
+      "company": "Orbit Labs",
+      "role": "Marketing Lead",
+      "external": true
+    },
+    {
+      "name": "Raj Chen",
+      "email": "raj.chen@nexussystems.com",
+      "company": "Nexus Systems",
+      "role": "Account Executive",
+      "external": true
+    },
+    {
+      "name": "Fatima Berg",
+      "email": "fatima.berg@quantumdynamics.com",
+      "company": "Quantum Dynamics",
+      "role": "Chief of Staff",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00258",
+        "subject": "Onboarding Checklist \u2014 Quantum Dynamics",
+        "from": "fatima.berg@quantumdynamics.com",
+        "snippet": "Hi Raj,  We wanted to inform you that the shipment for your recent order has been delayed by 10 business days due to sup",
+        "date": "2026-04-22T04:24:19Z",
+        "unread": true,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00258_001",
+            "from": "fatima.berg@quantumdynamics.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T04:24:19Z",
+            "body": "Hi Raj,\n\nWe wanted to inform you that the shipment for your recent order has been delayed by 10 business days due to supply chain issues. We apologize for the inconvenience.\n\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00259",
+        "subject": "Infrastructure Migration \u2014 Status Update",
+        "from": "sophie.nakamura@meridiancapital.com",
+        "snippet": "Hi Raj,  Just a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs. ",
+        "date": "2026-04-26T08:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00259_001",
+            "from": "sophie.nakamura@meridiancapital.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-26T08:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nSophie"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00260",
+        "subject": "Investor Update: April",
+        "from": "raj.chen@nexussystems.com",
+        "snippet": "Hi Raj,  We've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we sc",
+        "date": "2026-04-25T04:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00260_001",
+            "from": "raj.chen@nexussystems.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T04:24:19Z",
+            "body": "Hi Raj,\n\nWe've completed our initial due diligence and have a few follow-up questions on the sales pipeline. Could we schedule a call this week?\n\nBest,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00261",
+        "subject": "RE: Budget Approval Needed",
+        "from": "nadia.singh@orbitlabs.com",
+        "snippet": "Hi Raj,  Just a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please re",
+        "date": "2026-04-22T07:24:19Z",
+        "unread": true,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00261_001",
+            "from": "nadia.singh@orbitlabs.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T07:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the sales pipeline review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nNadia"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00262",
+        "subject": "Cap Table Update",
+        "from": "arjun.m\u00fcller@vertexai.com",
+        "snippet": "Hi Raj,  We've completed our initial due diligence and have a few follow-up questions on the compliance requirements. Co",
+        "date": "2026-04-21T10:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00262_001",
+            "from": "arjun.m\u00fcller@vertexai.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T10:24:19Z",
+            "body": "Hi Raj,\n\nWe've completed our initial due diligence and have a few follow-up questions on the compliance requirements. Could we schedule a call this week?\n\nBest,\nArjun"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00263",
+        "subject": "RE: Q1 Renewal \u2014 Pricing Concern",
+        "from": "arjun.m\u00fcller@vertexai.com",
+        "snippet": "Hi Raj,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-20T14:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00263_001",
+            "from": "arjun.m\u00fcller@vertexai.com",
+            "to": [
+              "raj.santos@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-20T14:24:19Z",
+            "body": "Hi Raj,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the security audit. Our deadline is end of this month.\n\nThanks,\nArjun"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_1030",
+        "title": "Post-Mortem",
+        "start": "2026-05-02T15:00:00Z",
+        "end": "2026-05-02T15:45:00Z",
+        "attendees": [
+          "nadia.singh@orbitlabs.com",
+          "raj.chen@nexussystems.com",
+          "fatima.berg@quantumdynamics.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "raj.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_1029",
+        "title": "Design Review",
+        "start": "2026-05-03T14:00:00Z",
+        "end": "2026-05-03T14:45:00Z",
+        "attendees": [
+          "arjun.m\u00fcller@vertexai.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Api integration",
+        "organizer": "raj.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_1032",
+        "title": "Budget Discussion",
+        "start": "2026-05-03T16:00:00Z",
+        "end": "2026-05-03T17:00:00Z",
+        "attendees": [
+          "nadia.singh@orbitlabs.com",
+          "arjun.m\u00fcller@vertexai.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Board presentation",
+        "organizer": "raj.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_1031",
+        "title": "Design Review",
+        "start": "2026-05-04T09:00:00Z",
+        "end": "2026-05-04T09:45:00Z",
+        "attendees": [
+          "arjun.m\u00fcller@vertexai.com",
+          "sophie.nakamura@meridiancapital.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "raj.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_1027",
+        "title": "Sprint Planning",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T11:30:00Z",
+        "attendees": [
+          "sophie.nakamura@meridiancapital.com",
+          "nadia.singh@orbitlabs.com",
+          "fatima.berg@quantumdynamics.com"
+        ],
+        "location": "Conference Room A",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "raj.santos@flow.ai"
+      },
+      {
+        "event_id": "ev_1028",
+        "title": "Pipeline Review",
+        "start": "2026-05-06T14:00:00Z",
+        "end": "2026-05-06T15:30:00Z",
+        "attendees": [
+          "fatima.berg@quantumdynamics.com"
+        ],
+        "location": "Board Room",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "fatima.berg@quantumdynamics.com"
+      },
+      {
+        "event_id": "ev_1033",
+        "title": "Investor Update",
+        "start": "2026-05-06T14:15:00Z",
+        "end": "2026-05-06T14:45:00Z",
+        "attendees": [
+          "nadia.singh@orbitlabs.com"
+        ],
+        "location": "Zoom",
+        "notes": "Conflicts with existing block",
+        "organizer": "sophie.nakamura@meridiancapital.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0436",
+          "task_id": "nr_0436",
+          "title": "Vertex AI \u2014 Q1 Renewal",
+          "status": "done",
+          "owner": "arjun.m\u00fcller@vertexai.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$173k",
+            "action_items": [
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0437",
+          "task_id": "nr_0437",
+          "title": "Meridian Capital \u2014 Q3 Renewal",
+          "status": "in_progress",
+          "owner": "sophie.nakamura@meridiancapital.com",
+          "due_date": "2026-05-12",
+          "properties": {
+            "deal_value": "$239k",
+            "action_items": [
+              "Schedule QBR",
+              "Send updated SLA doc"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0438",
+          "task_id": "nr_0438",
+          "title": "Orbit Labs \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "nadia.singh@orbitlabs.com",
+          "due_date": "2026-05-14",
+          "properties": {
+            "deal_value": "$180k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Confirm pricing tiers",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0439",
+          "task_id": "nt_0439",
+          "title": "Product launch \u2014 Resolve",
+          "status": "open",
+          "owner": "sophie.nakamura@meridiancapital.com",
+          "due_date": "2026-04-22",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0440",
+          "task_id": "nt_0440",
+          "title": "Pricing model \u2014 Implement",
+          "status": "in_progress",
+          "owner": "raj.chen@nexussystems.com",
+          "due_date": "2026-05-04",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0441",
+          "task_id": "nt_0441",
+          "title": "Compliance requirements \u2014 Resolve",
+          "status": "done",
+          "owner": "nadia.singh@orbitlabs.com",
+          "due_date": "2026-05-03",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0442",
+          "task_id": "nt_0442",
+          "title": "Security audit \u2014 Implement",
+          "status": "in_progress",
+          "owner": "fatima.berg@quantumdynamics.com",
+          "due_date": "2026-05-22",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0443",
+          "task_id": "nt_0443",
+          "title": "Product launch \u2014 Review",
+          "status": "in_progress",
+          "owner": "raj.chen@nexussystems.com",
+          "due_date": "2026-05-07",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0444",
+          "task_id": "nt_0444",
+          "title": "Hiring plan \u2014 Ship",
+          "status": "done",
+          "owner": "arjun.m\u00fcller@vertexai.com",
+          "due_date": "2026-05-17",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0445",
+          "task_id": "nt_0445",
+          "title": "Q3 roadmap \u2014 Update",
+          "status": "open",
+          "owner": "arjun.m\u00fcller@vertexai.com",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0446",
+          "task_id": "np_0446",
+          "title": "Customer Onboarding Revamp",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-23",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0447",
+          "task_id": "np_0447",
+          "title": "Product Roadmap Q3",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-05-31",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Engineering in progress",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#general": [
+        {
+          "ts": "1777735039.000000",
+          "user": "fatima",
+          "text": "Heads up \u2014 pricing model is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777710559.000001",
+          "user": "sophie",
+          "text": "Can someone double-check the security audit numbers before tomorrow?"
+        }
+      ],
+      "#leadership": [
+        {
+          "ts": "1777716739.000000",
+          "user": "arjun",
+          "text": "Just finished the Q3 roadmap review. Notes in the doc."
+        },
+        {
+          "ts": "1777714459.000001",
+          "user": "raj",
+          "text": "Updated the vendor evaluation deck with latest figures."
+        }
+      ],
+      "#engineering": [
+        {
+          "ts": "1777716739.000000",
+          "user": "arjun",
+          "text": "PR for Q3 roadmap is ready for review."
+        },
+        {
+          "ts": "1777719559.000001",
+          "user": "nadia",
+          "text": "Updated the customer churn deck with latest figures."
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777717039.000000",
+          "user": "sophie",
+          "text": "Heads up \u2014 API integration is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729939.000001",
+          "user": "raj",
+          "text": "Just finished the security audit review. Notes in the doc."
+        },
+        {
+          "ts": "1777733119.000002",
+          "user": "raj",
+          "text": "Just finished the customer churn review. Notes in the doc."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0050"
+}

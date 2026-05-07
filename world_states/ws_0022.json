@@ -1,0 +1,452 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "internal_email",
+    "slack_mention",
+    "multi_step"
+  ],
+  "user": {
+    "name": "Mei Kim",
+    "email": "mei.kim@flow.ai",
+    "role": "VP of Sales",
+    "timezone": "Asia/Kolkata"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Sarah Rivera",
+      "email": "sarah.rivera@flow.ai",
+      "company": "flow.ai",
+      "role": "Customer Success Manager",
+      "external": false
+    },
+    {
+      "name": "Chloe Kim",
+      "email": "chloe.kim@flow.ai",
+      "company": "flow.ai",
+      "role": "Head of Product",
+      "external": false
+    },
+    {
+      "name": "Tom Tanaka",
+      "email": "tom.tanaka@flow.ai",
+      "company": "flow.ai",
+      "role": "VP of Engineering",
+      "external": false
+    },
+    {
+      "name": "Omar Walsh",
+      "email": "omar.walsh@flow.ai",
+      "company": "flow.ai",
+      "role": "Account Executive",
+      "external": false
+    },
+    {
+      "name": "Marcus M\u00fcller",
+      "email": "marcus.m\u00fcller@flow.ai",
+      "company": "flow.ai",
+      "role": "CFO",
+      "external": false
+    },
+    {
+      "name": "Derek Kim",
+      "email": "derek.kim@flow.ai",
+      "company": "flow.ai",
+      "role": "Chief of Staff",
+      "external": false
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00111",
+        "subject": "Team: Please review before Monday",
+        "from": "derek.kim@flow.ai",
+        "snippet": "Hi Mei,  Just a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs. ",
+        "date": "2026-04-22T11:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00111_001",
+            "from": "derek.kim@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-22T11:24:19Z",
+            "body": "Hi Mei,\n\nJust a reminder that the compliance requirements review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00112",
+        "subject": "Board Meeting Prep \u2014 Apr 28",
+        "from": "omar.walsh@flow.ai",
+        "snippet": "Hi Mei,  We've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we sc",
+        "date": "2026-04-28T12:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00112_001",
+            "from": "omar.walsh@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T12:24:19Z",
+            "body": "Hi Mei,\n\nWe've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we schedule a call this week?\n\nBest,\nOmar"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00113",
+        "subject": "Due Diligence Request",
+        "from": "tom.tanaka@flow.ai",
+        "snippet": "Hi Mei,  We've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we sc",
+        "date": "2026-04-21T22:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00113_001",
+            "from": "tom.tanaka@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-21T22:24:19Z",
+            "body": "Hi Mei,\n\nWe've completed our initial due diligence and have a few follow-up questions on the customer churn. Could we schedule a call this week?\n\nBest,\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00114",
+        "subject": "Product Roadmap Q1 \u2014 Status Update",
+        "from": "derek.kim@flow.ai",
+        "snippet": "Hi Mei,  Quick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can",
+        "date": "2026-04-25T05:24:19Z",
+        "unread": false,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00114_001",
+            "from": "derek.kim@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T05:24:19Z",
+            "body": "Hi Mei,\n\nQuick question on the security audit \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nDerek"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00115",
+        "subject": "RE: SLA Amendment Request",
+        "from": "tom.tanaka@flow.ai",
+        "snippet": "Hi Mei,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-28T02:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00115_001",
+            "from": "tom.tanaka@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-28T02:24:19Z",
+            "body": "Hi Mei,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the pricing model. Our deadline is end of this month.\n\nThanks,\nTom"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00116",
+        "subject": "RE: Q4 Metrics",
+        "from": "chloe.kim@flow.ai",
+        "snippet": "Hi Mei,  In preparation for the upcoming board meeting, could you please share the latest metrics on sales pipeline? We'",
+        "date": "2026-04-25T14:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00116_001",
+            "from": "chloe.kim@flow.ai",
+            "to": [
+              "mei.kim@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-25T14:24:19Z",
+            "body": "Hi Mei,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on sales pipeline? We'll need them at least 48 hours in advance.\n\nThank you,\nChloe"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_901",
+        "title": "Budget Discussion",
+        "start": "2026-05-02T15:00:00Z",
+        "end": "2026-05-02T16:30:00Z",
+        "attendees": [
+          "sarah.rivera@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Customer churn",
+        "organizer": "sarah.rivera@flow.ai"
+      },
+      {
+        "event_id": "ev_902",
+        "title": "Pipeline Review",
+        "start": "2026-05-04T11:00:00Z",
+        "end": "2026-05-04T11:30:00Z",
+        "attendees": [
+          "tom.tanaka@flow.ai",
+          "omar.walsh@flow.ai",
+          "sarah.rivera@flow.ai"
+        ],
+        "location": "Offsite \u2014 Singapore",
+        "notes": "Agenda: Hiring plan",
+        "organizer": "mei.kim@flow.ai"
+      },
+      {
+        "event_id": "ev_899",
+        "title": "Sprint Planning",
+        "start": "2026-05-05T09:00:00Z",
+        "end": "2026-05-05T09:30:00Z",
+        "attendees": [
+          "chloe.kim@flow.ai",
+          "sarah.rivera@flow.ai"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Security audit",
+        "organizer": "mei.kim@flow.ai"
+      },
+      {
+        "event_id": "ev_903",
+        "title": "Demo Day",
+        "start": "2026-05-05T11:00:00Z",
+        "end": "2026-05-05T12:30:00Z",
+        "attendees": [
+          "chloe.kim@flow.ai",
+          "derek.kim@flow.ai",
+          "sarah.rivera@flow.ai"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Compliance requirements",
+        "organizer": "chloe.kim@flow.ai"
+      },
+      {
+        "event_id": "ev_900",
+        "title": "Design Review",
+        "start": "2026-05-05T15:00:00Z",
+        "end": "2026-05-05T16:30:00Z",
+        "attendees": [
+          "marcus.m\u00fcller@flow.ai"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Security audit",
+        "organizer": "marcus.m\u00fcller@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0190",
+          "task_id": "nr_0190",
+          "title": "flow.ai \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "sarah.rivera@flow.ai",
+          "due_date": "2026-05-19",
+          "properties": {
+            "deal_value": "$463k",
+            "action_items": [
+              "Review contract terms",
+              "Confirm pricing tiers",
+              "Share product roadmap"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0191",
+          "task_id": "nr_0191",
+          "title": "flow.ai \u2014 Q2 Renewal",
+          "status": "open",
+          "owner": "chloe.kim@flow.ai",
+          "due_date": "2026-04-29",
+          "properties": {
+            "deal_value": "$378k",
+            "action_items": [
+              "Confirm pricing tiers",
+              "Review contract terms",
+              "Share product roadmap"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0192",
+          "task_id": "nt_0192",
+          "title": "Vendor evaluation \u2014 Implement",
+          "status": "open",
+          "owner": "omar.walsh@flow.ai",
+          "due_date": "2026-04-29",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0193",
+          "task_id": "nt_0193",
+          "title": "Pricing model \u2014 Implement",
+          "status": "open",
+          "owner": "sarah.rivera@flow.ai",
+          "due_date": "2026-04-25",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0194",
+          "task_id": "nt_0194",
+          "title": "Pricing model \u2014 Resolve",
+          "status": "done",
+          "owner": "sarah.rivera@flow.ai",
+          "due_date": "2026-05-17",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0195",
+          "task_id": "np_0195",
+          "title": "ML Pipeline Overhaul",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-25",
+          "properties": {
+            "milestones": [
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0196",
+          "task_id": "np_0196",
+          "title": "Product Roadmap Q2",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-05-14",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "Kickoff complete"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0197",
+          "task_id": "np_0197",
+          "title": "Series A Data Room",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-06-03",
+          "properties": {
+            "milestones": [
+              "Kickoff complete",
+              "Engineering in progress",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#ops": [
+        {
+          "ts": "1777733539.000000",
+          "user": "marcus",
+          "text": "Can someone double-check the board presentation numbers before tomorrow?"
+        },
+        {
+          "ts": "1777735279.000001",
+          "user": "sarah",
+          "text": "Updated the API integration deck with latest figures."
+        },
+        {
+          "ts": "1777714099.000002",
+          "user": "sarah",
+          "text": "PR for sales pipeline is ready for review."
+        },
+        {
+          "ts": "1777739059.999999",
+          "user": "sarah",
+          "text": "@mei \u2014 can you take a look at the infrastructure costs before EOD?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777717939.000000",
+          "user": "derek",
+          "text": "Reminder: compliance requirements sync is at 3pm today."
+        },
+        {
+          "ts": "1777717759.000001",
+          "user": "sarah",
+          "text": "Heads up \u2014 board presentation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777713079.000002",
+          "user": "tom",
+          "text": "Just finished the sales pipeline review. Notes in the doc."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777728499.000000",
+          "user": "chloe",
+          "text": "Can someone double-check the Q3 roadmap numbers before tomorrow?"
+        },
+        {
+          "ts": "1777734439.000001",
+          "user": "tom",
+          "text": "Heads up \u2014 compliance requirements is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777727419.000002",
+          "user": "derek",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777731319.000003",
+          "user": "omar",
+          "text": "Just finished the board presentation review. Notes in the doc."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777714459.000000",
+          "user": "sarah",
+          "text": "PR for vendor evaluation is ready for review."
+        },
+        {
+          "ts": "1777738279.000001",
+          "user": "chloe",
+          "text": "Can someone double-check the API integration numbers before tomorrow?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0022"
+}

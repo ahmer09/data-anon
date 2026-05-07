@@ -1,0 +1,455 @@
+{
+  "scenario_tags": [
+    "overdue_tasks",
+    "external_email",
+    "multi_step",
+    "internal_email"
+  ],
+  "user": {
+    "name": "Sarah Al-Rashid",
+    "email": "sarah.al-rashid@foundry.co",
+    "role": "VP of Sales",
+    "timezone": "America/New_York"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Carlos Santos",
+      "email": "carlos.santos@acmecorp.com",
+      "company": "Acme Corp",
+      "role": "Senior Engineer",
+      "external": true
+    },
+    {
+      "name": "Ben Novak",
+      "email": "ben.novak@novaengineering.com",
+      "company": "Nova Engineering",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Raj Walsh",
+      "email": "raj.walsh@foundry.co",
+      "company": "foundry.co",
+      "role": "Marketing Lead",
+      "external": false
+    },
+    {
+      "name": "Fatima Park",
+      "email": "fatima.park@vertexai.com",
+      "company": "Vertex AI",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Yuki Sharma",
+      "email": "yuki.sharma@atlasventures.com",
+      "company": "Atlas Ventures",
+      "role": "VP of Sales",
+      "external": true
+    },
+    {
+      "name": "Yuki Nakamura",
+      "email": "yuki.nakamura@foundry.co",
+      "company": "foundry.co",
+      "role": "Director of Partnerships",
+      "external": false
+    },
+    {
+      "name": "Elena Patel",
+      "email": "elena.patel@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "CTO",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00090",
+        "subject": "Partnership Proposal \u2014 Vertex AI",
+        "from": "fatima.park@vertexai.com",
+        "snippet": "Hi Sarah,  Hope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is abou",
+        "date": "2026-04-29T06:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00090_001",
+            "from": "fatima.park@vertexai.com",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-29T06:24:19Z",
+            "body": "Hi Sarah,\n\nHope you're well. I wanted to flag a concern ahead of our next call \u2014 the security audit you proposed is about 24% above what Acme Corp is currently offering. We'd love to stay with you, but need this addressed before we can renew.\n\nCan you come prepared with a revised proposal?\n\nBest,\nFatima"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00091",
+        "subject": "Investor Update: April",
+        "from": "raj.walsh@foundry.co",
+        "snippet": "Hi Sarah,  We've completed our initial due diligence and have a few follow-up questions on the compliance requirements. ",
+        "date": "2026-04-26T07:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00091_001",
+            "from": "raj.walsh@foundry.co",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-26T07:24:19Z",
+            "body": "Hi Sarah,\n\nWe've completed our initial due diligence and have a few follow-up questions on the compliance requirements. Could we schedule a call this week?\n\nBest,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00092",
+        "subject": "RE: Budget Approval Needed",
+        "from": "carlos.santos@acmecorp.com",
+        "snippet": "Hi Sarah,  Quick question on the API integration \u2014 have we made a final decision? The team is waiting on this before we ",
+        "date": "2026-04-19T18:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00092_001",
+            "from": "carlos.santos@acmecorp.com",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T18:24:19Z",
+            "body": "Hi Sarah,\n\nQuick question on the API integration \u2014 have we made a final decision? The team is waiting on this before we can proceed.\n\nLet me know when you have a moment.\n\nCarlos"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00093",
+        "subject": "RE: Shipment Delay",
+        "from": "raj.walsh@foundry.co",
+        "snippet": "Hi Sarah,  Please find attached Invoice #2960 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-24T20:24:19Z",
+        "unread": true,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00093_001",
+            "from": "raj.walsh@foundry.co",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-24T20:24:19Z",
+            "body": "Hi Sarah,\n\nPlease find attached Invoice #2960 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00094",
+        "subject": "Cap Table Update",
+        "from": "yuki.sharma@atlasventures.com",
+        "snippet": "Hi Sarah,  In preparation for the upcoming board meeting, could you please share the latest metrics on vendor evaluation",
+        "date": "2026-04-19T18:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00094_001",
+            "from": "yuki.sharma@atlasventures.com",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-19T18:24:19Z",
+            "body": "Hi Sarah,\n\nIn preparation for the upcoming board meeting, could you please share the latest metrics on vendor evaluation? We'll need them at least 48 hours in advance.\n\nThank you,\nYuki"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00095",
+        "subject": "Technical Support Request",
+        "from": "raj.walsh@foundry.co",
+        "snippet": "Hi Sarah,  Please find attached Invoice #5828 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-23T20:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00095_001",
+            "from": "raj.walsh@foundry.co",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-23T20:24:19Z",
+            "body": "Hi Sarah,\n\nPlease find attached Invoice #5828 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00096",
+        "subject": "Onboarding Checklist \u2014 foundry.co",
+        "from": "raj.walsh@foundry.co",
+        "snippet": "Hi Sarah,  Please find attached Invoice #7210 for services rendered in May. Payment terms are net 30.  Thank you, Raj",
+        "date": "2026-04-21T02:24:19Z",
+        "unread": false,
+        "message_count": 3,
+        "messages": [
+          {
+            "message_id": "m_t_00096_001",
+            "from": "raj.walsh@foundry.co",
+            "to": [
+              "sarah.al-rashid@foundry.co"
+            ],
+            "cc": [],
+            "date": "2026-04-21T02:24:19Z",
+            "body": "Hi Sarah,\n\nPlease find attached Invoice #7210 for services rendered in May. Payment terms are net 30.\n\nThank you,\nRaj"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_885",
+        "title": "1:1",
+        "start": "2026-05-03T10:00:00Z",
+        "end": "2026-05-03T10:30:00Z",
+        "attendees": [
+          "ben.novak@novaengineering.com"
+        ],
+        "location": "Team Lounge",
+        "notes": "Agenda: Pricing model",
+        "organizer": "sarah.al-rashid@foundry.co"
+      },
+      {
+        "event_id": "ev_884",
+        "title": "Roadmap Review",
+        "start": "2026-05-03T15:00:00Z",
+        "end": "2026-05-03T16:00:00Z",
+        "attendees": [
+          "raj.walsh@foundry.co",
+          "fatima.park@vertexai.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Vendor evaluation",
+        "organizer": "sarah.al-rashid@foundry.co"
+      },
+      {
+        "event_id": "ev_883",
+        "title": "Kickoff Meeting",
+        "start": "2026-05-04T16:00:00Z",
+        "end": "2026-05-04T17:30:00Z",
+        "attendees": [
+          "yuki.nakamura@foundry.co"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Api integration",
+        "organizer": "yuki.nakamura@foundry.co"
+      },
+      {
+        "event_id": "ev_886",
+        "title": "All Hands",
+        "start": "2026-05-05T16:00:00Z",
+        "end": "2026-05-05T17:00:00Z",
+        "attendees": [
+          "yuki.sharma@atlasventures.com",
+          "elena.patel@horizonhealth.com"
+        ],
+        "location": "Zoom",
+        "notes": "Agenda: Board presentation",
+        "organizer": "yuki.sharma@atlasventures.com"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0153",
+          "task_id": "nr_0153",
+          "title": "Acme Corp \u2014 Q4 Renewal",
+          "status": "open",
+          "owner": "carlos.santos@acmecorp.com",
+          "due_date": "2026-05-10",
+          "properties": {
+            "deal_value": "$249k",
+            "action_items": [
+              "Send updated SLA doc",
+              "Schedule QBR",
+              "Review contract terms"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0154",
+          "task_id": "nt_0154",
+          "title": "Pricing model \u2014 Ship",
+          "status": "open",
+          "owner": "raj.walsh@foundry.co",
+          "due_date": "2026-04-30",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0155",
+          "task_id": "nt_0155",
+          "title": "Product launch \u2014 Review",
+          "status": "open",
+          "owner": "ben.novak@novaengineering.com",
+          "due_date": "2026-04-25",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0156",
+          "task_id": "nt_0156",
+          "title": "Security audit \u2014 Update",
+          "status": "open",
+          "owner": "yuki.sharma@atlasventures.com",
+          "due_date": "2026-04-25",
+          "priority": "high",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0157",
+          "task_id": "nt_0157",
+          "title": "Sales pipeline \u2014 Ship",
+          "status": "open",
+          "owner": "yuki.nakamura@foundry.co",
+          "due_date": "2026-04-28",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0158",
+          "task_id": "nt_0158",
+          "title": "Infrastructure costs \u2014 Ship",
+          "status": "done",
+          "owner": "yuki.nakamura@foundry.co",
+          "due_date": "2026-05-10",
+          "priority": "high",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0159",
+          "task_id": "np_0159",
+          "title": "Customer Onboarding Revamp",
+          "status": "open",
+          "owner": "",
+          "due_date": "2026-07-05",
+          "properties": {
+            "milestones": [
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0160",
+          "task_id": "np_0160",
+          "title": "Infrastructure Migration",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-06-01",
+          "properties": {
+            "milestones": [
+              "Launch ready",
+              "QA pending",
+              "Design signed off"
+            ]
+          }
+        },
+        {
+          "row_id": "np_0161",
+          "task_id": "np_0161",
+          "title": "GTM Strategy 2026",
+          "status": "done",
+          "owner": "",
+          "due_date": "2026-07-03",
+          "properties": {
+            "milestones": [
+              "QA pending",
+              "Engineering in progress",
+              "Launch ready"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#marketing": [
+        {
+          "ts": "1777722019.000000",
+          "user": "yuki",
+          "text": "PR for sales pipeline is ready for review."
+        },
+        {
+          "ts": "1777721899.000001",
+          "user": "elena",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#customer-success": [
+        {
+          "ts": "1777725019.000000",
+          "user": "fatima",
+          "text": "Just finished the compliance requirements review. Notes in the doc."
+        },
+        {
+          "ts": "1777737739.000001",
+          "user": "yuki",
+          "text": "Just finished the product launch review. Notes in the doc."
+        },
+        {
+          "ts": "1777734619.000002",
+          "user": "yuki",
+          "text": "Just finished the product launch review. Notes in the doc."
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777732219.000000",
+          "user": "ben",
+          "text": "Just finished the hiring plan review. Notes in the doc."
+        },
+        {
+          "ts": "1777713559.000001",
+          "user": "elena",
+          "text": "Quick question on security audit \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777723099.000002",
+          "user": "yuki",
+          "text": "Heads up \u2014 customer churn is blocked. Need a decision from leadership."
+        }
+      ],
+      "#design": [
+        {
+          "ts": "1777724659.000000",
+          "user": "carlos",
+          "text": "Heads up \u2014 hiring plan is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777730659.000001",
+          "user": "ben",
+          "text": "Updated the hiring plan deck with latest figures."
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0018"
+}

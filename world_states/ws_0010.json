@@ -1,0 +1,398 @@
+{
+  "scenario_tags": [
+    "multi_step",
+    "external_email",
+    "error_recovery"
+  ],
+  "user": {
+    "name": "Raj Dubois",
+    "email": "raj.dubois@flow.ai",
+    "role": "Senior Engineer",
+    "timezone": "Europe/London"
+  },
+  "current_datetime": "2026-05-02T16:24:19Z",
+  "contacts": [
+    {
+      "name": "Ben Park",
+      "email": "ben.park@ironcladsecurity.com",
+      "company": "Ironclad Security",
+      "role": "CFO",
+      "external": true
+    },
+    {
+      "name": "Ben Chen",
+      "email": "ben.chen@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "Director of Partnerships",
+      "external": true
+    },
+    {
+      "name": "Priya Rivera",
+      "email": "priya.rivera@flow.ai",
+      "company": "flow.ai",
+      "role": "Legal Counsel",
+      "external": false
+    },
+    {
+      "name": "Aisha Singh",
+      "email": "aisha.singh@apexsolutions.com",
+      "company": "Apex Solutions",
+      "role": "Chief of Staff",
+      "external": true
+    },
+    {
+      "name": "Elena Dubois",
+      "email": "elena.dubois@bridgewaterconsulting.com",
+      "company": "Bridgewater Consulting",
+      "role": "CTO",
+      "external": true
+    },
+    {
+      "name": "Ingrid Andersen",
+      "email": "ingrid.andersen@horizonhealth.com",
+      "company": "Horizon Health",
+      "role": "CEO",
+      "external": true
+    },
+    {
+      "name": "Lena Rivera",
+      "email": "lena.rivera@stratumanalytics.com",
+      "company": "Stratum Analytics",
+      "role": "Marketing Lead",
+      "external": true
+    }
+  ],
+  "email": {
+    "threads": [
+      {
+        "thread_id": "t_00053",
+        "subject": "Due Diligence Request",
+        "from": "elena.dubois@bridgewaterconsulting.com",
+        "snippet": "Hi Raj,  We've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we sch",
+        "date": "2026-04-30T06:24:19Z",
+        "unread": true,
+        "message_count": 2,
+        "messages": [
+          {
+            "message_id": "m_t_00053_001",
+            "from": "elena.dubois@bridgewaterconsulting.com",
+            "to": [
+              "raj.dubois@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T06:24:19Z",
+            "body": "Hi Raj,\n\nWe've completed our initial due diligence and have a few follow-up questions on the pricing model. Could we schedule a call this week?\n\nBest,\nElena"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00054",
+        "subject": "Tier 4 Pricing Discussion",
+        "from": "ben.chen@horizonhealth.com",
+        "snippet": "Hi Raj,  Following up on our conversation from last week. We still need the updated SLA document and confirmation on the",
+        "date": "2026-04-27T18:24:19Z",
+        "unread": false,
+        "message_count": 1,
+        "messages": [
+          {
+            "message_id": "m_t_00054_001",
+            "from": "ben.chen@horizonhealth.com",
+            "to": [
+              "raj.dubois@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T18:24:19Z",
+            "body": "Hi Raj,\n\nFollowing up on our conversation from last week. We still need the updated SLA document and confirmation on the Q3 roadmap. Our deadline is end of this month.\n\nThanks,\nBen"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00055",
+        "subject": "GTM Strategy 2026 \u2014 Status Update",
+        "from": "priya.rivera@flow.ai",
+        "snippet": "Hi Raj,  Just a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. Ple",
+        "date": "2026-04-27T02:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00055_001",
+            "from": "priya.rivera@flow.ai",
+            "to": [
+              "raj.dubois@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-27T02:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the infrastructure costs review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nPriya"
+          }
+        ]
+      },
+      {
+        "thread_id": "t_00056",
+        "subject": "Team: Please review before Wednesday",
+        "from": "aisha.singh@apexsolutions.com",
+        "snippet": "Hi Raj,  Just a reminder that the hiring plan review is due by EOD Friday. I've attached the relevant docs. Please revie",
+        "date": "2026-04-30T01:24:19Z",
+        "unread": false,
+        "message_count": 4,
+        "messages": [
+          {
+            "message_id": "m_t_00056_001",
+            "from": "aisha.singh@apexsolutions.com",
+            "to": [
+              "raj.dubois@flow.ai"
+            ],
+            "cc": [],
+            "date": "2026-04-30T01:24:19Z",
+            "body": "Hi Raj,\n\nJust a reminder that the hiring plan review is due by EOD Friday. I've attached the relevant docs. Please review and add your comments.\n\nAisha"
+          }
+        ]
+      }
+    ],
+    "drafts": [],
+    "sent": []
+  },
+  "calendar": {
+    "events": [
+      {
+        "event_id": "ev_847",
+        "title": "Budget Discussion",
+        "start": "2026-05-02T10:00:00Z",
+        "end": "2026-05-02T11:00:00Z",
+        "attendees": [
+          "lena.rivera@stratumanalytics.com"
+        ],
+        "location": "Founder's Office",
+        "notes": "Agenda: Infrastructure costs",
+        "organizer": "lena.rivera@stratumanalytics.com"
+      },
+      {
+        "event_id": "ev_848",
+        "title": "Partnership Sync",
+        "start": "2026-05-03T09:00:00Z",
+        "end": "2026-05-03T09:45:00Z",
+        "attendees": [
+          "priya.rivera@flow.ai",
+          "elena.dubois@bridgewaterconsulting.com",
+          "lena.rivera@stratumanalytics.com"
+        ],
+        "location": "Offsite \u2014 Mumbai",
+        "notes": "Agenda: Product launch",
+        "organizer": "raj.dubois@flow.ai"
+      },
+      {
+        "event_id": "ev_846",
+        "title": "Pipeline Review",
+        "start": "2026-05-03T11:00:00Z",
+        "end": "2026-05-03T12:00:00Z",
+        "attendees": [
+          "aisha.singh@apexsolutions.com"
+        ],
+        "location": "Offsite \u2014 Tokyo",
+        "notes": "Agenda: Q3 roadmap",
+        "organizer": "raj.dubois@flow.ai"
+      },
+      {
+        "event_id": "ev_844",
+        "title": "1:1",
+        "start": "2026-05-04T10:00:00Z",
+        "end": "2026-05-04T11:30:00Z",
+        "attendees": [
+          "priya.rivera@flow.ai",
+          "ben.chen@horizonhealth.com",
+          "aisha.singh@apexsolutions.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Product launch",
+        "organizer": "priya.rivera@flow.ai"
+      },
+      {
+        "event_id": "ev_845",
+        "title": "1:1",
+        "start": "2026-05-04T15:00:00Z",
+        "end": "2026-05-04T16:30:00Z",
+        "attendees": [
+          "lena.rivera@stratumanalytics.com"
+        ],
+        "location": "Conference Room B",
+        "notes": "Agenda: Security audit",
+        "organizer": "lena.rivera@stratumanalytics.com"
+      },
+      {
+        "event_id": "ev_843",
+        "title": "Quarterly Business Review",
+        "start": "2026-05-05T14:00:00Z",
+        "end": "2026-05-05T14:45:00Z",
+        "attendees": [
+          "lena.rivera@stratumanalytics.com",
+          "aisha.singh@apexsolutions.com",
+          "ingrid.andersen@horizonhealth.com"
+        ],
+        "location": "Google Meet",
+        "notes": "Agenda: Sales pipeline",
+        "organizer": "raj.dubois@flow.ai"
+      }
+    ]
+  },
+  "notion": {
+    "databases": {
+      "partnerships": [
+        {
+          "row_id": "nr_0076",
+          "task_id": "nr_0076",
+          "title": "Ironclad Security \u2014 Q2 Renewal",
+          "status": "done",
+          "owner": "ben.park@ironcladsecurity.com",
+          "due_date": "2026-05-03",
+          "properties": {
+            "deal_value": "$480k",
+            "action_items": [
+              "Schedule QBR"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0077",
+          "task_id": "nr_0077",
+          "title": "Horizon Health \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "ben.chen@horizonhealth.com",
+          "due_date": "2026-05-05",
+          "properties": {
+            "deal_value": "$84k",
+            "action_items": [
+              "Schedule QBR",
+              "Confirm pricing tiers",
+              "Review contract terms"
+            ]
+          }
+        },
+        {
+          "row_id": "nr_0078",
+          "task_id": "nr_0078",
+          "title": "Apex Solutions \u2014 Q2 Renewal",
+          "status": "in_progress",
+          "owner": "aisha.singh@apexsolutions.com",
+          "due_date": "2026-05-28",
+          "properties": {
+            "deal_value": "$331k",
+            "action_items": [
+              "Review contract terms",
+              "Complete security questionnaire"
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "row_id": "nt_0079",
+          "task_id": "nt_0079",
+          "title": "Compliance requirements \u2014 Ship",
+          "status": "open",
+          "owner": "ingrid.andersen@horizonhealth.com",
+          "due_date": "2026-05-12",
+          "priority": "medium",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0080",
+          "task_id": "nt_0080",
+          "title": "Api integration \u2014 Resolve",
+          "status": "in_progress",
+          "owner": "priya.rivera@flow.ai",
+          "due_date": "2026-05-14",
+          "priority": "low",
+          "notes": ""
+        },
+        {
+          "row_id": "nt_0081",
+          "task_id": "nt_0081",
+          "title": "Q3 roadmap \u2014 Resolve",
+          "status": "done",
+          "owner": "ingrid.andersen@horizonhealth.com",
+          "due_date": "2026-05-19",
+          "priority": "medium",
+          "notes": ""
+        }
+      ],
+      "projects": [
+        {
+          "row_id": "np_0082",
+          "task_id": "np_0082",
+          "title": "ML Pipeline Overhaul",
+          "status": "in_progress",
+          "owner": "",
+          "due_date": "2026-07-05",
+          "properties": {
+            "milestones": [
+              "QA pending"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "slack": {
+    "channels": {
+      "#engineering": [
+        {
+          "ts": "1777713319.000000",
+          "user": "priya",
+          "text": "Reminder: product launch sync is at 3pm today."
+        },
+        {
+          "ts": "1777721059.000001",
+          "user": "elena",
+          "text": "The infrastructure costs issue has been resolved."
+        },
+        {
+          "ts": "1777728259.000002",
+          "user": "lena",
+          "text": "Just finished the vendor evaluation review. Notes in the doc."
+        }
+      ],
+      "#sales": [
+        {
+          "ts": "1777719559.000000",
+          "user": "ben",
+          "text": "Just finished the API integration review. Notes in the doc."
+        },
+        {
+          "ts": "1777710259.000001",
+          "user": "ben",
+          "text": "The infrastructure costs issue has been resolved."
+        }
+      ],
+      "#partnerships": [
+        {
+          "ts": "1777725619.000000",
+          "user": "ben",
+          "text": "Heads up \u2014 sales pipeline is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777729519.000001",
+          "user": "ingrid",
+          "text": "Quick question on infrastructure costs \u2014 anyone free for a 10min call?"
+        },
+        {
+          "ts": "1777718659.000002",
+          "user": "ben",
+          "text": "Quick question on hiring plan \u2014 anyone free for a 10min call?"
+        }
+      ],
+      "#product": [
+        {
+          "ts": "1777718359.000000",
+          "user": "priya",
+          "text": "Heads up \u2014 vendor evaluation is blocked. Need a decision from leadership."
+        },
+        {
+          "ts": "1777726639.000001",
+          "user": "ben",
+          "text": "Quick question on vendor evaluation \u2014 anyone free for a 10min call?"
+        }
+      ]
+    }
+  },
+  "world_state_id": "ws_0010"
+}
