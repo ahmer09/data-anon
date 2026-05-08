@@ -308,7 +308,7 @@ Do NOT explain your choice. Just reply as the user would."""
         response = ollama.chat(
             model=self.model,
             messages=[{"role": "user", "content": prompt}],
-            options={"num_predict": 100},
+            options={"num_ctx": 2048, "num_predict": 150, "temperature": 0.5},
         )
         return response.message.content.strip()
 
@@ -330,11 +330,16 @@ class OllamaClient:
             response = ollama.chat(
                 model=self.model,
                 messages=ollama_messages,
-                options={"num_predict": 2048},
+                options={
+                    "num_ctx":     8192,   # CRITICAL: default is 2048 which truncates
+                                           # system prompt + multi-turn context mid-trace
+                    "num_predict": 2048,   # max tokens per response turn
+                    "temperature": 0.3,    # low temp = consistent XML formatting
+                },
             )
             return response.message.content.strip()
         except Exception as e:
-            raise RuntimeError(f"API error: {e}") from e
+            raise RuntimeError(f"Ollama error: {e}") from e
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -650,12 +655,32 @@ def main():
     parser.add_argument("--dry_run", action="store_true",
                         help="Skip API calls — use scripted responses to test pipeline")
     parser.add_argument("--delay", type=float, default=0.0,
-                        help="Seconds to wait between each trajectory (reduces 429s on batch runs). Recommended: 2.0 for --all_prompts batches")
+                        help="Seconds to wait between trajectories. Not needed for local Ollama (no rate limits). Use if running against a cloud API.")
     parser.add_argument("--quiet", action="store_true",
                         help="Suppress step-by-step output")
     parser.add_argument("--model", type=str, default="qwen2.5:14b",
                         help="Local Ollama model (e.g., qwen2.5:14b, mistral-small3.1)")
     args = parser.parse_args()
+
+    # ── Pre-flight: verify Ollama is running and the model is available
+    print(f"Model:      {args.model}")
+    try:
+        models = [m.model for m in ollama.list().models]
+        # Strip tag suffix for matching e.g. "qwen2.5:14b" in "qwen2.5:14b-instruct-q8_0"
+        base = args.model.split(":")[0]
+        matches = [m for m in models if base in m]
+        if not matches:
+            print(f"\n⚠  Model '{args.model}' not found in Ollama.")
+            print(f"   Available models: {models or 'none'}")
+            print(f"   Run: ollama pull {args.model}")
+            print(f"   Or use: --model <one of the above>\n")
+            sys.exit(1)
+        print(f"Ollama:     ✓ running  ({len(models)} model(s) available)")
+    except Exception as e:
+        print(f"\n✗ Cannot connect to Ollama: {e}")
+        print(f"  Make sure Ollama is running:  ollama serve")
+        print(f"  Then pull your model:         ollama pull {args.model}\n")
+        sys.exit(1)
 
     client  = OllamaClient(model=args.model)
     loop    = GenerationLoop(
@@ -677,7 +702,7 @@ def main():
         sys.exit(1)
 
     print(f"\nFoundry Flow — Generation Loop")
-    print(f"Mode:       {'DRY RUN' if args.dry_run else 'LIVE'}")
+    print(f"Mode:       {'DRY RUN' if args.dry_run else f'LIVE (Ollama)'}")
     print(f"Files:      {len(ws_files)} world state(s)")
     print(f"Output:     {args.output_dir}/\n")
 
